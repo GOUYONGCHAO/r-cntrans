@@ -1,0 +1,7 @@
+vector:
+image:
+library:
+package:
+demo:
+example:
+margin
