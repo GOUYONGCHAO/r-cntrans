@@ -61,7 +61,7 @@ msgstr "找不到工作目录"
 
 #: src/gnuwin32/extra.c:65 src/gnuwin32/extra.c:606
 msgid "unsupported version of Windows"
-msgstr "不支持这版本的Windows"
+msgstr "不支持的Windows版本"
 
 #: src/gnuwin32/extra.c:130 src/gnuwin32/extra.c:158 src/gnuwin32/extra.c:197
 msgid "R_HOME not set"
@@ -85,7 +85,7 @@ msgstr "不能存取'%s'"
 #: src/gnuwin32/extra.c:143
 #, c-format
 msgid "problem in displaying '%s'"
-msgstr "在显示'%s'时出了问题"
+msgstr "在显示'%s'时出现问题"
 
 #: src/gnuwin32/extra.c:168
 #, c-format
@@ -105,7 +105,7 @@ msgstr "不能存取'%ls'"
 #: src/gnuwin32/extra.c:174
 #, c-format
 msgid "problem in displaying '%ls'"
-msgstr "在显示'%ls'时出了问题"
+msgstr "在显示'%ls'时出现问题"
 
 #: src/gnuwin32/extra.c:185 src/gnuwin32/extra.c:216 src/gnuwin32/extra.c:241
 #: src/gnuwin32/extra.c:244 src/gnuwin32/extra.c:290 src/gnuwin32/extra.c:327
@@ -237,12 +237,12 @@ msgstr "'%s'参数不对"
 
 #: src/gnuwin32/extra.c:228
 msgid "unknown type"
-msgstr "未知类别"
+msgstr "未知类型"
 
 #: src/gnuwin32/extra.c:262 src/gnuwin32/extra.c:286 src/gnuwin32/extra.c:324
 #: src/gnuwin32/extra.c:359
 msgid "Menu functions can only be used in the GUI"
-msgstr "只能在GUI中使用菜单功能"
+msgstr "只能在图形界面中使用菜单功能"
 
 #: src/gnuwin32/extra.c:294
 #, c-format
@@ -257,7 +257,7 @@ msgstr "无法增加菜单(%s)"
 #: src/gnuwin32/extra.c:344
 #, c-format
 msgid "unable to add menu item (%s)"
-msgstr "无法加入菜单(%s)项"
+msgstr "无法加入菜单项(%s)"
 
 #: src/gnuwin32/extra.c:367
 msgid "menu does not exist"
@@ -270,11 +270,11 @@ msgstr "无法删除菜单项(%s)"
 
 #: src/gnuwin32/extra.c:534
 msgid "'savehistory' can only be used in Rgui and Rterm"
-msgstr "'savehistory'只能在Rgui和Rterm里有用"
+msgstr "'savehistory'只能在Rgui和Rterm里使用"
 
 #: src/gnuwin32/extra.c:551
 msgid "'loadhistory' can only be used in Rgui and Rterm"
-msgstr "'loadhistory'只能在Rgui和Rterm有用"
+msgstr "'loadhistory'只能在Rgui和Rterm可用"
 
 #: src/gnuwin32/extra.c:564 src/unix/sys-std.c:1265
 msgid "invalid timestamp"
@@ -312,15 +312,15 @@ msgstr "不正确参数"
 
 #: src/gnuwin32/extra.c:735
 msgid "don't be silly!: your machine has a 4Gb address limit"
-msgstr "请注意!: 你的机器有4Gb的地址上限"
+msgstr "请注意!: 你的机器有4Gb的内存地址上限"
 
 #: src/gnuwin32/extra.c:739
 msgid "cannot decrease memory limit: ignored"
-msgstr "无法减少内存极限：忽视不用"
+msgstr "无法减少内存极限：跳过"
 
 #: src/gnuwin32/extra.c:886
 msgid "Select one or more"
-msgstr "选择一个或几个: "
+msgstr "选择一个或多个: "
 
 #: src/gnuwin32/extra.c:886
 msgid "Select one"
@@ -360,7 +360,7 @@ msgstr "'multi'必需为逻辑值"
 
 #: src/gnuwin32/extra.c:1310
 msgid "'filterindex' must be an integer value"
-msgstr "'filterindex'必需为正数"
+msgstr "'filterindex'必需为整数"
 
 #: src/gnuwin32/extra.c:1461
 msgid "'title' must be a character string"
@@ -397,11 +397,11 @@ msgstr "必需用SDI方式"
 
 #: src/gnuwin32/extra.c:1726 src/main/gevents.c:56 src/main/gevents.c:93
 msgid "invalid graphical device number"
-msgstr "图形设备号不对"
+msgstr "图形设备编号不对"
 
 #: src/gnuwin32/extra.c:1736
 msgid "bad device"
-msgstr "设备有错"
+msgstr "设备错误"
 
 #: src/gnuwin32/extra.c:2071
 #, c-format
@@ -423,7 +423,7 @@ msgstr "CreateProcess调用'%s'失败"
 
 #: src/gnuwin32/run.c:333
 msgid "Child process not responding.  R will terminate it."
-msgstr "子进程没有反应。R将终止它。"
+msgstr "子进程失去响应。R将终止它。"
 
 #: src/gnuwin32/run.c:391
 #, c-format
