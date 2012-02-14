@@ -78,7 +78,7 @@ msgstr "编辑：\n"
 
 #: console.c:2224
 msgid "  Moving the cursor: \n"
-msgstr "  移动鼠标：\n"
+msgstr "  移动光标：\n"
 
 #: console.c:2225
 msgid "     Left arrow or Ctrl+B: move backward one character;\n"
@@ -150,7 +150,7 @@ msgstr "     Ctrl+L：清空控制台；\n"
 
 #: console.c:2242
 msgid "     Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
-msgstr "     Ctrl+O或INS：开关覆盖模式，初始是关掉的；\n"
+msgstr "     Ctrl+O或INS：切换覆盖模式，初始是关掉的；\n"
 
 #: console.c:2243
 msgid "     Ctrl+T: Interchange current char with one to the left.\n"
