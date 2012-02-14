@@ -27,11 +27,11 @@ msgstr ".C(\"bincount\",... NAOK=FALSE)有NA值"
 
 #: src/appl/pretty.c:106
 msgid "Internal(pretty()): very small range.. corrected"
-msgstr "Internal(pretty()): 范围太小，纠正了"
+msgstr "Internal(pretty()): 范围过小，已纠正"
 
 #: src/appl/pretty.c:109
 msgid "Internal(pretty()): very large range.. corrected"
-msgstr "Internal(pretty()): 范围太大，纠正了"
+msgstr "Internal(pretty()): 范围过大，已纠正"
 
 #: src/appl/rcont.c:78
 #, c-format
@@ -237,12 +237,12 @@ msgstr "'%s'参数不对"
 
 #: src/gnuwin32/extra.c:228
 msgid "unknown type"
-msgstr "没有这种类别"
+msgstr "未知类别"
 
 #: src/gnuwin32/extra.c:262 src/gnuwin32/extra.c:286 src/gnuwin32/extra.c:324
 #: src/gnuwin32/extra.c:359
 msgid "Menu functions can only be used in the GUI"
-msgstr "菜单功能只能在GUI中用"
+msgstr "只能在GUI中使用菜单功能"
 
 #: src/gnuwin32/extra.c:294
 #, c-format
@@ -252,7 +252,7 @@ msgstr "无法检索项目%s (%s)"
 #: src/gnuwin32/extra.c:332
 #, c-format
 msgid "unable to add menu (%s)"
-msgstr "无法加菜单(%s)"
+msgstr "无法增加菜单(%s)"
 
 #: src/gnuwin32/extra.c:344
 #, c-format
@@ -278,7 +278,7 @@ msgstr "'loadhistory'只能在Rgui和Rterm有用"
 
 #: src/gnuwin32/extra.c:564 src/unix/sys-std.c:1265
 msgid "invalid timestamp"
-msgstr "时间标签不对"
+msgstr "时间戳不对"
 
 #: src/gnuwin32/extra.c:689 src/gnuwin32/extra.c:1872
 #: src/gnuwin32/extra.c:2053 src/gnuwin32/extra.c:2056
@@ -304,15 +304,15 @@ msgstr "时间标签不对"
 #: src/modules/X11/devX11.c:3110 src/unix/sys-std.c:1285
 #, c-format
 msgid "invalid '%s' value"
-msgstr "'%s'值不对"
+msgstr "'%s'值无效"
 
 #: src/gnuwin32/extra.c:731 src/gnuwin32/extra.c:744
 msgid "incorrect argument"
-msgstr "参数不对"
+msgstr "不正确参数"
 
 #: src/gnuwin32/extra.c:735
 msgid "don't be silly!: your machine has a 4Gb address limit"
-msgstr "不要愚蠢!: 你的机器有4Gb的地址上限"
+msgstr "请注意!: 你的机器有4Gb的地址上限"
 
 #: src/gnuwin32/extra.c:739
 msgid "cannot decrease memory limit: ignored"
@@ -332,11 +332,11 @@ msgstr "参数必需是长度为一的字符矢量或原始矢量"
 
 #: src/gnuwin32/extra.c:1110 src/main/connections.c:1912
 msgid "Unable to open the clipboard"
-msgstr "无法打开裁剪板"
+msgstr "无法打开剪贴板"
 
 #: src/gnuwin32/extra.c:1115 src/main/connections.c:1916
 msgid "Unable to write to the clipboard"
-msgstr "无法写入裁剪板"
+msgstr "无法写入剪贴板"
 
 #: src/gnuwin32/extra.c:1139 src/gnuwin32/extra.c:1240 src/main/util.c:885
 msgid "'path' must be a character vector"
@@ -373,7 +373,7 @@ msgstr "'text'必需为字符串"
 #: src/gnuwin32/extra.c:1508
 #, c-format
 msgid "'%s' must be length 1"
-msgstr "'%s'的长度必需为一"
+msgstr "'%s'的长度必需为1 "
 
 #: src/gnuwin32/extra.c:1622
 #, c-format
@@ -805,7 +805,7 @@ msgstr "'pattern'必需为非空字符串"
 #: src/main/agrep.c:194 src/main/agrep.c:806 src/main/grep.c:828
 #: src/main/grep.c:2356 src/main/grep.c:2631
 msgid "regular expression is invalid in this locale"
-msgstr "正规表现不适用于此语言环境"
+msgstr "正则表达式不适用于此语言环境"
 
 #: src/main/agrep.c:200 src/main/agrep.c:603
 #, c-format
@@ -6126,11 +6126,11 @@ msgstr "'strip.white'的长度不对"
 
 #: src/main/scan.c:857
 msgid "invalid 'sep' value: must be one byte"
-msgstr "'sep'值不对: 大小只能为一拜"
+msgstr "'sep'值不对: 大小只能为一个字节"
 
 #: src/main/scan.c:869
 msgid "invalid decimal separator: must be one byte"
-msgstr "十进位分隔符不对: 大小只能为一拜"
+msgstr "十进位分隔符不对: 大小只能为一个字节"
 
 #: src/main/scan.c:874
 msgid "invalid decimal separator"
