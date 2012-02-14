@@ -8033,7 +8033,7 @@ msgstr "读行输入嵌套出了不寻常的错，请用bug.report()"
 #: src/unix/sys-std.c:1076 src/unix/sys-std.c:1243
 #, c-format
 msgid "problem in saving the history file '%s'"
-msgstr "在保存履历文件'%s'时出了问题"
+msgstr "在保存历史命令文件'%s'时出了问题"
 
 #: src/unix/sys-std.c:1150
 #, c-format
@@ -8052,7 +8052,7 @@ msgstr "没有历史功能"
 
 #: src/unix/sys-std.c:1249
 msgid "problem in truncating the history file"
-msgstr "截短履历文件时出了问题"
+msgstr "截短历史命令文件时出了问题"
 
 #: src/unix/sys-std.c:1251 src/unix/sys-std.c:1253
 msgid "no history available to save"
