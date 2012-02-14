@@ -11,3 +11,7 @@
 - example: 示例
 
 - margin:
+
+- default: 缺省，默认
+
+- GUI: 图形用户界面
