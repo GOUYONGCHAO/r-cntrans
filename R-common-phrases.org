@@ -1,21 +1,13 @@
 - vector: 
-
 - image: 
-
 - library:
-
 - package: 
-
 - demo:
-
 - example: 示例
-
 - margin:
-
 - default: 缺省，默认
-
 - GUI: 图形用户界面
-
 - toggle: 切换
-
 - cursor: 光标
+- invalid: 无效
+- not available: 不可用 
