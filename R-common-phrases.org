@@ -15,3 +15,7 @@
 - default: 缺省，默认
 
 - GUI: 图形用户界面
+
+- toggle: 切换
+
+- cursor: 光标
