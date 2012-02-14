@@ -7954,24 +7954,24 @@ msgstr "wilcox分配错误%d"
 #: src/unix/dynload.c:143
 msgid ""
 "Explicit local dynamic loading not supported on this platform. Using default."
-msgstr "本系统不支持明晰本地动态载入。用缺席值。"
+msgstr "本系统不支持明晰本地动态载入。将使用默认值。"
 
 #: src/unix/dynload.c:144
 msgid ""
 "Explicit global dynamic loading not supported on this platform. Using "
 "default."
-msgstr "本系统不支持明晰整体动态载入。用缺席值。"
+msgstr "本系统不支持明晰整体动态载入。将使用默认值。"
 
 #: src/unix/dynload.c:145
 msgid ""
 "Explicit non-lazy dynamic loading not supported on this platform. Using "
 "default."
-msgstr "本系统不支持明晰非缓慢动态载入。用缺席值。"
+msgstr "本系统不支持明晰非缓慢动态载入。将使用默认值。"
 
 #: src/unix/dynload.c:146
 msgid ""
 "Explicit lazy dynamic loading not supported on this platform. Using default."
-msgstr "本系统不支持明晰缓慢动态载入。用缺席值。"
+msgstr "本系统不支持明晰缓慢动态载入。将使用默认值。"
 
 #: src/unix/dynload.c:240
 msgid "cannot get working directory!"
