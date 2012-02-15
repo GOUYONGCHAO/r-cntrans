@@ -328,7 +328,7 @@ msgstr "选择一个: "
 
 #: src/gnuwin32/extra.c:1073
 msgid "argument must be a character vector or a raw vector"
-msgstr "参数必需是长度为一的字符矢量或原始矢量"
+msgstr "参数必需是长度为一的字符向量或原始向量"
 
 #: src/gnuwin32/extra.c:1110 src/main/connections.c:1912
 msgid "Unable to open the clipboard"
@@ -340,7 +340,7 @@ msgstr "无法写入剪贴板"
 
 #: src/gnuwin32/extra.c:1139 src/gnuwin32/extra.c:1240 src/main/util.c:885
 msgid "'path' must be a character vector"
-msgstr "'path'必需为字符矢量"
+msgstr "'path'必需为字符向量"
 
 #: src/gnuwin32/extra.c:1300 src/gnuwin32/extra.c:1373
 msgid "'default' must be a character string"
@@ -378,7 +378,7 @@ msgstr "'%s'的长度必需为1 "
 #: src/gnuwin32/extra.c:1622
 #, c-format
 msgid "'%s' must be a list"
-msgstr "'%s'必需是串列"
+msgstr "'%s'必需是列表"
 
 #: src/gnuwin32/extra.c:1626
 #, c-format
@@ -656,7 +656,7 @@ msgstr ".Random.seed这个参数没有设定，也没有默认值"
 #: src/main/RNG.c:346
 #, c-format
 msgid ".Random.seed is not an integer vector but of type '%s'"
-msgstr ".Random.seed不是整数矢量，类别为'%s'"
+msgstr ".Random.seed不是整数向量，类别为'%s'"
 
 #: src/main/RNG.c:353
 msgid ".Random.seed[1] is not a valid integer"
@@ -849,7 +849,7 @@ msgstr "长度无效"
 
 #: src/main/apply.c:101
 msgid "FUN.VALUE must be a vector"
-msgstr "FUN.VALUE必需是矢量"
+msgstr "FUN.VALUE必需是向量"
 
 #: src/main/apply.c:103
 msgid "invalid USE.NAMES value"
@@ -881,7 +881,7 @@ msgstr "不支持'%s'这一种类"
 #: src/main/apply.c:215
 #, c-format
 msgid "dimnames(<value>) is neither NULL nor list of length %d"
-msgstr "dimnames(<value>)的值不是NULL也不是长度为%d的串列 "
+msgstr "dimnames(<value>)的值不是NULL也不是长度为%d的列表 "
 
 #: src/main/arithmetic.c:35
 msgid "NaNs produced"
@@ -962,7 +962,7 @@ msgstr "给了'log'%d个参数，但它最多只能用两个参数"
 
 #: src/main/array.c:79
 msgid "'data' must be of a vector type"
-msgstr "'data'的种类必需为矢量"
+msgstr "'data'的种类必需为向量"
 
 #: src/main/array.c:93 src/main/array.c:101
 msgid "non-numeric matrix extent"
@@ -1031,7 +1031,7 @@ msgstr "'row/col'必需用矩阵目标对象作参数"
 
 #: src/main/array.c:629
 msgid "requires numeric/complex matrix/vector arguments"
-msgstr "需要数值/复数矩阵/矢量参数"
+msgstr "需要数值/复数矩阵/向量参数"
 
 #: src/main/array.c:719 src/main/array.c:723 src/main/array.c:727
 msgid "non-conformable arguments"
@@ -1089,16 +1089,16 @@ msgstr "getAttrib: 标记的种类(%s)无效"
 #: src/main/attrib.c:374
 #, c-format
 msgid "invalid type (%s) for 'names': must be vector"
-msgstr "'names'的种类(%s)无效: 必需是矢量"
+msgstr "'names'的种类(%s)无效: 必需是向量"
 
 #: src/main/attrib.c:377
 #, c-format
 msgid "'names' attribute [%d] must be the same length as the vector [%d]"
-msgstr "'names'属性的长度[%d]必需和矢量的长度[%d]一样"
+msgstr "'names'属性的长度[%d]必需和向量的长度[%d]一样"
 
 #: src/main/attrib.c:382
 msgid "names() applied to a non-vector"
-msgstr "names()不能用于非矢量"
+msgstr "names()不能用于非向量"
 
 #: src/main/attrib.c:390
 msgid "invalid time series parameters specified"
@@ -1114,7 +1114,7 @@ msgstr "'tsp'属性值的长度必需是三"
 
 #: src/main/attrib.c:426
 msgid "cannot assign 'tsp' to zero-length vector"
-msgstr "零长度矢量不能设成'tsp'"
+msgstr "零长度向量不能设成'tsp'"
 
 #: src/main/attrib.c:457
 msgid "attempt to set invalid 'comment' attribute"
@@ -1144,7 +1144,7 @@ msgstr "'%s'种类没有'names'槽；在分配名称属性时会创建一个无�
 #, c-format
 msgid ""
 "Illegal to use names()<- to set the 'names' slot in a non-vector class ('%s')"
-msgstr "在矢量类别('%s')里不能用names()<- 来设'names'槽"
+msgstr "在向量类别('%s')里不能用names()<- 来设'names'槽"
 
 #: src/main/attrib.c:800
 msgid "incompatible 'names' argument"
@@ -1161,7 +1161,7 @@ msgstr "'dimnames'只能用于陈列"
 
 #: src/main/attrib.c:930
 msgid "'dimnames' must be a list"
-msgstr "'dimnames'必需是串列"
+msgstr "'dimnames'必需是列表"
 
 #: src/main/attrib.c:933 src/main/attrib.c:956
 #, c-format
@@ -1171,7 +1171,7 @@ msgstr "'dimnames'的长度[%d]必需同'dims'的长度[%d]相等"
 #: src/main/attrib.c:962
 #, c-format
 msgid "invalid type (%s) for 'dimnames' (must be a vector)"
-msgstr "设'dimnames'时的种类(%s)无效(必需为矢量)"
+msgstr "设'dimnames'时的种类(%s)无效(必需为向量)"
 
 #: src/main/attrib.c:965
 #, c-format
@@ -1191,7 +1191,7 @@ msgstr "第二个参数无效"
 
 #: src/main/attrib.c:1046
 msgid "length-0 dimension vector is invalid"
-msgstr "不能有零长度的大小矢量"
+msgstr "不能有零长度的大小向量"
 
 #: src/main/attrib.c:1051
 msgid "the dims contain missing values"
@@ -1212,7 +1212,7 @@ msgstr "因子里不能有重复"
 
 #: src/main/attrib.c:1153
 msgid "attributes must be a list or NULL"
-msgstr "属性必需是串列或NULL值"
+msgstr "属性必需是列表或NULL值"
 
 #: src/main/attrib.c:1158
 msgid "attributes must be named"
@@ -1284,7 +1284,7 @@ msgstr "GE_ScalePS事件需要单数值"
 #: src/main/bind.c:149
 #, c-format
 msgid "resulting vector exceeds vector length limit in '%s'"
-msgstr "'%s'产生了长度超过限制的矢量"
+msgstr "'%s'产生了长度超过限制的向量"
 
 #: src/main/bind.c:282 src/main/bind.c:322 src/main/bind.c:375
 #: src/main/bind.c:453 src/main/bind.c:483
@@ -1302,7 +1302,7 @@ msgstr "不能有重复的形式参数'use.names' "
 
 #: src/main/bind.c:894
 msgid "argument not a list"
-msgstr "参数不是串列"
+msgstr "参数不是列表"
 
 #: src/main/bind.c:1038 src/main/eval.c:2410 src/main/eval.c:2419
 #: src/main/objects.c:310 src/main/objects.c:345 src/main/objects.c:720
@@ -1327,23 +1327,23 @@ msgstr "矩阵的列数必需相符(见arg%d)"
 
 #: src/main/builtin.c:38
 msgid "vector size cannot be NA"
-msgstr "矢量size不能是NA"
+msgstr "向量size不能是NA"
 
 #: src/main/builtin.c:44
 msgid "vector size cannot be NA/NaN"
-msgstr "矢量大小不能是NA/NaN值"
+msgstr "向量大小不能是NA/NaN值"
 
 #: src/main/builtin.c:45
 msgid "vector size cannot be infinite"
-msgstr "矢量大小不能是无限值"
+msgstr "向量大小不能是无限值"
 
 #: src/main/builtin.c:46
 msgid "vector size cannot be negative"
-msgstr "矢量size不能是负"
+msgstr "向量size不能是负"
 
 #: src/main/builtin.c:47
 msgid "vector size specified is too large"
-msgstr "矢量size设得太大"
+msgstr "向量size设得太大"
 
 #: src/main/builtin.c:70 src/main/builtin.c:79 src/main/builtin.c:279
 #: src/main/builtin.c:314 src/main/builtin.c:353 src/main/builtin.c:363
@@ -1410,11 +1410,11 @@ msgstr "cat目前还不能处理%d(种类为'%s')参数"
 #: src/main/builtin.c:743
 #, c-format
 msgid "vector: cannot make a vector of mode '%s'."
-msgstr "矢量: 无法建立状态为\"%s\"的矢量."
+msgstr "向量: 无法建立状态为\"%s\"的向量."
 
 #: src/main/builtin.c:768
 msgid "cannot set length of non-vector"
-msgstr "不能设非矢量的长度"
+msgstr "不能设非向量的长度"
 
 #: src/main/builtin.c:869 src/main/devices.c:367 src/main/options.c:578
 msgid "invalid argument"
@@ -1446,12 +1446,12 @@ msgstr "缺少'EXPR'"
 
 #: src/main/builtin.c:956 src/main/eval.c:4811
 msgid "EXPR must be a length 1 vector"
-msgstr "EXPR必需是长度为一的矢量"
+msgstr "EXPR必需是长度为一的向量"
 
 #: src/main/character.c:104 src/main/character.c:128
 #, c-format
 msgid "'%s' requires a character vector"
-msgstr "'%s'需要字符矢量"
+msgstr "'%s'需要字符向量"
 
 #: src/main/character.c:157
 #, c-format
@@ -1484,7 +1484,7 @@ msgstr "无法在非字符的对象里替换子字串"
 
 #: src/main/character.c:541
 msgid "the first argument must be a character vector"
-msgstr "第一参数必需是字符矢量"
+msgstr "第一参数必需是字符向量"
 
 #: src/main/character.c:558
 msgid "abbreviate used with non-ASCII chars"
@@ -1535,7 +1535,7 @@ msgstr "输入的多字节字符串%d有错"
 
 #: src/main/character.c:1255
 msgid "strtrim() requires a character vector"
-msgstr "strtrim()需要字符矢量"
+msgstr "strtrim()需要字符向量"
 
 #: src/main/coerce.c:28
 msgid "invalid 'mode' argument"
@@ -1543,7 +1543,7 @@ msgstr "'mode'参数无效"
 
 #: src/main/coerce.c:29
 msgid "applies only to lists and vectors"
-msgstr "只能用于串列和矢量"
+msgstr "只能用于列表和向量"
 
 #: src/main/coerce.c:73 src/main/errors.c:1106
 msgid "NAs introduced by coercion"
@@ -1574,7 +1574,7 @@ msgstr "'pairlist'对象不能被强制改变成'%s'种类"
 #: src/main/coerce.c:1045
 #, c-format
 msgid "(list) object cannot be coerced to type '%s'"
-msgstr "(串列)对象不能强制改变成'%s'种类"
+msgstr "(列表)对象不能强制改变成'%s'种类"
 
 #: src/main/coerce.c:1068
 #, c-format
@@ -1583,7 +1583,7 @@ msgstr "(符号)对象不能强制改变成'%s'种类"
 
 #: src/main/coerce.c:1084 src/main/coerce.c:1396
 msgid "no method for coercing this S4 class to a vector"
-msgstr "没有可用来把这个S4类别强迫改为矢量的方法"
+msgstr "没有可用来把这个S4类别强迫改为向量的方法"
 
 #: src/main/coerce.c:1143
 msgid "environments cannot be coerced to other types"
@@ -1595,7 +1595,7 @@ msgstr "不能强迫改变非因子"
 
 #: src/main/coerce.c:1444
 msgid "list argument expected"
-msgstr "需要串列参数"
+msgstr "需要列表参数"
 
 #: src/main/coerce.c:1452 src/main/eval.c:4978
 msgid "invalid environment"
@@ -1615,7 +1615,7 @@ msgstr "长度为零的参数是无效"
 
 #: src/main/coerce.c:1519
 msgid "invalid argument list"
-msgstr "参数串列无效"
+msgstr "参数列表无效"
 
 #: src/main/coerce.c:1829
 msgid "type \"single\" unimplemented in R"
@@ -1628,7 +1628,7 @@ msgstr "没有实现的谓词"
 #: src/main/coerce.c:1978
 #, c-format
 msgid "%s() applied to non-(list or vector) of type '%s'"
-msgstr "%s()不适用于类别为'%s'的非串列或非矢量"
+msgstr "%s()不适用于类别为'%s'的非列表或非向量"
 
 #: src/main/coerce.c:2044 src/main/coerce.c:2107 src/main/coerce.c:2175
 #, c-format
@@ -1650,7 +1650,7 @@ msgstr "'what'必需是字符串或函数"
 
 #: src/main/coerce.c:2230
 msgid "'args' must be a list"
-msgstr "'args'必需是串列"
+msgstr "'args'必需是列表"
 
 #: src/main/coerce.c:2233
 msgid "'envir' must be an environment"
@@ -1742,7 +1742,7 @@ msgstr "hcl颜色无效"
 
 #: src/main/colors.c:290
 msgid "invalid 'names' vector"
-msgstr "'names'矢量无效"
+msgstr "'names'向量无效"
 
 #: src/main/colors.c:335
 msgid "invalid gray level, must be in [0,1]."
@@ -2070,7 +2070,7 @@ msgstr "终端链结分配失败"
 
 #: src/main/connections.c:2287
 msgid "attempting to add too many elements to raw vector"
-msgstr "不能给原始矢量加大多元素"
+msgstr "不能给原始向量加大多元素"
 
 #: src/main/connections.c:2339
 msgid "attempt to seek outside the range of the raw connection"
@@ -2107,7 +2107,7 @@ msgstr "文字链结分配失败"
 
 #: src/main/connections.c:2718
 msgid "text connection: appending to a non-existent char vector"
-msgstr "文字链结: 不能符加给不存在的字符矢量"
+msgstr "文字链结: 不能符加给不存在的字符向量"
 
 #: src/main/connections.c:2822
 msgid "unsupported mode"
@@ -2201,7 +2201,7 @@ msgstr "无法读二进列链结"
 
 #: src/main/connections.c:3577 src/main/connections.c:3884
 msgid "size changing is not supported for complex vectors"
-msgstr "不支持复数矢量大小的改变"
+msgstr "不支持复数向量大小的改变"
 
 #: src/main/connections.c:3615 src/main/connections.c:3633
 #: src/main/connections.c:3659 src/main/connections.c:3718
@@ -2222,7 +2222,7 @@ msgstr "'signed = FALSE'唯一有效的尺寸是1和2"
 
 #: src/main/connections.c:3768
 msgid "'x' is not an atomic vector type"
-msgstr "'x'非基元矢量种类"
+msgstr "'x'非基元向量种类"
 
 #: src/main/connections.c:3774
 msgid "can only write to a binary connection"
@@ -2230,7 +2230,7 @@ msgstr "只能写入二进列链结"
 
 #: src/main/connections.c:3793
 msgid "only 2^31-1 bytes can be written to a raw vector"
-msgstr "写原始矢量最多只能用2^31-1字节"
+msgstr "写原始向量最多只能用2^31-1字节"
 
 #: src/main/connections.c:3795
 msgid "only 2^31-1 bytes can be written in a single writeBin() call"
@@ -2243,7 +2243,7 @@ msgstr "写入链结有问题"
 
 #: src/main/connections.c:3889
 msgid "size changing is not supported for raw vectors"
-msgstr "不支持原始矢量大小的改变"
+msgstr "不支持原始向量大小的改变"
 
 #: src/main/connections.c:4032 src/main/connections.c:4036
 #: src/main/connections.c:4075
@@ -2361,7 +2361,7 @@ msgstr "分配'gzcon'链结失败"
 
 #: src/main/connections.c:5307
 msgid "not a list of sockets"
-msgstr "非插坐串列"
+msgstr "非插坐列表"
 
 #: src/main/connections.c:5312
 msgid "bad write indicators"
@@ -2686,7 +2686,7 @@ msgstr "在调用.C/.Fortran时字符变量必需被复制"
 
 #: src/main/dotcode.c:384
 msgid "only first string in char vector used in .Fortran"
-msgstr ".Fortran只能用字节矢量中的第一个字符串"
+msgstr ".Fortran只能用字节向量中的第一个字符串"
 
 #: src/main/dotcode.c:397 src/main/dotcode.c:524
 #, c-format
@@ -2700,7 +2700,7 @@ msgstr "转换编码'%s'时出了问题"
 
 #: src/main/dotcode.c:431
 msgid "lists must be duplicated in .C"
-msgstr "在调用.C时串列必需被复制"
+msgstr "在调用.C时列表必需被复制"
 
 #: src/main/dotcode.c:441 src/main/dotcode.c:453
 #, c-format
@@ -2973,7 +2973,7 @@ msgstr " .. GEPretty(.): new *up =%g >%g = x2"
 
 #: src/main/engine.c:2687
 msgid "Display list redraw incomplete"
-msgstr "显示串列没有完全被刷新"
+msgstr "显示列表没有完全被刷新"
 
 #: src/main/engine.c:2871
 msgid "'expr' argument must be an expression"
@@ -2981,7 +2981,7 @@ msgstr "'expr'参数必需是表达式"
 
 #: src/main/engine.c:2873
 msgid "'list' argument must be a list"
-msgstr "'list'参数必需是串列"
+msgstr "'list'参数必需是列表"
 
 #: src/main/engine.c:2879
 msgid "'env' argument must be an environment"
@@ -3040,7 +3040,7 @@ msgstr "参数'%s'不是环境"
 #: src/main/envir.c:1246
 #, c-format
 msgid "The ... list does not contain %d elements"
-msgstr "... 串列不包含%d元素"
+msgstr "... 列表不包含%d元素"
 
 #: src/main/envir.c:1248
 #, c-format
@@ -3073,11 +3073,11 @@ msgstr "无法在基本环境里加联编'%s' "
 
 #: src/main/envir.c:1566
 msgid "first argument must be a named list"
-msgstr "第一个参数必需是带名字的串列"
+msgstr "第一个参数必需是带名字的列表"
 
 #: src/main/envir.c:1571
 msgid "names(x) must be a character vector of the same length as x"
-msgstr "name(x)必需是长度与x一样的字符矢量"
+msgstr "name(x)必需是长度与x一样的字符向量"
 
 #: src/main/envir.c:1601
 msgid "cannot remove variables from base namespace"
@@ -3128,11 +3128,11 @@ msgstr "'pos'的值必需是整数"
 
 #: src/main/envir.c:2122
 msgid "all elements of a list must be named"
-msgstr "所有的串列都必需带名字"
+msgstr "所有的列表都必需带名字"
 
 #: src/main/envir.c:2145
 msgid "'attach' only works for lists, data frames and environments"
-msgstr "'attach'只适用于串列，数据框和环境"
+msgstr "'attach'只适用于列表，数据框和环境"
 
 #: src/main/envir.c:2228
 msgid "detaching \"package:base\" is not allowed"
@@ -3153,7 +3153,7 @@ msgstr "没有封闭环境"
 #: src/main/envir.c:2759
 #, c-format
 msgid "no item called \"%s\" on the search list"
-msgstr "寻找串列里没有\"%s\"这样一个项目"
+msgstr "寻找列表里没有\"%s\"这样一个项目"
 
 #: src/main/envir.c:2782
 msgid "using 'as.environment(NULL)' is defunct"
@@ -3354,7 +3354,7 @@ msgstr "参数数目无效"
 
 #: src/main/errors.c:1094
 msgid "time-series/vector length mismatch"
-msgstr "时间系列/矢量长度不等"
+msgstr "时间系列/向量长度不等"
 
 #: src/main/errors.c:1095
 msgid "incompatible arguments"
@@ -3532,7 +3532,7 @@ msgstr "缺少'%s'"
 
 #: src/main/eval.c:1986
 msgid "invalid formal argument list for \"function\""
-msgstr "\"function\"形式参数串列无效"
+msgstr "\"function\"形式参数列表无效"
 
 #: src/main/eval.c:2067
 msgid "numeric 'envir' arg not of length one"
@@ -3674,11 +3674,11 @@ msgstr "R_CompiledFileName: 缓冲区太小"
 
 #: src/main/eval.c:5146 src/main/eval.c:5195
 msgid "constant buffer must be a generic vector"
-msgstr "常量缓冲区必须是矢量类属"
+msgstr "常量缓冲区必须是向量类属"
 
 #: src/main/eval.c:5165
 msgid "constBuf must be a generic vector"
-msgstr "constBuf必需是矢量类属"
+msgstr "constBuf必需是向量类属"
 
 #: src/main/eval.c:5169
 msgid "bad constCount value"
@@ -3714,7 +3714,7 @@ msgstr "fft因数分解错误"
 
 #: src/main/fourier.c:131
 msgid "vector-valued (multivariate) series required"
-msgstr "需要矢量值系列(多变量)"
+msgstr "需要向量值系列(多变量)"
 
 #: src/main/fourier.c:203
 msgid "no factors"
@@ -4211,7 +4211,7 @@ msgstr ""
 
 #: src/main/mapply.c:62
 msgid "argument 'MoreArgs' of 'mapply' is not a list"
-msgstr "'mapply'的参数'MoreArgs'不是串列"
+msgstr "'mapply'的参数'MoreArgs'不是列表"
 
 #: src/main/mapply.c:94
 msgid "longer argument not a multiple of length of shorter"
@@ -4268,7 +4268,7 @@ msgstr "第三个的值要么是TRUE要么是FALSE"
 
 #: src/main/memory.c:1842
 msgid "vector memory exhausted (limit reached?)"
-msgstr "矢量内存用完了(达到了极限?)"
+msgstr "向量内存用完了(达到了极限?)"
 
 #: src/main/memory.c:1848
 msgid "cons memory exhausted (limit reached?)"
@@ -4285,33 +4285,33 @@ msgstr "无法分配大小为%0.1f Gb的内存块"
 
 #: src/main/memory.c:2256
 msgid "negative length vectors are not allowed"
-msgstr "不能有负长度矢量"
+msgstr "不能有负长度向量"
 
 #: src/main/memory.c:2282 src/main/memory.c:2295 src/main/memory.c:2308
 #: src/main/memory.c:2323
 #, c-format
 msgid "cannot allocate vector of length %d"
-msgstr "无法分配长度为%d的矢量"
+msgstr "无法分配长度为%d的向量"
 
 #: src/main/memory.c:2338
 #, c-format
 msgid "invalid type/length (%s/%d) in vector allocation"
-msgstr "矢量分配的种类/长度(%s/%d)无效"
+msgstr "向量分配的种类/长度(%s/%d)无效"
 
 #: src/main/memory.c:2407
 #, c-format
 msgid "cannot allocate vector of size %0.1f Gb"
-msgstr "无法分配大小为%0.1f Gb的矢量"
+msgstr "无法分配大小为%0.1f Gb的向量"
 
 #: src/main/memory.c:2411
 #, c-format
 msgid "cannot allocate vector of size %0.1f Mb"
-msgstr "无法分配大小为%0.1f Mb的矢量"
+msgstr "无法分配大小为%0.1f Mb的向量"
 
 #: src/main/memory.c:2415
 #, c-format
 msgid "cannot allocate vector of size %0.f Kb"
-msgstr "无法分配大小为%0.f Kb的矢量"
+msgstr "无法分配大小为%0.f Kb的向量"
 
 #: src/main/memory.c:2744
 msgid "protect(): protection stack overflow"
@@ -4338,7 +4338,7 @@ msgstr "Realloc 无法重新分配(大小为%.0f)的内存"
 
 #: src/main/memory.c:3060
 msgid "not safe to return vector pointer"
-msgstr "回覆矢量指针不是安全的做法"
+msgstr "回覆向量指针不是安全的做法"
 
 #: src/main/memory.c:3298
 msgid "memory profiling is not available on this system"
@@ -4621,11 +4621,11 @@ msgstr "无法取消外部指针的类别"
 
 #: src/main/objects.c:855
 msgid "'what' must be a character vector"
-msgstr "'what'必需是字符矢量"
+msgstr "'what'必需是字符向量"
 
 #: src/main/objects.c:859
 msgid "'which' must be a length 1 logical vector"
-msgstr "'which'必需是长度为一的逻辑矢量"
+msgstr "'which'必需是长度为一的逻辑向量"
 
 #: src/main/objects.c:865
 msgid "use 'is()' instead of 'inherits()' on S4 objects"
@@ -4989,7 +4989,7 @@ msgstr "\"device.ask.default\"的值无效，用FALSE"
 
 #: src/main/options.c:365
 msgid "list argument has no valid names"
-msgstr "串列参数的名字无效"
+msgstr "列表参数的名字无效"
 
 #: src/main/options.c:393
 #, c-format
@@ -5112,7 +5112,7 @@ msgstr "不可能出现这种状态(x)"
 
 #: src/main/paste.c:621
 msgid "atomic vector arguments only"
-msgstr "只能用原子矢量参数"
+msgstr "只能用原子向量参数"
 
 #: src/main/platform.c:294 src/main/platform.c:312
 msgid "invalid filename specification"
@@ -5233,7 +5233,7 @@ msgstr "操作系统报告说无法执行将本地化设成\"%s\"的请求"
 
 #: src/main/platform.c:2038
 msgid "'hostname' must be a character vector of length 1"
-msgstr "'hostname'必需是长度为一的字符矢量"
+msgstr "'hostname'必需是长度为一的字符向量"
 
 #: src/main/platform.c:2044
 #, c-format
@@ -5540,7 +5540,7 @@ msgstr "谱系图输入无效"
 
 #: src/main/plot.c:3822
 msgid "invalid symbol parameter vector"
-msgstr "符号参数矢量无效"
+msgstr "符号参数向量无效"
 
 #: src/main/plot.c:3845
 msgid "invalid symbol coordinates"
@@ -5690,15 +5690,15 @@ msgstr "'z'极限无效"
 
 #: src/main/plot3d.c:2498
 msgid "'xlab' must be a character vector of length 1"
-msgstr "'xlab'必需是长度为一的字符矢量"
+msgstr "'xlab'必需是长度为一的字符向量"
 
 #: src/main/plot3d.c:2500
 msgid "'ylab' must be a character vector of length 1"
-msgstr "'ylab'必需是长度为一的字符矢量"
+msgstr "'ylab'必需是长度为一的字符向量"
 
 #: src/main/plot3d.c:2502
 msgid "'zlab' must be a character vector of length 1"
-msgstr "'zlab'必需是长度为一的字符矢量"
+msgstr "'zlab'必需是长度为一的字符向量"
 
 #: src/main/plot3d.c:2522
 msgid "invalid viewing parameters"
@@ -5797,7 +5797,7 @@ msgstr[0] "[到达getOption(\"max.print\") -- 略过%d行]]\n"
 
 #: src/main/qsort.c:50
 msgid "argument is not a numeric vector"
-msgstr "参数不是数值矢量"
+msgstr "参数不是数值向量"
 
 #: src/main/random.c:34 src/main/random.c:568
 msgid "invalid arguments"
@@ -5822,7 +5822,7 @@ msgstr "do_random3产生了内部错误"
 
 #: src/main/random.c:440
 msgid "NA in probability vector"
-msgstr "机率矢量中有NA"
+msgstr "机率向量中有NA"
 
 #: src/main/random.c:442
 msgid "non-positive probability"
@@ -5853,7 +5853,7 @@ msgstr "第二参数'size'无效"
 #: src/main/relop.c:101
 #, c-format
 msgid "comparison (%d) is possible only for atomic and list types"
-msgstr "只能比较(%d)基元或串列种类"
+msgstr "只能比较(%d)基元或列表种类"
 
 #: src/main/relop.c:106
 msgid "comparison is not allowed for expressions"
@@ -5941,7 +5941,7 @@ msgstr "一号版本的工作空间无法保存弱引用"
 
 #: src/main/saveload.c:1014
 msgid "NewWriteVec called with non-vector type"
-msgstr "NewWriteVec不适用于非矢量种类"
+msgstr "NewWriteVec不适用于非向量种类"
 
 #: src/main/saveload.c:1077
 msgid "cannot save byte code objects in version 1 workspaces"
@@ -5954,7 +5954,7 @@ msgstr "NewWriteItem: 没有%i这一种类"
 
 #: src/main/saveload.c:1209
 msgid "NewReadVec called with non-vector type"
-msgstr "NewReadVec不适用于非矢量种类"
+msgstr "NewReadVec不适用于非向量种类"
 
 #: src/main/saveload.c:1274
 msgid "cannot read byte code objects from version 1 workspaces"
@@ -6029,11 +6029,11 @@ msgstr "復原文件幻数出错(文件可能有损坏)-- 没有载入任何数�
 
 #: src/main/saveload.c:1927 src/main/saveload.c:2225
 msgid "first argument must be a character vector"
-msgstr "第一参数必需是字符矢量"
+msgstr "第一参数必需是字符向量"
 
 #: src/main/saveload.c:1999
 msgid "not a valid named list"
-msgstr "带名字的串列无效"
+msgstr "带名字的列表无效"
 
 #: src/main/saveload.c:2006 src/main/saveload.c:2027
 #, c-format
@@ -6042,7 +6042,7 @@ msgstr "'%s'看起来好象是2.4.0前的S4目标对象；请重新创造"
 
 #: src/main/saveload.c:2014
 msgid "loaded data is not in pair list form"
-msgstr "载入数据没有成双串列形式"
+msgstr "载入数据没有成双列表形式"
 
 #: src/main/saveload.c:2050
 msgid "first argument must be a file name"
@@ -6189,7 +6189,7 @@ msgstr "因子长度不相等"
 
 #: src/main/seq.c:98
 msgid "result would be too long a vector"
-msgstr "答案矢量会过长"
+msgstr "答案向量会过长"
 
 #: src/main/seq.c:144 src/main/seq.c:148
 #, c-format
@@ -6210,7 +6210,7 @@ msgstr "第二参数种类不对"
 
 #: src/main/seq.c:259
 msgid "attempt to replicate non-vector"
-msgstr "非矢量不能被复制"
+msgstr "非向量不能被复制"
 
 #: src/main/seq.c:383 src/main/seq.c:390 src/main/seq.c:519 src/main/seq.c:696
 #, c-format
@@ -6382,7 +6382,7 @@ msgstr "二进列链结需要设定ascii=FALSE"
 #: src/main/serialize.c:2041 src/main/serialize.c:2070
 #: src/main/serialize.c:2131
 msgid "serialization is too large to store in a raw vector"
-msgstr "串行太大，无法存储于原始矢量中"
+msgstr "串行太大，无法存储于原始向量中"
 
 #: src/main/serialize.c:2051
 msgid "cannot allocate buffer"
@@ -6394,7 +6394,7 @@ msgstr "文件名字有错"
 
 #: src/main/serialize.c:2235
 msgid "not a proper raw vector"
-msgstr "不是原始矢量"
+msgstr "不是原始向量"
 
 #: src/main/serialize.c:2256
 msgid "could not determine file position"
@@ -6427,7 +6427,7 @@ msgstr "变量名字不对"
 
 #: src/main/sort.c:87
 msgid "only atomic vectors can be tested to be sorted"
-msgstr "只有基元矢量才能被检验排序"
+msgstr "只有基元向量才能被检验排序"
 
 #: src/main/sort.c:309 src/main/sort.c:875 src/main/sort.c:974
 msgid "'decreasing' must be TRUE or FALSE"
@@ -6435,11 +6435,11 @@ msgstr "'increasing'必需是TRUE或是FALSE"
 
 #: src/main/sort.c:312 src/main/sort.c:564
 msgid "only atomic vectors can be sorted"
-msgstr "只有基元矢量才能被排序"
+msgstr "只有基元向量才能被排序"
 
 #: src/main/sort.c:314 src/main/sort.c:566 src/main/sort.c:920
 msgid "raw vectors cannot be sorted"
-msgstr "无法排序原始矢量"
+msgstr "无法排序原始向量"
 
 #: src/main/sort.c:573
 msgid "NA index"
@@ -6453,7 +6453,7 @@ msgstr "索引%d在界限外"
 #: src/main/sort.c:884
 #, c-format
 msgid "argument %d is not a vector"
-msgstr "参数%d不是矢量"
+msgstr "参数%d不是向量"
 
 #: src/main/sort.c:886
 msgid "argument lengths differ"
@@ -6532,7 +6532,7 @@ msgstr "略过'%s = \"%s\"'参数值"
 
 #: src/main/split.c:38
 msgid "first argument must be a vector"
-msgstr "第一参数必需是矢量"
+msgstr "第一参数必需是向量"
 
 #: src/main/split.c:40
 msgid "second argument must be a factor"
@@ -6557,7 +6557,7 @@ msgstr "所需要的字符串长度%d大于最大限度%d"
 
 #: src/main/sprintf.c:101
 msgid "'fmt' is not a character vector"
-msgstr "'fmt'必需是字符矢量"
+msgstr "'fmt'必需是字符向量"
 
 #: src/main/sprintf.c:106
 #, c-format
@@ -6603,7 +6603,7 @@ msgstr "'%*'建立的'fmt2'长度超过了最大长度%d"
 
 #: src/main/sprintf.c:264
 msgid "coercion has changed vector length to 0"
-msgstr "矢量长度被強制改变成零"
+msgstr "向量长度被強制改变成零"
 
 #: src/main/sprintf.c:337 src/main/sprintf.c:351 src/main/sprintf.c:365
 #: src/main/sprintf.c:400
@@ -6646,12 +6646,12 @@ msgstr "R_Library文件名字不对: 缓冲区太小"
 
 #: src/main/subassign.c:105
 msgid "attempt to enlarge non-vector"
-msgstr "不能把非矢量变大"
+msgstr "不能把非向量变大"
 
 #: src/main/subassign.c:110
 #, c-format
 msgid "assignment outside vector/list limits (extending from %d to %d)"
-msgstr "不能在矢量/串列极限外赋值(%d加大到%d)"
+msgstr "不能在向量/列表极限外赋值(%d加大到%d)"
 
 #: src/main/subassign.c:357
 #, c-format
@@ -6692,11 +6692,11 @@ msgstr "陈列子集赋值有不可兼容的种类(从%s到%s)"
 
 #: src/main/subassign.c:1182 src/main/subassign.c:1202
 msgid "invalid subscript in list assign"
-msgstr "串列赋值里的下标无效"
+msgstr "列表赋值里的下标无效"
 
 #: src/main/subassign.c:1195
 msgid "invalid number of subscripts to list assign"
-msgstr "串列赋值里的下标数目无效"
+msgstr "列表赋值里的下标数目无效"
 
 #: src/main/subassign.c:1282
 msgid "SubAssignArgs: invalid number of arguments"
@@ -6755,7 +6755,7 @@ msgstr "不存在给这个S4类别分配子集的方法"
 
 #: src/main/subassign.c:1895
 msgid "Coercing LHS to a list"
-msgstr "把公式左手强迫变成串列"
+msgstr "把公式左手强迫变成列表"
 
 #: src/main/subscript.c:50 src/main/subscript.c:70 src/main/subscript.c:163
 msgid "attempt to select less than one element"
@@ -6803,7 +6803,7 @@ msgstr "只有负下标里才能有零"
 
 #: src/main/subscript.c:528
 msgid "character vector element does not have type CHARSXP"
-msgstr "字符矢量元素没有CHARSXP种类"
+msgstr "字符向量元素没有CHARSXP种类"
 
 #: src/main/subscript.c:606
 msgid "no 'dimnames' attribute for array"
@@ -6811,7 +6811,7 @@ msgstr "陈列中没有'dimnames'这一属性"
 
 #: src/main/subscript.c:653
 msgid "subscripting on non-vector"
-msgstr "非矢量不能有下标"
+msgstr "非向量不能有下标"
 
 #: src/main/subset.c:235
 msgid "dimensions would exceed maximum size of array"
@@ -6889,7 +6889,7 @@ msgstr "输入种类无效"
 
 #: src/main/summary.c:1064
 msgid "cannot mix 0-length vectors with others"
-msgstr "不能将零长度的矢量同其它长度的矢量混合在一起"
+msgstr "不能将零长度的向量同其它长度的向量混合在一起"
 
 #: src/main/summary.c:1073
 msgid "an argument will be fractionally recycled"
@@ -6966,11 +6966,11 @@ msgstr "不支持代码页％3$d里从'％1$s'到'%2$s'的这种转换"
 
 #: src/main/sysutils.c:635
 msgid "'x' must be a character vector"
-msgstr "'x'必需是字符矢量"
+msgstr "'x'必需是字符向量"
 
 #: src/main/sysutils.c:650
 msgid "'x' must be a list of NULL or raw vectors"
-msgstr "'x'必需是NULL串列或原始矢量"
+msgstr "'x'必需是NULL列表或原始向量"
 
 #: src/main/sysutils.c:726 src/main/sysutils.c:789 src/main/sysutils.c:888
 #: src/main/sysutils.c:902 src/main/sysutils.c:977
@@ -7022,7 +7022,7 @@ msgstr "雜亂定址法的长度%d太大了"
 
 #: src/main/unique.c:401
 msgid "'duplicated' applies only to vectors"
-msgstr "'duplicated'只适用于矢量"
+msgstr "'duplicated'只适用于向量"
 
 #: src/main/unique.c:496
 msgid "any_duplicated3(., <0-length incomp>)"
@@ -7039,11 +7039,11 @@ msgstr "'fromLast'的值必需是TRUE或是FALSE"
 #: src/main/unique.c:557
 #, c-format
 msgid "%s() applies only to vectors"
-msgstr "%s()只适用于矢量"
+msgstr "%s()只适用于向量"
 
 #: src/main/unique.c:806
 msgid "'match' requires vector arguments"
-msgstr "'match'需要矢量参数"
+msgstr "'match'需要向量参数"
 
 #: src/main/unique.c:854 src/main/unique.c:1012
 msgid "argument is not of mode character"
@@ -7071,7 +7071,7 @@ msgstr "这不应该发生"
 
 #: src/main/unique.c:1508
 msgid "'names' must be a character vector"
-msgstr "'names'必需是字符矢量"
+msgstr "'names'必需是字符向量"
 
 #: src/main/unique.c:1512
 msgid "'sep' must be a character string"
@@ -7124,11 +7124,11 @@ msgstr "提供的参数名'%s'同'%s'不匹配"
 #: src/main/util.c:454
 #, c-format
 msgid "'nthcdr' list shorter than %d"
-msgstr "'nthcdr'串列比%d要短"
+msgstr "'nthcdr'列表比%d要短"
 
 #: src/main/util.c:459
 msgid "'nthcdr' needs a list to CDR down"
-msgstr "'nthcdr'需要CDR串列"
+msgstr "'nthcdr'需要CDR列表"
 
 #: src/main/util.c:579
 msgid "'all.x' must be TRUE or FALSE"
@@ -7150,7 +7150,7 @@ msgstr "无法改变工作目录"
 #: src/main/util.c:843 src/main/util.c:950 src/main/util.c:1000
 #: src/main/util.c:1022
 msgid "a character vector argument expected"
-msgstr "需要字符矢量参数"
+msgstr "需要字符向量参数"
 
 #: src/main/util.c:735 src/main/util.c:770 src/main/util.c:811
 #: src/main/util.c:851
@@ -7163,7 +7163,7 @@ msgstr "只用了'quote'的第一个字符"
 
 #: src/main/util.c:1024
 msgid "a character vector 'value' expected"
-msgstr "需要字符矢量'value'"
+msgstr "需要字符向量'value'"
 
 #: src/main/util.c:1027
 msgid "'value' must be of positive length"
@@ -7420,7 +7420,7 @@ msgstr "分配插坐链结失败"
 #: src/modules/lapack/Lapack.c:45 src/modules/lapack/Lapack.c:64
 #, c-format
 msgid "argument type[1]='%s' must be a character string of string length 1"
-msgstr "参数type[1]='%s'必需是长度为一的字符矢量"
+msgstr "参数type[1]='%s'必需是长度为一的字符向量"
 
 #: src/modules/lapack/Lapack.c:53
 #, c-format
@@ -8115,7 +8115,7 @@ msgstr "为'-e'建立临时文件失败"
 
 #: src/unix/system.c:462
 msgid "WARNING: Only editing the first in the list of files"
-msgstr "警告: 只修改文件串列中的第一个元素"
+msgstr "警告: 只修改文件列表中的第一个元素"
 
 #: src/unix/X11.c:52
 msgid "X11 module is not available under this GUI"
@@ -8144,7 +8144,7 @@ msgstr "没有X11平台这一功能"
 #~ msgstr "\"function\"主体参数有错。这不应该发生，请用bug.report() [mkCLOSXP]"
 
 #~ msgid "vector: zero-length 'type' argument"
-#~ msgstr "矢量: 'type'参数的长度为零"
+#~ msgstr "向量: 'type'参数的长度为零"
 
 #~ msgid "function is too long to keep source (at line %d)"
 #~ msgstr "函数过长，无法保留其代码(%d行)"
@@ -8153,13 +8153,13 @@ msgstr "没有X11平台这一功能"
 #~ msgstr "%d行代码源里的函数功能嵌套太深"
 
 #~ msgid "not a vector object"
-#~ msgstr "非矢量对象"
+#~ msgstr "非向量对象"
 
 #~ msgid "can only handle simple real vectors"
-#~ msgstr "只能用简单的实数矢量"
+#~ msgstr "只能用简单的实数向量"
 
 #~ msgid "not a simple vector"
-#~ msgstr "非简单矢量"
+#~ msgstr "非简单向量"
 
 #~ msgid "not a simple matrix"
 #~ msgstr "非简单矩阵"
