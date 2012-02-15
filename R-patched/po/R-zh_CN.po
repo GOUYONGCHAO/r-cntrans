@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs@R-project.org\n"
 "POT-Creation-Date: 2012-01-23 08:18+0000\n"
-"PO-Revision-Date: 2012-02-13 07:28+0200\n"
-"Last-Translator: G_will <g_will@ieqi.com>\n"
+"PO-Revision-Date: 2012-02-15 08:16+0200\n"
+"Last-Translator: yihui <xie@yihui.name>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -28,11 +28,11 @@ msgstr ".C(\"bincount\",... NAOK=FALSE)有NA值"
 
 #: src/appl/pretty.c:106
 msgid "Internal(pretty()): very small range.. corrected"
-msgstr "Internal(pretty()): 范围太小，纠正了"
+msgstr "Internal(pretty()): 范围太小，已修正"
 
 #: src/appl/pretty.c:109
 msgid "Internal(pretty()): very large range.. corrected"
-msgstr "Internal(pretty()): 范围太大，纠正了"
+msgstr "Internal(pretty()): 范围太大，已修正"
 
 #: src/appl/rcont.c:78
 #, c-format
