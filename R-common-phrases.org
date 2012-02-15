@@ -1,5 +1,5 @@
-- vector: 
-- list:
+- vector: 向量
+- list: 列表
 - array: 数组
 - image: 
 - library:
