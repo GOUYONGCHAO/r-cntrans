@@ -1,4 +1,6 @@
 - vector: 
+- list:
+- array: 数组
 - image: 
 - library:
 - package: 
@@ -11,3 +13,4 @@
 - cursor: 光标
 - invalid: 无效
 - not available: 不可用 
+- bug: (程序)漏洞
