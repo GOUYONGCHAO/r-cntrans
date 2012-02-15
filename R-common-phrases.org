@@ -6,8 +6,8 @@
 - list: 列表
 - array: 数组
 - image: 
-- library:
-- package: 
+- library: 库
+- package: 包
 - demo: 演示
 - example: 示例
 - margin:
