@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs@R-project.org\n"
 "POT-Creation-Date: 2012-01-23 08:18+0000\n"
-"PO-Revision-Date: 2012-02-15 08:16+0200\n"
-"Last-Translator: yihui <xie@yihui.name>\n"
+"PO-Revision-Date: 2012-02-15 16:53+0200\n"
+"Last-Translator: Feng <m@feng.li>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -3588,9 +3588,9 @@ msgid "Bad opcode"
 msgstr "op代码不对"
 
 #: src/main/eval.c:3928
-#, fuzzy, c-format
+#, c-format
 msgid "invalid %s type in 'x %s y'"
-msgstr "'x %2$s y'中%s的种类不对"
+msgstr "'x %2$s y'中%s的类型无效"
 
 #: src/main/eval.c:4007
 msgid "bytecode version mismatch; using eval"
@@ -4208,7 +4208,7 @@ msgstr "最高层任务回叫没有回覆逻辑值"
 
 #: src/main/mapply.c:45
 msgid "Zero-length inputs cannot be mixed with those of non-zero length"
-msgstr ""
+msgstr "零长度输入不能与非零长度的混合使用"
 
 #: src/main/mapply.c:62
 msgid "argument 'MoreArgs' of 'mapply' is not a list"
@@ -6816,7 +6816,7 @@ msgstr "非矢量不能有下标"
 
 #: src/main/subset.c:235
 msgid "dimensions would exceed maximum size of array"
-msgstr ""
+msgstr "维度将超过数组的最大限制"
 
 #: src/main/subset.c:278 src/main/subset.c:307
 msgid "matrix subscripting not handled for this type"
@@ -7006,7 +7006,7 @@ msgstr "临时文件名太长"
 
 #: src/main/sysutils.c:1494
 msgid "cannot find unused tempfile name"
-msgstr "临时文件名都用完了"
+msgstr "无法找到未使用的临时文件名"
 
 #: src/main/sysutils.c:1497
 msgid "allocation failed in R_tmpnam2"
