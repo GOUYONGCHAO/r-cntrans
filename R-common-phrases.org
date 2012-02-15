@@ -8,7 +8,7 @@
 - image: 
 - library:
 - package: 
-- demo:
+- demo: 演示
 - example: 示例
 - margin:
 - default: 缺省，默认
