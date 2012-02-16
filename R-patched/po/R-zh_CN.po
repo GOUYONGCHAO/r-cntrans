@@ -3617,7 +3617,7 @@ msgstr "非BUILTIN函数"
 
 #: src/main/eval.c:4425 src/main/eval.c:4748 src/main/eval.c:4790
 msgid "bad function"
-msgstr "函数不对"
+msgstr "错误函数"
 
 #: src/main/eval.c:4815
 msgid "numeric EXPR required for switch() without named alternatives"
@@ -3629,11 +3629,11 @@ msgstr "字符开关偏移不对"
 
 #: src/main/eval.c:4820
 msgid "bad switch names"
-msgstr "开关名字不对"
+msgstr "开关名字错误"
 
 #: src/main/eval.c:4834
 msgid "bad numeric switch offsets"
-msgstr "数字开关偏移设定不对"
+msgstr "数字开关偏移设定错误"
 
 #: src/main/eval.c:4911
 msgid "cannot find index for threaded code address"
@@ -3649,11 +3649,11 @@ msgstr "符号无效"
 
 #: src/main/eval.c:5035
 msgid "argument is not a byte code object"
-msgstr "参数不是位元组码对象"
+msgstr "参数不是位字节码对象"
 
 #: src/main/eval.c:5056
 msgid "bad file name"
-msgstr "文件名字不对"
+msgstr "错误文件名字"
 
 #: src/main/eval.c:5060 src/main/eval.c:5081
 msgid "unable to open 'file'"
