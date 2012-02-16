@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 2.14.1\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
 "POT-Creation-Date: 2012-01-23 08:19\n"
-"PO-Revision-Date: 2012-02-14 18:50+0200\n"
-"Last-Translator: G_will <g_will@ieqi.com>\n"
+"PO-Revision-Date: 2012-02-16 13:08+0200\n"
+"Last-Translator: road2stat <road2stat@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -59,10 +59,10 @@ msgid ""
 msgstr ""
 
 msgid "Warning: unknown option"
-msgstr ""
+msgstr "警告: 未知选项"
 
 msgid "Created PDF document"
-msgstr ""
+msgstr "已创建PDF文档"
 
 msgid "path to %s contains spaces,"
 msgstr ""
@@ -74,7 +74,7 @@ msgid "invalid value for %s : %s"
 msgstr ""
 
 msgid "value of 'results' option should be lowercase"
-msgstr ""
+msgstr "'results'选项的值应为小写"
 
 msgid "value of 'strip.white' option should be lowercase"
 msgstr ""
@@ -132,7 +132,7 @@ msgid "Use either %s or %s/%s but not both."
 msgstr ""
 
 msgid "It is recommended to use %s instead of %s."
-msgstr ""
+msgstr "推荐使用 %s 而非 %s"
 
 msgid "Use either %s or %s but not both."
 msgstr ""
@@ -186,13 +186,13 @@ msgid "n < m"
 msgstr ""
 
 msgid "'FUN' must be a function or NULL"
-msgstr ""
+msgstr "'FUN'必须是一个函数或为NULL"
 
 msgid "Can't handle S4 methods yet"
 msgstr ""
 
 msgid "'package' must be a character string or NULL"
-msgstr ""
+msgstr "'package'必须是一个字符串或为NULL"
 
 msgid "datasets have been moved from package 'base' to package 'datasets'"
 msgstr ""
@@ -207,7 +207,7 @@ msgid "file 'filelist' is missing for directory %s"
 msgstr ""
 
 msgid "data set %s not found"
-msgstr ""
+msgstr "数据集%s未找到"
 
 msgid "kind '%s' not yet implemented"
 msgstr ""
@@ -219,7 +219,7 @@ msgid "wrong argument to 'dataentry'"
 msgstr ""
 
 msgid "could not restore type information"
-msgstr ""
+msgstr "无法还原类型信息"
 
 msgid "modes argument ignored"
 msgstr ""
@@ -368,7 +368,7 @@ msgid "Using the first match ..."
 msgstr ""
 
 msgid "HTML help is unavailable"
-msgstr ""
+msgstr "HTML帮助不可用"
 
 msgid "R Help on %s"
 msgstr ""
@@ -694,7 +694,7 @@ msgid ""
 msgstr ""
 
 msgid "'lib = \"%s\"' is not writable"
-msgstr ""
+msgstr "'lib = \"%s\"'不可写"
 
 msgid ""
 "Would you like to create a personal library\n"
@@ -706,19 +706,19 @@ msgid "unable to install packages"
 msgstr ""
 
 msgid "unable to create"
-msgstr ""
+msgstr "无法创建"
 
 msgid "inferring 'repos = NULL' from the file name"
 msgstr ""
 
 msgid "cannot install MacOS X binary packages on Windows"
-msgstr ""
+msgstr "无法在Windows上安装Mac OS X的二进制包"
 
 msgid "cannot install MacOS X binary packages on this platform"
-msgstr ""
+msgstr "无法在此平台上安装Mac OS X的二进制包"
 
 msgid "cannot install Windows binary packages on this platform"
-msgstr ""
+msgstr "无法在此平台上安装Windows的二进制包"
 
 msgid ""
 "This version of R is not set up to install source packages\n"
@@ -729,7 +729,7 @@ msgid "installation of package %s had non-zero exit status"
 msgstr ""
 
 msgid "unable to create temporary directory %s"
-msgstr ""
+msgstr "无法创建临时目录%s"
 
 msgid ""
 "installation of one of more packages failed,\n"
@@ -832,25 +832,25 @@ msgid "invalid 'row.names' specification"
 msgstr ""
 
 msgid "invalid 'row.names' length"
-msgstr ""
+msgstr "'row.names'的长度无效"
 
 msgid "duplicate 'row.names' are not allowed"
 msgstr ""
 
 msgid "missing values in 'row.names' are not allowed"
-msgstr ""
+msgstr "'row.names'中不允许有缺失值"
 
 msgid "missing lengths for some fields"
 msgstr ""
 
 msgid "invalid format"
-msgstr ""
+msgstr "格式无效"
 
 msgid "last record incomplete, %d lines discarded"
 msgstr ""
 
 msgid "transfer failure"
-msgstr ""
+msgstr "传输失败"
 
 msgid "HTTPUserAgent"
 msgstr ""
@@ -892,10 +892,10 @@ msgid "no valid packages were specified"
 msgstr ""
 
 msgid "invalid 'socket' argument"
-msgstr ""
+msgstr "参数'socket'无效"
 
 msgid "'port' must be integer of length 1"
-msgstr ""
+msgstr "'port'必须为长度为1的整数"
 
 msgid "'host' must be character of length 1"
 msgstr ""
@@ -981,16 +981,16 @@ msgid "select.list() cannot be used non-interactively"
 msgstr ""
 
 msgid "'title' must be NULL or a length-1 character vector"
-msgstr ""
+msgstr "'title'必须为NULL或一个长度为1的字符型向量"
 
 msgid "Enter one or more numbers separated by spaces, or an empty line to cancel"
 msgstr ""
 
 msgid "Invalid input, please try again"
-msgstr ""
+msgstr "输入无效，请重试"
 
 msgid "'quote' must be 'TRUE', 'FALSE' or numeric"
-msgstr ""
+msgstr "'quote' 必须为 'TRUE', 'FALSE' 或数值型"
 
 msgid "invalid numbers in 'quote'"
 msgstr ""

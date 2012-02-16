@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 2.14.1\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
 "POT-Creation-Date: 2012-01-23 08:18\n"
-"PO-Revision-Date: 2012-02-14 18:50+0200\n"
-"Last-Translator: G_will <g_will@ieqi.com>\n"
+"PO-Revision-Date: 2012-02-16 12:59+0200\n"
+"Last-Translator: road2stat <road2stat@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -97,13 +97,13 @@ msgid "y axis is on a cumulative probability scale, 'ylim' must be in [0,1]"
 msgstr ""
 
 msgid "no 'z' matrix specified"
-msgstr ""
+msgstr "未指定'z'矩阵"
 
 msgid "increasing 'x' and 'y' values expected"
 msgstr ""
 
 msgid "no proper 'z' matrix specified"
-msgstr ""
+msgstr "未指定合适的'z'矩阵"
 
 msgid "invalid conditioning formula"
 msgstr ""
@@ -214,10 +214,10 @@ msgid "argument must be matrix-like"
 msgstr ""
 
 msgid "'x' and 'y' values must be finite and non-missing"
-msgstr ""
+msgstr "'x'和'y'的值必须为有限值且非缺失值"
 
 msgid "'z' must be a matrix"
-msgstr ""
+msgstr "'z'必须为一个矩阵"
 
 msgid "invalid z limits"
 msgstr ""
@@ -246,7 +246,7 @@ msgid "invalid title"
 msgstr ""
 
 msgid "'legend' is of length 0"
-msgstr ""
+msgstr "'legend'的长度为0"
 
 msgid "invalid coordinate lengths"
 msgstr ""
@@ -312,22 +312,22 @@ msgid "cannot handle more than one 'x' coordinate"
 msgstr ""
 
 msgid "must have a response variable"
-msgstr ""
+msgstr "必须有一个响应变量"
 
 msgid "'plot.data.frame' applied to non data frame"
 msgstr ""
 
 msgid "'y' must be a numeric vector"
-msgstr ""
+msgstr "'y'必须为一个数值型向量"
 
 msgid "'x' must be a data frame"
-msgstr ""
+msgstr "'x'必须为一个数据框"
 
 msgid "all columns/components of 'x' must be factors"
 msgstr ""
 
 msgid "some levels of the factors are empty"
-msgstr ""
+msgstr "因子中的某些水平为空"
 
 msgid "'x' must be a dataframe or a formula"
 msgstr ""

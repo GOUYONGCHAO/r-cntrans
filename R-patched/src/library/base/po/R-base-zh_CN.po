@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 2.14.1\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
 "POT-Creation-Date: 2012-01-23 08:18\n"
-"PO-Revision-Date: 2012-02-15 17:16+0200\n"
-"Last-Translator: Feng <m@feng.li>\n"
+"PO-Revision-Date: 2012-02-16 12:28+0200\n"
+"Last-Translator: road2stat <road2stat@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -91,22 +91,22 @@ msgid "'X' must have named dimnames"
 msgstr ""
 
 msgid "not all elements of 'MARGIN' are names of dimensions"
-msgstr ""
+msgstr "不是所有的 'MARGIN 元素都以维度命名"
 
 msgid "'dim' specifies too large an array"
-msgstr ""
+msgstr "'dim' 指定了一个过大的数组"
 
 msgid "incorrect value for 'MARGIN'"
-msgstr ""
+msgstr "对于'MARGIN'是错误的值"
 
 msgid "you cannot be serious"
 msgstr ""
 
 msgid "*** 'pos=1' is not possible; setting 'pos=2' for now."
-msgstr ""
+msgstr "*** 'pos=1' 是不可能的；现在设置 'pos=2'。"
 
 msgid "*** Note that 'pos=1' will give an error in the future"
-msgstr ""
+msgstr "*** 显示 'pos=1' 将会在未来产生一个错误"
 
 msgid "file '%s' not found"
 msgstr ""
@@ -139,7 +139,7 @@ msgid "replaced '[<-' by '\\\\[<-' in regular expression pattern"
 msgstr ""
 
 msgid "RHS must be list"
-msgstr ""
+msgstr "RHS必须为列表"
 
 msgid "an object with that name already exists"
 msgstr ""
@@ -166,7 +166,7 @@ msgid "non-matrix argument to 'chol'"
 msgstr ""
 
 msgid "matrix not positive definite"
-msgstr ""
+msgstr "矩阵非正定"
 
 msgid "non-positive definite matrix in 'chol'"
 msgstr ""
@@ -223,7 +223,7 @@ msgid "'from' must be raw or character"
 msgstr ""
 
 msgid "'x' must be numeric"
-msgstr ""
+msgstr "'x'必须为数值型"
 
 msgid "invalid number of intervals"
 msgstr ""
@@ -427,16 +427,16 @@ msgid "'from' must be a Date object"
 msgstr ""
 
 msgid "'from' must be of length 1"
-msgstr ""
+msgstr "'from'的长度必须为1"
 
 msgid "'to' must be a Date object"
 msgstr ""
 
 msgid "'to' must be of length 1"
-msgstr ""
+msgstr "'to'的长度必须为1"
 
 msgid "'length.out' must be of length 1"
-msgstr ""
+msgstr "'length.out'的长度必须为1"
 
 msgid "exactly two of 'to', 'by' and 'length.out' / 'along.with' must be specified"
 msgstr ""
@@ -1498,37 +1498,37 @@ msgid "<0 elements>"
 msgstr ""
 
 msgid "invalid 'digits'"
-msgstr ""
+msgstr "无效的'digits'"
 
 msgid "arguments 'show.output.on.console', 'minimized' and 'invisible' are for Windows only"
 msgstr ""
 
 msgid "'intern' must be TRUE or FALSE"
-msgstr ""
+msgstr "'intern'必须为TRUE或FALSE"
 
 msgid "'ignore.stdout' must be TRUE or FALSE"
-msgstr ""
+msgstr "'ignore.stdout'必须为TRUE或FALSE"
 
 msgid "'ignore.stderr' must be TRUE or FALSE"
-msgstr ""
+msgstr "'ignore.stderr'必须为TRUE或FALSE"
 
 msgid "'wait' must be TRUE or FALSE"
-msgstr ""
+msgstr "'wait'必须为TRUE或FALSE"
 
 msgid "'input' must be a character vector or 'NULL'"
-msgstr ""
+msgstr "'input'必须为字符型向量或'NULL'"
 
 msgid "arguments 'minimized' and 'invisible' are for Windows only"
-msgstr ""
+msgstr "参数'minimized'和'invisible'仅支持在Windows下使用"
 
 msgid "setting stdout = TRUE"
 msgstr ""
 
 msgid "'stdout' must be of length 1"
-msgstr ""
+msgstr "'stdout'的长度必须为1"
 
 msgid "'stderr' must be of length 1"
-msgstr ""
+msgstr "'stderr'的长度必须为1"
 
 msgid "'which' was not found on this platform"
 msgstr ""
@@ -1537,10 +1537,10 @@ msgid "'show.output.on.console' must be TRUE or FALSE"
 msgstr ""
 
 msgid "'minimized' must be TRUE or FALSE"
-msgstr ""
+msgstr "'minimized'必须为TRUE或FALSE"
 
 msgid "'invisible' must be TRUE or FALSE"
-msgstr ""
+msgstr "'invisible'必须为TRUE或FALSE"
 
 msgid "'%s' could not be run"
 msgstr ""
@@ -1573,7 +1573,7 @@ msgid "items"
 msgstr ""
 
 msgid "have been removed from the search path"
-msgstr ""
+msgstr "已从搜索路径中移除"
 
 msgid "cannot find namespace environment"
 msgstr ""
