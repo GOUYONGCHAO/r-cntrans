@@ -44,11 +44,11 @@ msgstr ".C(..): 宽度不能为0"
 
 #: src/appl/strsignif.c:135
 msgid ".C(..): 'type' must be \"integer\" for  \"d\"-format"
-msgstr ".C(..):’type’如果用作\"d\"格式的话必需为\"integer\""
+msgstr ".C(..):’type’如果用作\"d\"格式的话必须为\"integer\""
 
 #: src/appl/strsignif.c:218
 msgid ".C(..): 'type' must be \"real\" for this format"
-msgstr ".C(..):’type’必需为\"real\"才能用这种格式"
+msgstr ".C(..):’type’必须为\"real\"才能用这种格式"
 
 #: src/gnuwin32/dynload.c:155
 #, c-format
@@ -328,7 +328,7 @@ msgstr "选择一个: "
 
 #: src/gnuwin32/extra.c:1073
 msgid "argument must be a character vector or a raw vector"
-msgstr "参数必需是长度为一的字符向量或原始向量"
+msgstr "参数必须是长度为一的字符向量或原始向量"
 
 #: src/gnuwin32/extra.c:1110 src/main/connections.c:1912
 msgid "Unable to open the clipboard"
@@ -340,11 +340,11 @@ msgstr "无法写入剪贴板"
 
 #: src/gnuwin32/extra.c:1139 src/gnuwin32/extra.c:1240 src/main/util.c:885
 msgid "'path' must be a character vector"
-msgstr "'path'必需为字符向量"
+msgstr "'path'必须为字符向量"
 
 #: src/gnuwin32/extra.c:1300 src/gnuwin32/extra.c:1373
 msgid "'default' must be a character string"
-msgstr "'default'必需为字符串"
+msgstr "'default'必须为字符串"
 
 #: src/gnuwin32/extra.c:1302 src/gnuwin32/extra.c:1375
 msgid "'default' is overlong"
@@ -352,33 +352,33 @@ msgstr "'default'过长了"
 
 #: src/gnuwin32/extra.c:1306 src/gnuwin32/extra.c:1379
 msgid "'caption' must be a character string"
-msgstr "'caption'必需为字符串"
+msgstr "'caption'必须为字符串"
 
 #: src/gnuwin32/extra.c:1308
 msgid "'multi' must be a logical value"
-msgstr "'multi'必需为逻辑值"
+msgstr "'multi'必须为逻辑值"
 
 #: src/gnuwin32/extra.c:1310
 msgid "'filterindex' must be an integer value"
-msgstr "'filterindex'必需为整数"
+msgstr "'filterindex'必须为整数"
 
 #: src/gnuwin32/extra.c:1461
 msgid "'title' must be a character string"
-msgstr "'title'必需为字符串"
+msgstr "'title'必须为字符串"
 
 #: src/gnuwin32/extra.c:1478
 msgid "'text' must be a character string"
-msgstr "'text'必需为字符串"
+msgstr "'text'必须为字符串"
 
 #: src/gnuwin32/extra.c:1508
 #, c-format
 msgid "'%s' must be length 1"
-msgstr "'%s'的长度必需为1 "
+msgstr "'%s'的长度必须为1 "
 
 #: src/gnuwin32/extra.c:1622
 #, c-format
 msgid "'%s' must be a list"
-msgstr "'%s'必需是列表"
+msgstr "'%s'必须是列表"
 
 #: src/gnuwin32/extra.c:1626
 #, c-format
@@ -393,7 +393,7 @@ msgstr "设备无效"
 
 #: src/gnuwin32/extra.c:1661
 msgid "requires SDI mode"
-msgstr "必需用SDI方式"
+msgstr "必须用SDI方式"
 
 #: src/gnuwin32/extra.c:1726 src/main/gevents.c:56 src/main/gevents.c:93
 msgid "invalid graphical device number"
@@ -451,7 +451,7 @@ msgstr "管道链结分配失败"
 
 #: src/gnuwin32/run.c:779
 msgid "'names' is not a character string"
-msgstr "'names’必需是字符串"
+msgstr "'names’必须是字符串"
 
 #: src/gnuwin32/sys-win32.c:180
 msgid "character string expected as first argument"
@@ -561,7 +561,7 @@ msgstr "建立tmpfile失败--设了TMPDIR没有？"
 
 #: src/gnuwin32/system.c:1115 src/unix/system.c:429
 msgid "you must specify '--save', '--no-save' or '--vanilla'"
-msgstr "你必需选用'--save'，’--no-save'或'--vanilla'其中的一个"
+msgstr "你必须选用'--save'，’--no-save'或'--vanilla'其中的一个"
 
 #: src/gnuwin32/system.c:1120
 msgid ""
@@ -642,7 +642,7 @@ msgstr "只有在设定了'user_unif_nseed'以后才能读随机种"
 
 #: src/main/RNG.c:314
 msgid "seed length must be in 0...625; ignored"
-msgstr "随机种的长度必需在0到625之间; 略过不用"
+msgstr "随机种的长度必须在0到625之间; 略过不用"
 
 #: src/main/RNG.c:322
 #, c-format
@@ -741,7 +741,7 @@ msgstr "无法给注册了的原始符号分配内存(%d字节)"
 
 #: src/main/Rdynload.c:1114
 msgid "must pass package name or DllInfo reference"
-msgstr "必需传给程序包名字或DllInfo引用"
+msgstr "必须传给程序包名字或DllInfo引用"
 
 #: src/main/Rdynload.c:1210 src/main/dotcode.c:128
 #, c-format
@@ -768,7 +768,7 @@ msgstr "程序包'%s'不提供'%s'这样的函数"
 
 #: src/main/Rdynload.c:1403
 msgid "table entry must be an external pointer"
-msgstr "桌项必需是外部指针"
+msgstr "桌项必须是外部指针"
 
 #: src/main/Rstrptime.h:503 src/main/Rstrptime.h:966
 #, c-format
@@ -800,7 +800,7 @@ msgstr "变量'%s'的长度大于一，因此只能用其第一元素"
 
 #: src/main/agrep.c:183 src/main/agrep.c:797
 msgid "'pattern' must be a non-empty character string"
-msgstr "'pattern'必需为非空字符串"
+msgstr "'pattern'必须为非空字符串"
 
 #: src/main/agrep.c:194 src/main/agrep.c:806 src/main/grep.c:828
 #: src/main/grep.c:2356 src/main/grep.c:2631
@@ -849,7 +849,7 @@ msgstr "长度无效"
 
 #: src/main/apply.c:101
 msgid "FUN.VALUE must be a vector"
-msgstr "FUN.VALUE必需是向量"
+msgstr "FUN.VALUE必须是向量"
 
 #: src/main/apply.c:103
 msgid "invalid USE.NAMES value"
@@ -861,7 +861,7 @@ msgid ""
 "values must be length %d,\n"
 " but FUN(X[[%d]]) result is length %d"
 msgstr ""
-"值的长度必需为%d，\n"
+"值的长度必须为%d，\n"
 " 但FUN(X[[%d]])结果的长度却是%d"
 
 #: src/main/apply.c:165
@@ -870,7 +870,7 @@ msgid ""
 "values must be type '%s',\n"
 " but FUN(X[[%d]]) result is type '%s'"
 msgstr ""
-"值的种类必需是'%s'，\n"
+"值的种类必须是'%s'，\n"
 " 但FUN(X[[%d]])结果的种类却是'%s'"
 
 #: src/main/apply.c:184
@@ -962,7 +962,7 @@ msgstr "给了'log'%d个参数，但它最多只能用两个参数"
 
 #: src/main/array.c:79
 msgid "'data' must be of a vector type"
-msgstr "'data'的种类必需为向量"
+msgstr "'data'的种类必须为向量"
 
 #: src/main/array.c:93 src/main/array.c:101
 msgid "non-numeric matrix extent"
@@ -1027,7 +1027,7 @@ msgstr "allocArray: 'dims'设定了太多的元素"
 
 #: src/main/array.c:418
 msgid "a matrix-like object is required as argument to 'row/col'"
-msgstr "'row/col'必需用矩阵目标对象作参数"
+msgstr "'row/col'必须用矩阵目标对象作参数"
 
 #: src/main/array.c:629
 msgid "requires numeric/complex matrix/vector arguments"
@@ -1047,7 +1047,7 @@ msgstr "第一个参数无效, 必须是数组"
 
 #: src/main/array.c:1074 src/main/array.c:1077
 msgid "'a' does not have named dimnames"
-msgstr "'a'必需有带名字的dimnames"
+msgstr "'a'必须有带名字的dimnames"
 
 #: src/main/array.c:1084
 #, c-format
@@ -1064,11 +1064,11 @@ msgstr "'perm'里的值在范围外"
 
 #: src/main/array.c:1180
 msgid "'resize' must be TRUE or FALSE"
-msgstr "'resize'的值必需是TRUE或是FALSE"
+msgstr "'resize'的值必须是TRUE或是FALSE"
 
 #: src/main/array.c:1244
 msgid "'x' must be numeric"
-msgstr "'x'必需为数值"
+msgstr "'x'必须为数值"
 
 #: src/main/attrib.c:39 src/main/attrib.c:226 src/main/attrib.c:260
 #: src/main/attrib.c:282 src/main/attrib.c:399 src/main/attrib.c:446
@@ -1079,7 +1079,7 @@ msgstr "NULL是不能有属性的"
 #: src/main/attrib.c:71
 #, c-format
 msgid "row names must be 'character' or 'integer', not '%s'"
-msgstr "行名必需是'character'或'integer'，不能是'%s'"
+msgstr "行名必须是'character'或'integer'，不能是'%s'"
 
 #: src/main/attrib.c:123
 #, c-format
@@ -1089,12 +1089,12 @@ msgstr "getAttrib: 标记的种类(%s)无效"
 #: src/main/attrib.c:374
 #, c-format
 msgid "invalid type (%s) for 'names': must be vector"
-msgstr "'names'的种类(%s)无效: 必需是向量"
+msgstr "'names'的种类(%s)无效: 必须是向量"
 
 #: src/main/attrib.c:377
 #, c-format
 msgid "'names' attribute [%d] must be the same length as the vector [%d]"
-msgstr "'names'属性的长度[%d]必需和向量的长度[%d]一样"
+msgstr "'names'属性的长度[%d]必须和向量的长度[%d]一样"
 
 #: src/main/attrib.c:382
 msgid "names() applied to a non-vector"
@@ -1106,11 +1106,11 @@ msgstr "时间系列参数设定无效"
 
 #: src/main/attrib.c:403
 msgid "'tsp' attribute must be numeric"
-msgstr "'tsp'属性必需为数值"
+msgstr "'tsp'属性必须为数值"
 
 #: src/main/attrib.c:409
 msgid "'tsp' attribute must be numeric of length three"
-msgstr "'tsp'属性值的长度必需是三"
+msgstr "'tsp'属性值的长度必须是三"
 
 #: src/main/attrib.c:426
 msgid "cannot assign 'tsp' to zero-length vector"
@@ -1161,22 +1161,22 @@ msgstr "'dimnames'只能用于陈列"
 
 #: src/main/attrib.c:930
 msgid "'dimnames' must be a list"
-msgstr "'dimnames'必需是列表"
+msgstr "'dimnames'必须是列表"
 
 #: src/main/attrib.c:933 src/main/attrib.c:956
 #, c-format
 msgid "length of 'dimnames' [%d] must match that of 'dims' [%d]"
-msgstr "'dimnames'的长度[%d]必需同'dims'的长度[%d]相等"
+msgstr "'dimnames'的长度[%d]必须同'dims'的长度[%d]相等"
 
 #: src/main/attrib.c:962
 #, c-format
 msgid "invalid type (%s) for 'dimnames' (must be a vector)"
-msgstr "设'dimnames'时的种类(%s)无效(必需为向量)"
+msgstr "设'dimnames'时的种类(%s)无效(必须为向量)"
 
 #: src/main/attrib.c:965
 #, c-format
 msgid "length of 'dimnames' [%d] not equal to array extent"
-msgstr "'dimnames'的长度[%d]必需与陈列范围相等"
+msgstr "'dimnames'的长度[%d]必须与陈列范围相等"
 
 #: src/main/attrib.c:1035 src/main/builtin.c:61 src/main/builtin.c:98
 #: src/main/envir.c:1531 src/main/envir.c:1655 src/main/envir.c:1717
@@ -1212,20 +1212,20 @@ msgstr "因子里不能有重复"
 
 #: src/main/attrib.c:1153
 msgid "attributes must be a list or NULL"
-msgstr "属性必需是列表或NULL值"
+msgstr "属性必须是列表或NULL值"
 
 #: src/main/attrib.c:1158
 msgid "attributes must be named"
-msgstr "属性必需取名"
+msgstr "属性必须取名"
 
 #: src/main/attrib.c:1162
 #, c-format
 msgid "all attributes must have names [%d does not]"
-msgstr "所有的属性都必需有名字[%d没有]"
+msgstr "所有的属性都必须有名字[%d没有]"
 
 #: src/main/attrib.c:1262
 msgid "'which' must be of mode character"
-msgstr "'which'属性的状态必需是字符"
+msgstr "'which'属性的状态必须是字符"
 
 #: src/main/attrib.c:1264
 msgid "exactly one attribute 'which' must be given"
@@ -1239,7 +1239,7 @@ msgstr "'%s'部分匹配到'%s'"
 
 #: src/main/attrib.c:1377
 msgid "'name' must be non-null character string"
-msgstr "'name'必需为非空字符"
+msgstr "'name'必须为非空字符"
 
 #: src/main/attrib.c:1499 src/main/attrib.c:1570 src/main/attrib.c:1607
 msgid "invalid type or length for slot name"
@@ -1318,12 +1318,12 @@ msgstr "无法按这些种类建立矩阵"
 #: src/main/bind.c:1183
 #, c-format
 msgid "number of rows of matrices must match (see arg %d)"
-msgstr "矩阵的行数必需相符(见arg%d)"
+msgstr "矩阵的行数必须相符(见arg%d)"
 
 #: src/main/bind.c:1430
 #, c-format
 msgid "number of columns of matrices must match (see arg %d)"
-msgstr "矩阵的列数必需相符(见arg%d)"
+msgstr "矩阵的列数必须相符(见arg%d)"
 
 #: src/main/builtin.c:38
 msgid "vector size cannot be NA"
@@ -1365,7 +1365,7 @@ msgstr "替换对象不是环境"
 
 #: src/main/builtin.c:319
 msgid "'enclos' must be an environment"
-msgstr "'enclos'必需是环境"
+msgstr "'enclos'必须是环境"
 
 #: src/main/builtin.c:340 src/main/builtin.c:358
 msgid "argument is not an environment"
@@ -1446,7 +1446,7 @@ msgstr "缺少'EXPR'"
 
 #: src/main/builtin.c:956 src/main/eval.c:4811
 msgid "EXPR must be a length 1 vector"
-msgstr "EXPR必需是长度为一的向量"
+msgstr "EXPR必须是长度为一的向量"
 
 #: src/main/character.c:104 src/main/character.c:128
 #, c-format
@@ -1484,7 +1484,7 @@ msgstr "无法在非字符的对象里替换子字串"
 
 #: src/main/character.c:541
 msgid "the first argument must be a character vector"
-msgstr "第一参数必需是字符向量"
+msgstr "第一参数必须是字符向量"
 
 #: src/main/character.c:558
 msgid "abbreviate used with non-ASCII chars"
@@ -1642,19 +1642,19 @@ msgstr "缺少'name'"
 
 #: src/main/coerce.c:2200
 msgid "first argument must be a character string"
-msgstr "第一个参数必需是字符串"
+msgstr "第一个参数必须是字符串"
 
 #: src/main/coerce.c:2227
 msgid "'what' must be a character string or a function"
-msgstr "'what'必需是字符串或函数"
+msgstr "'what'必须是字符串或函数"
 
 #: src/main/coerce.c:2230
 msgid "'args' must be a list"
-msgstr "'args'必需是列表"
+msgstr "'args'必须是列表"
 
 #: src/main/coerce.c:2233
 msgid "'envir' must be an environment"
-msgstr "'envir'必需是环境"
+msgstr "'envir'必须是环境"
 
 #: src/main/coerce.c:2294 src/main/coerce.c:2335
 msgid "... used in an incorrect context"
@@ -1706,7 +1706,7 @@ msgstr "除非维度的长度大于零，否则不能设为\"array\"类别"
 
 #: src/main/coerce.c:2567
 msgid "'value' must be non-null character string"
-msgstr "'value'必需为非空字符"
+msgstr "'value'必须为非空字符"
 
 #: src/main/coerce.c:2580
 msgid "invalid to change the storage mode of a factor"
@@ -1746,7 +1746,7 @@ msgstr "'names'向量无效"
 
 #: src/main/colors.c:335
 msgid "invalid gray level, must be in [0,1]."
-msgstr "灰度必需在[0,1] 之间."
+msgstr "灰度必须在[0,1] 之间."
 
 #: src/main/colors.c:425
 msgid "rgb is not a matrix (internally)"
@@ -1754,7 +1754,7 @@ msgstr "rgb不是矩阵(内部)"
 
 #: src/main/colors.c:428
 msgid "rgb must have 3 rows (internally)"
-msgstr "rgb必需有三行(内部)"
+msgstr "rgb必须有三行(内部)"
 
 #: src/main/colors.c:482
 msgid "bad hsv to rgb color conversion"
@@ -2052,11 +2052,11 @@ msgstr "裁剪板缓冲区已满，丢失了输出"
 
 #: src/main/connections.c:2040
 msgid "'mode' for the clipboard must be 'r' or 'w'"
-msgstr "裁剪板'mode'必需是'r'或'w'"
+msgstr "裁剪板'mode'必须是'r'或'w'"
 
 #: src/main/connections.c:2043
 msgid "'mode' for the clipboard must be 'r' on Unix"
-msgstr "Unix操作系统上裁剪板'mode'必需是'r'"
+msgstr "Unix操作系统上裁剪板'mode'必须是'r'"
 
 #: src/main/connections.c:2046 src/main/connections.c:2052
 #: src/main/connections.c:2058 src/main/connections.c:2075
@@ -2330,7 +2330,7 @@ msgstr "'gzcon'链结书写出错"
 
 #: src/main/connections.c:5102
 msgid "'level' must be one of 0 ... 9"
-msgstr "'level’必需是0 ... 9之一"
+msgstr "'level’必须是0 ... 9之一"
 
 #: src/main/connections.c:5105
 msgid "'allowNonCompression' must be TRUE or FALSE"
@@ -2410,7 +2410,7 @@ msgstr "没有重新开始的功能"
 
 #: src/main/context.c:516
 msgid "number of contexts must be positive"
-msgstr "上下文数目必需是正数"
+msgstr "上下文数目必须是正数"
 
 #: src/main/context.c:529
 msgid "no browser context to query"
@@ -2502,11 +2502,11 @@ msgstr "畸形'%s ...'开头行!"
 
 #: src/main/debug.c:43
 msgid "argument must be a closure"
-msgstr "参数必需为闭合"
+msgstr "参数必须为闭合"
 
 #: src/main/debug.c:74
 msgid "argument must be a function"
-msgstr "参数必需为函数"
+msgstr "参数必须为函数"
 
 #: src/main/debug.c:127 src/main/debug.c:161 src/main/debug.c:219
 msgid "argument must not be a function"
@@ -2568,7 +2568,7 @@ msgstr "参数长度为零"
 
 #: src/main/deparse.c:364
 msgid "'opts' should be small non-negative integer"
-msgstr "'opts'必需是小的非负整数"
+msgstr "'opts'必须是小的非负整数"
 
 #: src/main/deparse.c:374 src/main/envir.c:1685 src/main/envir.c:1767
 #: src/main/eval.c:410 src/main/eval.c:1048 src/main/eval.c:3348
@@ -2592,7 +2592,7 @@ msgstr "微分表里没有这个函数'%s'"
 
 #: src/main/deriv.c:633
 msgid "variable must be a character string"
-msgstr "变量必需是字符串"
+msgstr "变量必须是字符串"
 
 #: src/main/deriv.c:635 src/main/envir.c:1534
 msgid "only the first element is used as variable name"
@@ -2617,7 +2617,7 @@ msgstr "没有在使用中的或缺省的设备"
 
 #: src/main/devices.c:357
 msgid "argument must have positive length"
-msgstr "参数的长度必需是正数"
+msgstr "参数的长度必须是正数"
 
 #: src/main/devices.c:432 src/main/devices.c:494
 msgid "too many open devices"
@@ -2682,7 +2682,7 @@ msgstr "外接函数调用时不能有复数的NA/NaN/Inf(arg%d)"
 
 #: src/main/dotcode.c:379
 msgid "character variables must be duplicated in .C/.Fortran"
-msgstr "在调用.C/.Fortran时字符变量必需被复制"
+msgstr "在调用.C/.Fortran时字符变量必须被复制"
 
 #: src/main/dotcode.c:384
 msgid "only first string in char vector used in .Fortran"
@@ -2700,7 +2700,7 @@ msgstr "转换编码'%s'时出了问题"
 
 #: src/main/dotcode.c:431
 msgid "lists must be duplicated in .C"
-msgstr "在调用.C时列表必需被复制"
+msgstr "在调用.C时列表必须被复制"
 
 #: src/main/dotcode.c:441 src/main/dotcode.c:453
 #, c-format
@@ -2730,7 +2730,7 @@ msgstr "PACKAGE只能用一次"
 
 #: src/main/dotcode.c:657
 msgid "PACKAGE argument must be a single character string"
-msgstr "PACKAGE参数必需是单个字符串"
+msgstr "PACKAGE参数必须是单个字符串"
 
 #: src/main/dotcode.c:663
 msgid "PACKAGE argument is too long"
@@ -2742,7 +2742,7 @@ msgstr "ENCODING只能用一次"
 
 #: src/main/dotcode.c:709 src/main/dotcode.c:717
 msgid "ENCODING argument must be a single character string"
-msgstr "ENCODING参数必需是单个字符串"
+msgstr "ENCODING参数必须是单个字符串"
 
 #: src/main/dotcode.c:734
 msgid "no arguments supplied"
@@ -2977,15 +2977,15 @@ msgstr "显示列表没有完全被刷新"
 
 #: src/main/engine.c:2871
 msgid "'expr' argument must be an expression"
-msgstr "'expr'参数必需是表达式"
+msgstr "'expr'参数必须是表达式"
 
 #: src/main/engine.c:2873
 msgid "'list' argument must be a list"
-msgstr "'list'参数必需是列表"
+msgstr "'list'参数必须是列表"
 
 #: src/main/engine.c:2879
 msgid "'env' argument must be an environment"
-msgstr "'env'参数必需是环境"
+msgstr "'env'参数必须是环境"
 
 #: src/main/engine.c:2901 src/main/graphics.c:2401
 msgid "invalid graphics state"
@@ -2997,7 +2997,7 @@ msgstr "pch=\"c\"里的多字节字元无效"
 
 #: src/main/engine.c:3037
 msgid "invalid line type: must be length 2, 4, 6 or 8"
-msgstr "行类无效: 长度必需是2, 4, 6或8"
+msgstr "行类无效: 长度必须是2, 4, 6或8"
 
 #: src/main/engine.c:3041
 msgid "invalid line type: zeroes are not allowed"
@@ -3073,11 +3073,11 @@ msgstr "无法在基本环境里加联编'%s' "
 
 #: src/main/envir.c:1566
 msgid "first argument must be a named list"
-msgstr "第一个参数必需是带名字的列表"
+msgstr "第一个参数必须是带名字的列表"
 
 #: src/main/envir.c:1571
 msgid "names(x) must be a character vector of the same length as x"
-msgstr "name(x)必需是长度与x一样的字符向量"
+msgstr "name(x)必须是长度与x一样的字符向量"
 
 #: src/main/envir.c:1601
 msgid "cannot remove variables from base namespace"
@@ -3107,7 +3107,7 @@ msgstr "在%d位置的名字无效"
 
 #: src/main/envir.c:1851
 msgid "second argument must be an environment"
-msgstr "第二参数必需是环境"
+msgstr "第二参数必须是环境"
 
 #: src/main/envir.c:1859 src/main/envir.c:1867
 #, c-format
@@ -3124,11 +3124,11 @@ msgstr "'missing'只能用于这些参数"
 
 #: src/main/envir.c:2108
 msgid "'pos' must be an integer"
-msgstr "'pos'的值必需是整数"
+msgstr "'pos'的值必须是整数"
 
 #: src/main/envir.c:2122
 msgid "all elements of a list must be named"
-msgstr "所有的列表都必需带名字"
+msgstr "所有的列表都必须带名字"
 
 #: src/main/envir.c:2145
 msgid "'attach' only works for lists, data frames and environments"
@@ -3140,11 +3140,11 @@ msgstr "\"package:base\"不能被拆离"
 
 #: src/main/envir.c:2529 src/main/envir.c:2584
 msgid "argument must be an environment"
-msgstr "参数必需是环境"
+msgstr "参数必须是环境"
 
 #: src/main/envir.c:2588
 msgid "arguments must be symbolic"
-msgstr "参数必需为符号"
+msgstr "参数必须为符号"
 
 #: src/main/envir.c:2709
 msgid "no enclosing environment"
@@ -3230,7 +3230,7 @@ msgstr "引出环境参数不对"
 
 #: src/main/envir.c:3301
 msgid "length of import and export names must match"
-msgstr "引进和引出名字的长度必需相等"
+msgstr "引进和引出名字的长度必须相等"
 
 #: src/main/envir.c:3324
 #, c-format
@@ -3324,11 +3324,11 @@ msgstr "停止执行\n"
 
 #: src/main/errors.c:938
 msgid "'msg1' must be a character string"
-msgstr "'msg1’必需是字符串"
+msgstr "'msg1’必须是字符串"
 
 #: src/main/errors.c:940
 msgid "'msg2' must be a character string"
-msgstr "'msg2’必需是字符串"
+msgstr "'msg2’必须是字符串"
 
 #: src/main/errors.c:1035
 msgid " [invalid string in stop(.)]"
@@ -3406,7 +3406,7 @@ msgstr "不在try的上下文中"
 
 #: src/main/errors.c:1738
 msgid "error message must be a character string"
-msgstr "错误信息必需是字符串"
+msgstr "错误信息必须是字符串"
 
 #: src/main/eval.c:221
 #, c-format
@@ -3661,12 +3661,12 @@ msgstr "无法打开'file'"
 
 #: src/main/eval.c:5075 src/main/saveload.c:1929
 msgid "'file' must be non-empty string"
-msgstr "'file'必需是非空字符串"
+msgstr "'file'必须是非空字符串"
 
 #: src/main/eval.c:5077 src/main/saveload.c:1931 src/main/saveload.c:2231
 #: src/main/serialize.c:1848
 msgid "'ascii' must be logical"
-msgstr "'ascii’必需是逻辑值"
+msgstr "'ascii’必须是逻辑值"
 
 #: src/main/eval.c:5106 src/main/eval.c:5113
 msgid "R_CompiledFileName: buffer too small"
@@ -3678,7 +3678,7 @@ msgstr "常量缓冲区必须是向量类属"
 
 #: src/main/eval.c:5165
 msgid "constBuf must be a generic vector"
-msgstr "constBuf必需是向量类属"
+msgstr "constBuf必须是向量类属"
 
 #: src/main/eval.c:5169
 msgid "bad constCount value"
@@ -3836,7 +3836,7 @@ msgstr "%d行无法为长字符串分配内存"
 #: src/main/gram.y:2116
 #, c-format
 msgid "'\\x' used without hex digits in character string starting \"%s\""
-msgstr "由\"%s\"开头的字符串中有'\\x'，它必需同hex数字一起来用"
+msgstr "由\"%s\"开头的字符串中有'\\x'，它必须同hex数字一起来用"
 
 #: src/main/gram.y:2130
 #, c-format
@@ -3846,7 +3846,7 @@ msgstr "不支持反引号里\\uxxxx这样的序列(%d行)"
 #: src/main/gram.y:2145
 #, c-format
 msgid "'\\u' used without hex digits in character string starting \"%s\""
-msgstr "由\"%s\"开头的字符串中有'\\u'，它必需同hex数字一起来用"
+msgstr "由\"%s\"开头的字符串中有'\\u'，它必须同hex数字一起来用"
 
 #: src/main/gram.y:2153
 #, c-format
@@ -3861,7 +3861,7 @@ msgstr "不支持反引号里\\Uxxxxxxxx这样的序列(%d行)"
 #: src/main/gram.y:2180
 #, c-format
 msgid "'\\U' used without hex digits in character string starting \"%s\""
-msgstr "由\"%s\"开头的字符串中有'\\U'，它必需同hex数字一起来用"
+msgstr "由\"%s\"开头的字符串中有'\\U'，它必须同hex数字一起来用"
 
 #: src/main/gram.y:2188
 #, c-format
@@ -4248,7 +4248,7 @@ msgstr "只能微弱引用或定局引用对象"
 
 #: src/main/memory.c:1162
 msgid "finalizer must be a function or NULL"
-msgstr "定局器必需是函数或NULL"
+msgstr "定局器必须是函数或NULL"
 
 #: src/main/memory.c:1213 src/main/memory.c:1221 src/main/memory.c:1232
 msgid "not a weak reference"
@@ -4256,11 +4256,11 @@ msgstr "非微弱引用"
 
 #: src/main/memory.c:1348
 msgid "first argument must be environment or external pointer"
-msgstr "第一参数必需是环境或外部指针"
+msgstr "第一参数必须是环境或外部指针"
 
 #: src/main/memory.c:1350
 msgid "second argument must be a function"
-msgstr "第二参数必需是函数"
+msgstr "第二参数必须是函数"
 
 #: src/main/memory.c:1354
 msgid "third argument must be 'TRUE' or 'FALSE'"
@@ -4538,11 +4538,11 @@ msgstr "'usemethod'里不能用类属功能"
 
 #: src/main/objects.c:390
 msgid "there must be a 'generic' argument"
-msgstr "必需有'generic'参数"
+msgstr "必须有'generic'参数"
 
 #: src/main/objects.c:394
 msgid "'generic' argument must be a character string"
-msgstr "'generic'参数必需是字符串"
+msgstr "'generic'参数必须是字符串"
 
 #: src/main/objects.c:431
 msgid "'UseMethod' called from outside a closure"
@@ -4550,7 +4550,7 @@ msgstr "不能在封闭外调用'UseMethod'"
 
 #: src/main/objects.c:438
 msgid "first argument must be a generic name"
-msgstr "第一参数必需是类属名"
+msgstr "第一参数必须是类属名"
 
 #: src/main/objects.c:463
 #, c-format
@@ -4621,11 +4621,11 @@ msgstr "无法取消外部指针的类别"
 
 #: src/main/objects.c:855
 msgid "'what' must be a character vector"
-msgstr "'what'必需是字符向量"
+msgstr "'what'必须是字符向量"
 
 #: src/main/objects.c:859
 msgid "'which' must be a length 1 logical vector"
-msgstr "'which'必需是长度为一的逻辑向量"
+msgstr "'which'必须是长度为一的逻辑向量"
 
 #: src/main/objects.c:865
 msgid "use 'is()' instead of 'inherits()' on S4 objects"
@@ -4643,7 +4643,7 @@ msgstr "方法分派没有激活，因此不能调用standardGeneric(略过不�
 
 #: src/main/objects.c:1089
 msgid "argument to standardGeneric must be a non-empty character string"
-msgstr "standardGeneric的参数必需是非空字符串"
+msgstr "standardGeneric的参数必须是非空字符串"
 
 #: src/main/objects.c:1094
 #, c-format
@@ -4654,7 +4654,7 @@ msgstr "不能从非泛型函数体内调用standardGeneric(\"%s\") "
 
 #: src/main/objects.c:1117
 msgid "argument 'code' must be a character string"
-msgstr "参数'code'必需是字符串"
+msgstr "参数'code'必须是字符串"
 
 #: src/main/objects.c:1184
 #, c-format
@@ -4666,14 +4666,14 @@ msgstr ""
 
 #: src/main/objects.c:1192
 msgid "invalid object: must be a primitive function"
-msgstr "对象无效: 必需是原始函数"
+msgstr "对象无效: 必须是原始函数"
 
 #: src/main/objects.c:1239
 #, c-format
 msgid ""
 "the formal definition of a primitive generic must be a function object (got "
 "type '%s')"
-msgstr "原始同属函数的正式定义必需是函数对象(不能是'%s'类)"
+msgstr "原始同属函数的正式定义必须是函数对象(不能是'%s'类)"
 
 #: src/main/objects.c:1269
 #, c-format
@@ -4772,7 +4772,7 @@ msgstr "没有这样的'method'"
 
 #: src/main/optim.c:512
 msgid "REPORT must be > 0 (method = \"BFGS\")"
-msgstr "REPORT必需大于零 (method = \"BFGS\")"
+msgstr "REPORT必须大于零 (method = \"BFGS\")"
 
 #: src/main/optim.c:523
 msgid "initial value in 'vmmin' is not finite"
@@ -4796,7 +4796,7 @@ msgstr "optim的CG方法中没有这一种类"
 
 #: src/main/optim.c:1026
 msgid "REPORT must be > 0 (method = \"L-BFGS-B\")"
-msgstr "REPORT必需大于零 (method = \"L-BFGS-B\")"
+msgstr "REPORT必须大于零 (method = \"L-BFGS-B\")"
 
 #: src/main/optim.c:1050
 msgid "L-BFGS-B needs finite values of 'fn'"
@@ -4804,7 +4804,7 @@ msgstr "L-BFGS-B不能有'fn'的无限值"
 
 #: src/main/optim.c:1105
 msgid "trace, REPORT must be >= 0 (method = \"SANN\")"
-msgstr "迹,REPORT必需大于零 (method = \"SANN\")"
+msgstr "迹,REPORT必须大于零 (method = \"SANN\")"
 
 #: src/main/optimize.c:53 src/main/optimize.c:136 src/main/optimize.c:390
 msgid "NA replaced by maximum positive value"
@@ -4836,7 +4836,7 @@ msgstr "'zeroin'函数值无效"
 
 #: src/main/optimize.c:205
 msgid "'maxiter' must be positive"
-msgstr "'maxiter'必需是正数"
+msgstr "'maxiter'必须是正数"
 
 #: src/main/optimize.c:233 src/main/optimize.c:239
 #, c-format
@@ -5104,7 +5104,7 @@ msgstr "内部貼補的参数不是字符串"
 
 #: src/main/paste.c:363
 msgid "first argument must be atomic"
-msgstr "第一个参数必需是基元"
+msgstr "第一个参数必须是基元"
 
 #: src/main/paste.c:533
 msgid "Impossible mode ( x )"
@@ -5128,7 +5128,7 @@ msgstr "没有可以追加的文件"
 
 #: src/main/platform.c:455
 msgid "'outFile' must be a single file"
-msgstr "'outfile'必需是单文件"
+msgstr "'outfile'必须是单文件"
 
 #: src/main/platform.c:518 src/main/platform.c:826
 msgid "invalid filename argument"
@@ -5233,7 +5233,7 @@ msgstr "操作系统报告说无法执行将本地化设成\"%s\"的请求"
 
 #: src/main/platform.c:2038
 msgid "'hostname' must be a character vector of length 1"
-msgstr "'hostname'必需是长度为一的字符向量"
+msgstr "'hostname'必须是长度为一的字符向量"
 
 #: src/main/platform.c:2044
 #, c-format
@@ -5337,7 +5337,7 @@ msgstr "至少需要三个参数"
 
 #: src/main/plot.c:482
 msgid "\"log=\" specification must be character"
-msgstr "\"log=\"必需设定成字符"
+msgstr "\"log=\"必须设定成字符"
 
 #: src/main/plot.c:493
 #, c-format
@@ -5375,7 +5375,7 @@ msgstr "座标数目%d无效"
 
 #: src/main/plot.c:1017
 msgid "'hadj' must be of length one"
-msgstr "'hadj'的长度必需为一"
+msgstr "'hadj'的长度必须为一"
 
 #: src/main/plot.c:1024 src/main/plot.c:2576
 msgid "zero length 'padj' specified"
@@ -5499,7 +5499,7 @@ msgstr "a=, b= 设定无效"
 
 #: src/main/plot.c:2970
 msgid "'a' and 'b' must be finite"
-msgstr "'a'和'b'的值必需是有限的"
+msgstr "'a'和'b'的值必须是有限的"
 
 #: src/main/plot.c:3181
 msgid "invalid number of points in locator()"
@@ -5666,7 +5666,7 @@ msgstr "x/y的值或极限无效"
 
 #: src/main/plot3d.c:1747
 msgid "invalid contour levels: must be strictly increasing"
-msgstr "等高层次无效: 必需严格增加"
+msgstr "等高层次无效: 必须严格增加"
 
 #: src/main/plot3d.c:2409 src/main/plot3d.c:2422
 msgid "Axis orientation not calculated"
@@ -5690,15 +5690,15 @@ msgstr "'z'极限无效"
 
 #: src/main/plot3d.c:2498
 msgid "'xlab' must be a character vector of length 1"
-msgstr "'xlab'必需是长度为一的字符向量"
+msgstr "'xlab'必须是长度为一的字符向量"
 
 #: src/main/plot3d.c:2500
 msgid "'ylab' must be a character vector of length 1"
-msgstr "'ylab'必需是长度为一的字符向量"
+msgstr "'ylab'必须是长度为一的字符向量"
 
 #: src/main/plot3d.c:2502
 msgid "'zlab' must be a character vector of length 1"
-msgstr "'zlab'必需是长度为一的字符向量"
+msgstr "'zlab'必须是长度为一的字符向量"
 
 #: src/main/plot3d.c:2522
 msgid "invalid viewing parameters"
@@ -5754,7 +5754,7 @@ msgstr ".Internal(print.function(.))参数是非函数"
 
 #: src/main/print.c:258
 msgid "'gap' must be non-negative integer"
-msgstr "'gap'必需是正整数"
+msgstr "'gap'必须是正整数"
 
 #: src/main/print.c:282
 msgid "invalid 'tryS4' internal argument"
@@ -6029,7 +6029,7 @@ msgstr "復原文件幻数出错(文件可能有损坏)-- 没有载入任何数�
 
 #: src/main/saveload.c:1927 src/main/saveload.c:2225
 msgid "first argument must be a character vector"
-msgstr "第一参数必需是字符向量"
+msgstr "第一参数必须是字符向量"
 
 #: src/main/saveload.c:1999
 msgid "not a valid named list"
@@ -6046,7 +6046,7 @@ msgstr "载入数据没有成双列表形式"
 
 #: src/main/saveload.c:2050
 msgid "first argument must be a file name"
-msgstr "第一参数必需是文件名字"
+msgstr "第一参数必须是文件名字"
 
 #: src/main/saveload.c:2063 src/unix/edit.c:124
 msgid "unable to open file"
@@ -6118,7 +6118,7 @@ msgstr "%d行没有%d元素"
 
 #: src/main/scan.c:754
 msgid "number of items read is not a multiple of the number of columns"
-msgstr "读取的项目数必需是列数的倍数"
+msgstr "读取的项目数必须是列数的倍数"
 
 #: src/main/scan.c:846
 msgid "invalid 'strip.white' length"
@@ -6146,7 +6146,7 @@ msgstr "字符串结尾要用新行或EOF"
 
 #: src/main/scan.c:1205
 msgid "the first argument must be of mode character"
-msgstr "第一参数的状态必需是字符"
+msgstr "第一参数的状态必须是字符"
 
 #: src/main/scan.c:1437
 #, c-format
@@ -6172,7 +6172,7 @@ msgstr "'file'不是链结"
 
 #: src/main/scan.c:1738
 msgid "'dec' must be a single character"
-msgstr "'dec'必需为单节字符"
+msgstr "'dec'必须为单节字符"
 
 #: src/main/scan.c:1765
 #, c-format
@@ -6219,15 +6219,15 @@ msgstr "只用'%s'参数里的第一个元素"
 
 #: src/main/seq.c:517
 msgid "'length.out' must be a non-negative number"
-msgstr "'length.out'必需是正整数"
+msgstr "'length.out'必须是正整数"
 
 #: src/main/seq.c:534 src/main/seq.c:596 src/main/seq.c:610
 msgid "'from' must be finite"
-msgstr "'from'的值必需是有限的"
+msgstr "'from'的值必须是有限的"
 
 #: src/main/seq.c:536 src/main/seq.c:598 src/main/seq.c:628
 msgid "'to' must be finite"
-msgstr "'to'的值必需是有限的"
+msgstr "'to'的值必须是有限的"
 
 #: src/main/seq.c:548
 msgid "invalid '(to - from)/by' in 'seq'"
@@ -6243,11 +6243,11 @@ msgstr "'by'正负号不对"
 
 #: src/main/seq.c:612 src/main/seq.c:630
 msgid "'by' must be finite"
-msgstr "'by'的值必需是有限的"
+msgstr "'by'的值必须是有限的"
 
 #: src/main/seq.c:694
 msgid "argument must be coercible to non-negative integer"
-msgstr "参数必需能被强制改变成非负整数"
+msgstr "参数必须能被强制改变成非负整数"
 
 #: src/main/serialize.c:224 src/main/serialize.c:254 src/main/serialize.c:277
 msgid "unknown or inappropriate output format"
@@ -6259,7 +6259,7 @@ msgstr "二进列格式不再使用，替之用xdr格式"
 
 #: src/main/serialize.c:503
 msgid "must specify ascii, binary, or xdr format"
-msgstr "必需设定ascii， binary， 或xdr格式中的一个"
+msgstr "必须设定ascii， binary， 或xdr格式中的一个"
 
 #: src/main/serialize.c:504
 msgid "unknown output format"
@@ -6431,7 +6431,7 @@ msgstr "只有基元向量才能被检验排序"
 
 #: src/main/sort.c:309 src/main/sort.c:875 src/main/sort.c:974
 msgid "'decreasing' must be TRUE or FALSE"
-msgstr "'increasing'必需是TRUE或是FALSE"
+msgstr "'increasing'必须是TRUE或是FALSE"
 
 #: src/main/sort.c:312 src/main/sort.c:564
 msgid "only atomic vectors can be sorted"
@@ -6532,11 +6532,11 @@ msgstr "略过'%s = \"%s\"'参数值"
 
 #: src/main/split.c:38
 msgid "first argument must be a vector"
-msgstr "第一参数必需是向量"
+msgstr "第一参数必须是向量"
 
 #: src/main/split.c:40
 msgid "second argument must be a factor"
-msgstr "第二参数必需是因子"
+msgstr "第二参数必须是因子"
 
 #: src/main/split.c:45
 msgid "Group length is 0 but data length > 0"
@@ -6557,7 +6557,7 @@ msgstr "所需要的字符串长度%d大于最大限度%d"
 
 #: src/main/sprintf.c:101
 msgid "'fmt' is not a character vector"
-msgstr "'fmt'必需是字符向量"
+msgstr "'fmt'必须是字符向量"
 
 #: src/main/sprintf.c:106
 #, c-format
@@ -6595,7 +6595,7 @@ msgstr "每个轉換規格里最多只支持一个'*'号"
 
 #: src/main/sprintf.c:226
 msgid "argument for '*' conversion specification must be a number"
-msgstr "轉換規格'*'的参数必需是数字"
+msgstr "轉換規格'*'的参数必须是数字"
 
 #: src/main/sprintf.c:255
 msgid "the '%*' constructed 'fmt2' length exceeds maximum of %d"
@@ -6869,7 +6869,7 @@ msgstr "max里所有的参数都不存在；返回-Inf"
 
 #: src/main/summary.c:800
 msgid "argument to 'which' is not logical"
-msgstr "参数'which'必需是逻辑值"
+msgstr "参数'which'必须是逻辑值"
 
 #: src/main/summary.c:909
 msgid "no input has determined the number of cases"
@@ -6966,11 +6966,11 @@ msgstr "不支持代码页％3$d里从'％1$s'到'%2$s'的这种转换"
 
 #: src/main/sysutils.c:635
 msgid "'x' must be a character vector"
-msgstr "'x'必需是字符向量"
+msgstr "'x'必须是字符向量"
 
 #: src/main/sysutils.c:650
 msgid "'x' must be a list of NULL or raw vectors"
-msgstr "'x'必需是NULL列表或原始向量"
+msgstr "'x'必须是NULL列表或原始向量"
 
 #: src/main/sysutils.c:726 src/main/sysutils.c:789 src/main/sysutils.c:888
 #: src/main/sysutils.c:902 src/main/sysutils.c:977
@@ -7030,11 +7030,11 @@ msgstr "any_duplicated3(., <0-length incomp>)"
 
 #: src/main/unique.c:545
 msgid "'fromLast' must be length 1"
-msgstr "'fromLast'的长度必需为一"
+msgstr "'fromLast'的长度必须为一"
 
 #: src/main/unique.c:548
 msgid "'fromLast' must be TRUE or FALSE"
-msgstr "'fromLast'的值必需是TRUE或是FALSE"
+msgstr "'fromLast'的值必须是TRUE或是FALSE"
 
 #: src/main/unique.c:557
 #, c-format
@@ -7071,11 +7071,11 @@ msgstr "这不应该发生"
 
 #: src/main/unique.c:1508
 msgid "'names' must be a character vector"
-msgstr "'names'必需是字符向量"
+msgstr "'names'必须是字符向量"
 
 #: src/main/unique.c:1512
 msgid "'sep' must be a character string"
-msgstr "'sep'必需是字符串"
+msgstr "'sep'必须是字符串"
 
 #: src/main/unique.c:1585
 msgid "csduplicated not called on a STRSXP"
@@ -7132,11 +7132,11 @@ msgstr "'nthcdr'需要CDR列表"
 
 #: src/main/util.c:579
 msgid "'all.x' must be TRUE or FALSE"
-msgstr "'all.x'必需是TRUE或FALSE"
+msgstr "'all.x'必须是TRUE或FALSE"
 
 #: src/main/util.c:581
 msgid "'all.y' must be TRUE or FALSE"
-msgstr "'all.y'必需是TRUE或FALSE"
+msgstr "'all.y'必须是TRUE或FALSE"
 
 #: src/main/util.c:693
 msgid "missing value is invalid"
@@ -7167,7 +7167,7 @@ msgstr "需要字符向量'value'"
 
 #: src/main/util.c:1027
 msgid "'value' must be of positive length"
-msgstr "'value'的长度必需是正数"
+msgstr "'value'的长度必须是正数"
 
 #: src/main/util.c:1156 src/main/util.c:1164
 #, c-format
@@ -7420,25 +7420,25 @@ msgstr "分配插坐链结失败"
 #: src/modules/lapack/Lapack.c:45 src/modules/lapack/Lapack.c:64
 #, c-format
 msgid "argument type[1]='%s' must be a character string of string length 1"
-msgstr "参数type[1]='%s'必需是长度为一的字符向量"
+msgstr "参数type[1]='%s'必须是长度为一的字符向量"
 
 #: src/modules/lapack/Lapack.c:53
 #, c-format
 msgid "argument type[1]='%s' must be one of 'M','1','O','I','F' or 'E'"
-msgstr "type[1]='%s'参数必需取'M','1','O','I','F'或'E'其中的一个"
+msgstr "type[1]='%s'参数必须取'M','1','O','I','F'或'E'其中的一个"
 
 #: src/modules/lapack/Lapack.c:70
 #, c-format
 msgid "argument type[1]='%s' must be one of '1','O', or 'I'"
-msgstr "type[1]='%s'参数必需取'1','O'或'I'其中的一个"
+msgstr "type[1]='%s'参数必须取'1','O'或'I'其中的一个"
 
 #: src/modules/lapack/Lapack.c:84 src/modules/lapack/Lapack.c:705
 msgid "'jobu' and 'jobv' must be character strings"
-msgstr "'jobu'和'jobv'必需是字符对象"
+msgstr "'jobu'和'jobv'必须是字符对象"
 
 #: src/modules/lapack/Lapack.c:86
 msgid "'method' must be a character string"
-msgstr "'method'必需是字符串"
+msgstr "'method'必须是字符串"
 
 #: src/modules/lapack/Lapack.c:106 src/modules/lapack/Lapack.c:115
 #: src/modules/lapack/Lapack.c:170 src/modules/lapack/Lapack.c:181
@@ -7461,21 +7461,21 @@ msgstr "Lapack例行程序'%2$s'回复了%1$d错误代码"
 #: src/modules/lapack/Lapack.c:149 src/modules/lapack/Lapack.c:235
 #: src/modules/lapack/Lapack.c:760 src/modules/lapack/Lapack.c:813
 msgid "'x' must be a square numeric matrix"
-msgstr "'x'必需是正方形的数值矩阵"
+msgstr "'x'必须是正方形的数值矩阵"
 
 #: src/modules/lapack/Lapack.c:311
 msgid "'type' must be a character string"
-msgstr "'type'必需为字符串"
+msgstr "'type'必须为字符串"
 
 #: src/modules/lapack/Lapack.c:318 src/modules/lapack/Lapack.c:352
 #: src/modules/lapack/Lapack.c:409
 msgid "'A' must be a numeric matrix"
-msgstr "'A'必需是数值矩阵"
+msgstr "'A'必须是数值矩阵"
 
 #: src/modules/lapack/Lapack.c:345 src/modules/lapack/Lapack.c:401
 #: src/modules/lapack/Lapack.c:443 src/modules/lapack/Lapack.c:492
 msgid "'norm' must be a character string"
-msgstr "'norm'必需是字符串"
+msgstr "'norm'必须是字符串"
 
 #: src/modules/lapack/Lapack.c:373
 #, c-format
@@ -7495,7 +7495,7 @@ msgstr "Lapack例行程序'dgecon()'回复了[%d]错误代码"
 #: src/modules/lapack/Lapack.c:415 src/modules/lapack/Lapack.c:449
 #: src/modules/lapack/Lapack.c:498
 msgid "'A' must be a *square* matrix"
-msgstr "'A'必需是*正方形*矩阵"
+msgstr "'A'必须是*正方形*矩阵"
 
 #: src/modules/lapack/Lapack.c:429
 #, c-format
@@ -7504,7 +7504,7 @@ msgstr "Lapack例行程序'dtrcon()'回复了[%d]错误代码"
 
 #: src/modules/lapack/Lapack.c:445 src/modules/lapack/Lapack.c:494
 msgid "'A' must be a complex matrix"
-msgstr "'A'必需是复数矩阵"
+msgstr "'A'必须是复数矩阵"
 
 #: src/modules/lapack/Lapack.c:467
 #, c-format
@@ -7531,12 +7531,12 @@ msgstr "Lapack例行程序'ztrcon()'回复了[%d]错误代码"
 
 #: src/modules/lapack/Lapack.c:528 src/modules/lapack/Lapack.c:571
 msgid "'a' must be a complex matrix"
-msgstr "'a'必需是复数矩阵"
+msgstr "'a'必须是复数矩阵"
 
 #: src/modules/lapack/Lapack.c:530 src/modules/lapack/Lapack.c:621
 #: src/modules/lapack/Lapack.c:664
 msgid "'b' must be a complex matrix"
-msgstr "'b'必需是复数矩阵"
+msgstr "'b'必须是复数矩阵"
 
 #: src/modules/lapack/Lapack.c:535 src/modules/lapack/Lapack.c:957
 msgid "'a' is 0-diml"
@@ -7549,12 +7549,12 @@ msgstr "'b'在等号右手没有公式"
 #: src/modules/lapack/Lapack.c:539 src/modules/lapack/Lapack.c:961
 #, c-format
 msgid "'a' (%d x %d) must be square"
-msgstr "'a'(%d x %d)必需是正方形的"
+msgstr "'a'(%d x %d)必须是正方形的"
 
 #: src/modules/lapack/Lapack.c:541 src/modules/lapack/Lapack.c:963
 #, c-format
 msgid "'b' (%d x %d) must be compatible with 'a' (%d x %d)"
-msgstr "'b' (%d x %d)必需与'a'(%d x %d)相容"
+msgstr "'b' (%d x %d)必须与'a'(%d x %d)相容"
 
 #: src/modules/lapack/Lapack.c:550 src/modules/lapack/Lapack.c:887
 #: src/modules/lapack/Lapack.c:929 src/modules/lapack/Lapack.c:972
@@ -7570,11 +7570,11 @@ msgstr "公式右手应该有%d而不是%d行"
 
 #: src/modules/lapack/Lapack.c:874 src/modules/lapack/Lapack.c:1118
 msgid "'a' must be a square matrix"
-msgstr "'a'必需是正方形矩阵"
+msgstr "'a'必须是正方形矩阵"
 
 #: src/modules/lapack/Lapack.c:875
 msgid "'a' must have dims > 0"
-msgstr "'a'的dims必需大于零"
+msgstr "'a'的dims必须大于零"
 
 #: src/modules/lapack/Lapack.c:885
 #, c-format
@@ -7585,11 +7585,11 @@ msgstr "%d数位主次为非正定"
 #: src/modules/lapack/Lapack.c:950 src/modules/lapack/Lapack.c:993
 #: src/modules/lapack/Lapack.c:1111
 msgid "'a' must be a numeric matrix"
-msgstr "'a'必需是数值矩阵"
+msgstr "'a'必须是数值矩阵"
 
 #: src/modules/lapack/Lapack.c:901
 msgid "'size' argument must be a positive integer"
-msgstr "'size'参数必需是正整数"
+msgstr "'size'参数必须是正整数"
 
 #: src/modules/lapack/Lapack.c:916
 #, c-format
@@ -7609,7 +7609,7 @@ msgstr "元素(%d,%d)为零, 因此无法求逆"
 #: src/modules/lapack/Lapack.c:952 src/modules/lapack/Lapack.c:1037
 #: src/modules/lapack/Lapack.c:1075
 msgid "'b' must be a numeric matrix"
-msgstr "'b'必需是数值矩阵"
+msgstr "'b'必须是数值矩阵"
 
 #: src/modules/lapack/Lapack.c:975
 msgid "Lapack routine dgesv: system is exactly singular"
@@ -7622,7 +7622,7 @@ msgstr "系统计算上是奇异的: 倒条件数=%g"
 
 #: src/modules/lapack/Lapack.c:1113
 msgid "argument 'logarithm' must be logical"
-msgstr "参数'logarithm'必需是逻辑值"
+msgstr "参数'logarithm'必须是逻辑值"
 
 #: src/modules/X11/devX11.c:457
 msgid "cannot set grayscale: reverting to monochrome"
@@ -7991,7 +7991,7 @@ msgstr "参数'editor'还没有被设定"
 
 #: src/unix/edit.c:149
 msgid "'title' must be a string"
-msgstr "'title'必需是字符串"
+msgstr "'title'必须是字符串"
 
 #: src/unix/edit.c:167
 #, c-format
@@ -8064,7 +8064,7 @@ msgstr "需要非空字符参数"
 
 #: src/unix/sys-unix.c:250
 msgid "'intern' must be logical and not NA"
-msgstr "'intern’必需是逻辑值而不是NA"
+msgstr "'intern’必须是逻辑值而不是NA"
 
 #: src/unix/sys-unix.c:262
 #, c-format
