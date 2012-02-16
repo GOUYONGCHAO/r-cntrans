@@ -901,7 +901,7 @@ msgstr "运算符需要一个或两个参数"
 
 #: src/main/arithmetic.c:334
 msgid "non-numeric argument to binary operator"
-msgstr "二进列运算符中有非数值参数"
+msgstr "两元运算符中有非数值参数"
 
 #: src/main/arithmetic.c:395 src/main/relop.c:126
 msgid "non-conformable arrays"
@@ -4105,7 +4105,7 @@ msgstr "无法载入lapack 例行程序s"
 
 #: src/main/logic.c:47
 msgid "binary operations require two arguments"
-msgstr "二进列运算需要两个参数"
+msgstr "两元运算需要两个参数"
 
 #: src/main/logic.c:65 src/main/logic.c:127
 msgid "operations are possible only for numeric, logical or complex types"
@@ -4113,7 +4113,7 @@ msgstr "此运算只适用于数值，逻辑值或复数值种类"
 
 #: src/main/logic.c:75
 msgid "binary operation on non-conformable arrays"
-msgstr "二进列运算不能在非整合陈列上进行"
+msgstr "两元运算不能在非整合陈列上进行"
 
 #: src/main/logic.c:101 src/main/relop.c:146
 msgid "non-conformable time series"
