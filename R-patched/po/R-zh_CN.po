@@ -2789,7 +2789,7 @@ msgstr "call_R的参数数目无效"
 
 #: src/main/dotcode.c:2401
 msgid "invalid return value count in call_R"
-msgstr "call_R的回覆值数目无效"
+msgstr "call_R的返回值数目无效"
 
 #: src/main/dotcode.c:2435
 #, c-format
@@ -3485,7 +3485,7 @@ msgstr "for()循环顺序无效"
 
 #: src/main/eval.c:1440
 msgid "multi-argument returns are not permitted"
-msgstr "不允许多参数回覆值"
+msgstr "不允许多参数返回值"
 
 #: src/main/eval.c:1491
 msgid "invalid (NULL) left side of assignment"
@@ -4203,7 +4203,7 @@ msgstr "最高层任务回叫'%s'时产生了警告信息\n"
 
 #: src/main/main.c:1485
 msgid "top-level task callback did not return a logical value"
-msgstr "最高层任务回叫没有回覆逻辑值"
+msgstr "最高层任务回叫没有返回逻辑值"
 
 #: src/main/mapply.c:45
 msgid "Zero-length inputs cannot be mixed with those of non-zero length"
@@ -4338,7 +4338,7 @@ msgstr "Realloc 无法重新分配(大小为%.0f)的内存"
 
 #: src/main/memory.c:3060
 msgid "not safe to return vector pointer"
-msgstr "回覆向量指针不是安全的做法"
+msgstr "返回向量指针不是安全的做法"
 
 #: src/main/memory.c:3298
 msgid "memory profiling is not available on this system"
@@ -4723,7 +4723,7 @@ msgstr "类别为\"%s\"的目标对象没有对应于有效的S3目标对象"
 
 #: src/main/optim.c:73 src/main/optim.c:100 src/main/optim.c:184
 msgid "non-finite value supplied by optim"
-msgstr "optim回覆了无限值"
+msgstr "optim返回了无限值"
 
 #: src/main/optim.c:80
 #, c-format
@@ -5242,7 +5242,7 @@ msgstr "nsl()无法分辨主机'%s'"
 
 #: src/main/platform.c:2051
 msgid "unknown format returned by gethostbyname"
-msgstr "gethostbyname回覆了错误的格式"
+msgstr "gethostbyname返回了错误的格式"
 
 #: src/main/platform.c:2060
 msgid "nsl() is not supported on this platform"
@@ -6857,15 +6857,15 @@ msgstr "内部错误(do_summary里的'op = %d').\t 请向专家请教"
 
 #: src/main/summary.c:686
 msgid "no non-missing arguments, returning NA"
-msgstr "所有的参数都不存在; 回覆NA"
+msgstr "所有的参数都不存在; 返回NA"
 
 #: src/main/summary.c:689
 msgid "no non-missing arguments to min; returning Inf"
-msgstr "min里所有的参数都不存在; 回覆Inf"
+msgstr "min里所有的参数都不存在; 返回Inf"
 
 #: src/main/summary.c:691
 msgid "no non-missing arguments to max; returning -Inf"
-msgstr "max里所有的参数都不存在；回覆-Inf"
+msgstr "max里所有的参数都不存在；返回-Inf"
 
 #: src/main/summary.c:800
 msgid "argument to 'which' is not logical"
@@ -8000,7 +8000,7 @@ msgstr "无法启动编辑器'%s'"
 
 #: src/unix/edit.c:169
 msgid "editor ran but returned error status"
-msgstr "启动了编辑器但回覆错误状态"
+msgstr "启动了编辑器但返回错误状态"
 
 #: src/unix/edit.c:179
 #, c-format
@@ -8022,7 +8022,7 @@ msgstr "%s错误出现在%d行上，请用类似于x <- edit()的指令来回到
 
 #: src/unix/sys-std.c:128
 msgid "interrupt handler must not return"
-msgstr "中断處置程式不能有回覆值"
+msgstr "中断處置程式不能有返回值"
 
 #: src/unix/sys-std.c:518
 msgid ""
