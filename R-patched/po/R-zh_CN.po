@@ -3226,7 +3226,7 @@ msgstr "引进环境参数不对"
 
 #: src/main/envir.c:3297
 msgid "bad export environment argument"
-msgstr "引出环境参数不对"
+msgstr "引出环境参数错误"
 
 #: src/main/envir.c:3301
 msgid "length of import and export names must match"
@@ -3291,11 +3291,11 @@ msgstr[0] "警告信息：\n"
 #: src/main/errors.c:473
 #, c-format
 msgid "There were %d warnings (use warnings() to see them)\n"
-msgstr "共有%d个警告 (用warnings()来显示)\n"
+msgstr "共有%d个警告 (用warnings()来显示警告)\n"
 
 #: src/main/errors.c:476
 msgid "There were 50 or more warnings (use warnings() to see the first 50)\n"
-msgstr "警告多于50个(用warnings()来显示第一个到第五十个)\n"
+msgstr "警告多于50个(用warnings()来显示前五十个)\n"
 
 #: src/main/errors.c:525
 msgid "Error during wrapup: "
@@ -3362,15 +3362,15 @@ msgstr "不可兼容的参数"
 
 #: src/main/errors.c:1098
 msgid "unknown error (report this!)"
-msgstr "不知是什么错误(请报告!)"
+msgstr "未知错误(请报告!)"
 
 #: src/main/errors.c:1110
 msgid "unknown warning (report this!)"
-msgstr "不知是什么警告(请报告!)"
+msgstr "未知警告(请报告!)"
 
 #: src/main/errors.c:1188
 msgid "No function to return from, jumping to top level"
-msgstr "没有可回归的函数, 跳到最高层"
+msgstr "没有可返回的函数, 跳到最高层"
 
 #: src/main/errors.c:1204
 msgid "top level inconsistency?"
@@ -4873,7 +4873,7 @@ msgstr "参数里不能有遗漏值"
 
 #: src/main/optimize.c:488
 msgid "invalid parameter type"
-msgstr "参数种类无效"
+msgstr "参数类型无效"
 
 #: src/main/optimize.c:496
 msgid "invalid NA value in parameter"
@@ -5366,7 +5366,7 @@ msgstr "对数座标不能有负的极限"
 
 #: src/main/plot.c:649
 msgid "invalid type for axis labels"
-msgstr "座标標記种类无效"
+msgstr "座标標記类型无效"
 
 #: src/main/plot.c:927
 #, c-format
@@ -5406,16 +5406,16 @@ msgstr "%s()里的'x'和'y'的长度不一样"
 #: src/main/plot.c:1481
 #, c-format
 msgid "plot type '%s' will be truncated to first character"
-msgstr "绘图种类'%s'被缩短成第一个字符"
+msgstr "绘图类型'%s'被缩短成第一个字符"
 
 #: src/main/plot.c:1485 src/main/plot.c:3186
 msgid "invalid plot type"
-msgstr "绘图种类无效"
+msgstr "绘图类型无效"
 
 #: src/main/plot.c:1685
 #, c-format
 msgid "invalid plot type '%c'"
-msgstr "绘图种类'%c'无效"
+msgstr "绘图类型'%c'无效"
 
 #: src/main/plot.c:1745
 msgid "invalid third argument"
@@ -5511,7 +5511,7 @@ msgstr "identify()里点的数目无效"
 
 #: src/main/plot.c:3319
 msgid "incorrect argument type"
-msgstr "参数种类无效"
+msgstr "参数类型无效"
 
 #: src/main/plot.c:3331
 msgid "different argument lengths"
@@ -5603,7 +5603,7 @@ msgstr "盒形图[, 1:4]无效"
 
 #: src/main/plot.c:4090
 msgid "invalid symbol type"
-msgstr "符号种类无效"
+msgstr "符号类型无效"
 
 #: src/main/plot.c:4130 src/main/plot.c:4132 src/main/plot.c:4137
 #: src/main/plot.c:4139
@@ -6734,7 +6734,7 @@ msgstr "[[ ]] 下标数目不对"
 #: src/main/subassign.c:1695
 #, c-format
 msgid "incompatible types (from %s to %s) in [[ assignment"
-msgstr " [[ 赋值里有不可兼容的种类(从%s到%s)"
+msgstr " [[ 赋值里有不可兼容的类型(从%s到%s)"
 
 #: src/main/subassign.c:1739
 #, c-format
@@ -6803,7 +6803,7 @@ msgstr "只有负下标里才能有零"
 
 #: src/main/subscript.c:528
 msgid "character vector element does not have type CHARSXP"
-msgstr "字符向量元素没有CHARSXP种类"
+msgstr "字符向量元素没有CHARSXP类型"
 
 #: src/main/subscript.c:606
 msgid "no 'dimnames' attribute for array"
@@ -6819,11 +6819,11 @@ msgstr ""
 
 #: src/main/subset.c:278 src/main/subset.c:307
 msgid "matrix subscripting not handled for this type"
-msgstr "这一种类不能有矩阵下标"
+msgstr "该类型无法适用矩阵下标"
 
 #: src/main/subset.c:464
 msgid "array subscripting not handled for this type"
-msgstr "这一种类不能有阵列下标"
+msgstr "该类型无法适用数组下标"
 
 #: src/main/subset.c:776
 msgid "incorrect number of dimensions"
