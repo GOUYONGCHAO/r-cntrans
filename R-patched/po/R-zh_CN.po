@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs@R-project.org\n"
 "POT-Creation-Date: 2012-01-23 08:18+0000\n"
-"PO-Revision-Date: 2012-02-15 16:53+0200\n"
-"Last-Translator: Feng <m@feng.li>\n"
+"PO-Revision-Date: 2012-02-17 05:08+0200\n"
+"Last-Translator: yixuan <yixuan.qiu@cos.name>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -7627,29 +7627,31 @@ msgstr "参数'logarithm'必需是逻辑值"
 
 #: src/modules/X11/devX11.c:457
 msgid "cannot set grayscale: reverting to monochrome"
-msgstr "无法设灰度: 用黑白颜色"
+msgstr "无法设置灰度：转而使用黑白颜色"
 
 #: src/modules/X11/devX11.c:540
 msgid ""
 "X11 driver unable to obtain color cube\n"
 "  reverting to monochrome"
-msgstr "X11驱动程序无法打开颜色文块，转用黑白色。"
+msgstr ""
+"X11驱动无法获取彩色立方体\n"
+"转而使用黑白颜色"
 
 #: src/modules/X11/devX11.c:585
 msgid ""
 "Error: X11 cannot allocate additional graphics colors.\n"
 "Consider using X11 with colortype=\"pseudo.cube\" or \"gray\"."
 msgstr ""
-"错误：X11无法分配额外的图案颜色。\n"
-"请考虑用colortype=\"pseudo.cube\"或\"gray\"选项来调用X11。"
+"错误：X11无法分配额外的图形颜色。\n"
+"尝试设置colortype=\"pseudo.cube\"或\"gray\"选项来使用X11。"
 
 #: src/modules/X11/devX11.c:1015
 msgid ""
 "could not find any X11 fonts\n"
 "Check that the Font Path is correct."
 msgstr ""
-"找不到任何X11字形\n"
-"请检查字形路径设得是不是对。"
+"找不到X11字体\n"
+"请核对字体路径。"
 
 #: src/modules/X11/devX11.c:1075
 #, c-format
