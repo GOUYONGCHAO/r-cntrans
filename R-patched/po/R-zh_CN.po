@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs@R-project.org\n"
 "POT-Creation-Date: 2012-01-23 08:18+0000\n"
-"PO-Revision-Date: 2012-02-17 05:08+0200\n"
+"PO-Revision-Date: 2012-02-17 05:38+0200\n"
 "Last-Translator: yixuan <yixuan.qiu@cos.name>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -7656,48 +7656,48 @@ msgstr ""
 #: src/modules/X11/devX11.c:1075
 #, c-format
 msgid "X11 used font size %d when %d was requested"
-msgstr "虽然需要的是%2$d，但X11却大小为%1$d的字形"
+msgstr "X11需要大小为%2$d的字体，但使用的字体大小是%1$d"
 
 #: src/modules/X11/devX11.c:1109
 #, c-format
 msgid "X11 font %s, face %d at size %d could not be loaded"
-msgstr "无法载入X11字面为%2$d,大小为%3$d的字形%1$s"
+msgstr "无法载入字体族(family)为%s，形状(face)为%d，大小(size)为%d的X11字体"
 
 #: src/modules/X11/devX11.c:1118
 msgid ""
 "semi-transparency is not supported on this device: reported only once per "
 "page"
-msgstr "这装置不支持半透明输出：每一页只提醒一次"
+msgstr "该绘图设备不支持半透明颜色：每页只提示一次"
 
 #: src/modules/X11/devX11.c:1228
 #, c-format
 msgid "X11 protocol error: %s"
-msgstr "X11協定错误:%s"
+msgstr "X11协议错误：%s"
 
 #: src/modules/X11/devX11.c:1236
 #, c-format
 msgid "X11 I/O error while opening X11 connection to '%s'"
-msgstr "在打开'%s'链结的时候X11 I/O出错"
+msgstr "X11在打开到'%s'的连接时出现I/O错误"
 
 #: src/modules/X11/devX11.c:1254
 msgid "X11 fatal IO error: please save work and shut down R"
-msgstr "X11致命的IO错误: 请保存工作数据，然后重新启动R"
+msgstr "X11出现严重IO错误：请保存工作数据，然后重新启动R"
 
 #: src/modules/X11/devX11.c:1310
 msgid "locale not supported by Xlib: some X ops will operate in C locale"
-msgstr "Xlib不支持语言环境: 某些X操作指令将在C语言环境中起动"
+msgstr "Xlib不支持本地语言环境：某些X操作指令将在C语言环境中启动"
 
 #: src/modules/X11/devX11.c:1311
 msgid "X cannot set locale modifiers"
-msgstr "X无法设定语言环境修飾器"
+msgstr "X无法设定语言环境修改器"
 
 #: src/modules/X11/devX11.c:1315
 msgid "no png support in this version of R"
-msgstr "本R版本不支持png"
+msgstr "当前版本的R不支持png"
 
 #: src/modules/X11/devX11.c:1321
 msgid "filename too long in png() call"
-msgstr "png()调用时文件名字太长"
+msgstr "调用png()时文件名太长"
 
 #: src/modules/X11/devX11.c:1325
 #, c-format
@@ -7706,11 +7706,11 @@ msgstr "无法打开PNG文件'%s'"
 
 #: src/modules/X11/devX11.c:1337
 msgid "no jpeg support in this version of R"
-msgstr "本R版本不支持jpeg"
+msgstr "当前版本的R不支持jpeg"
 
 #: src/modules/X11/devX11.c:1347
 msgid "filename too long in jpeg() call"
-msgstr "jpeg()调用时文件名字太长"
+msgstr "调用jpeg()时文件名太长"
 
 #: src/modules/X11/devX11.c:1351
 #, c-format
@@ -7719,15 +7719,15 @@ msgstr "无法打开JPEG文件'%s'"
 
 #: src/modules/X11/devX11.c:1363
 msgid "no tiff support in this version of R"
-msgstr "本R版本不支持tiff"
+msgstr "当前版本的R不支持tiff"
 
 #: src/modules/X11/devX11.c:1371
 msgid "filename too long in tiff() call"
-msgstr "tiff()调用时文件名字太长"
+msgstr "调用tiff()时文件名太长"
 
 #: src/modules/X11/devX11.c:1383
 msgid "filename too long in bmp() call"
-msgstr "bmp()调用时文件名字太长"
+msgstr "调用bmp()时文件名太长"
 
 #: src/modules/X11/devX11.c:1387
 #, c-format
@@ -7737,24 +7737,24 @@ msgstr "无法打开BMP文件'%s'"
 #: src/modules/X11/devX11.c:1417
 #, c-format
 msgid "unable to open connection to X11 display '%s'"
-msgstr "无法打开链结到X11显示'%s'"
+msgstr "无法打开到X11显示设备'%s'的连接"
 
 #: src/modules/X11/devX11.c:1427
 msgid "ignoring 'display' argument as an X11 device is already open"
-msgstr "因为X11设备已经打开了，'display'参数略过不用"
+msgstr "由于X11设备已经打开，'display'参数将被忽略"
 
 #: src/modules/X11/devX11.c:1433
 msgid "cairo-based types may only work correctly on TrueColor visuals"
-msgstr "以cairo为基础的类型可能只在TrueColor视觉里才能正常工作"
+msgstr "基于cairo的类型可能只在真彩色模式中才能正常工作"
 
 #: src/modules/X11/devX11.c:1443
 msgid "jpeg() does not support transparency: using white bg"
-msgstr "jpeg()不支持透明绘图: 用白色的背景"
+msgstr "jpeg()不支持透明度：将使用白色背景"
 
 #: src/modules/X11/devX11.c:1548
 #, c-format
 msgid "unable to obtain information on display '%s'"
-msgstr "找不到关于'%s'显示的信息"
+msgstr "无法获取关于显示设备'%s'的信息"
 
 #: src/modules/X11/devX11.c:1566
 msgid "unable to create X11 window"
@@ -7763,20 +7763,20 @@ msgstr "无法建立X11窗口"
 #: src/modules/X11/devX11.c:1696
 #, c-format
 msgid "'width=%d, height=%d' are unlikely values in pixels"
-msgstr "'width=%d, height=%d'作为象素值很有可能不对"
+msgstr "'width=%d, height=%d'可能不是像素值"
 
 #: src/modules/X11/devX11.c:1701
 msgid "unable to create pixmap"
-msgstr "无法建立像映"
+msgstr "无法创建pixmap"
 
 #: src/modules/X11/devX11.c:1772
 msgid "font family not found in X11 font database"
-msgstr "X11字形数据库里没有这一字形家族"
+msgstr "X11字体数据库中没有找到该字体族"
 
 #: src/modules/X11/devX11.c:1811
 #, c-format
 msgid "invalid use of %d < 0 in '%s'"
-msgstr "'%2$s'里%1$d < 0用得不对"
+msgstr "'%2$s'中%1$d < 0用法错误"
 
 #: src/modules/X11/devX11.c:1932
 #, c-format
@@ -7794,7 +7794,7 @@ msgstr "无法建立XImage"
 
 #: src/modules/X11/devX11.c:2446
 msgid "attempt to use the locator after dev.hold()"
-msgstr "调用了dev.hold()后就不能再用定位器了"
+msgstr "调用dev.hold()之后不能再使用定位器"
 
 #: src/modules/X11/devX11.c:3022
 #, c-format
@@ -7803,19 +7803,19 @@ msgstr "无法打开%s设备"
 
 #: src/modules/X11/devX11.c:3046
 msgid "invalid 'width' or 'height'"
-msgstr "'width'或'height'不对"
+msgstr "参数'width'或'height'无效"
 
 #: src/modules/X11/devX11.c:3053
 msgid "invalid colortype passed to X11 driver"
-msgstr "传给X11驅動器的颜色种类不对"
+msgstr "传递给了X11驱动错误的颜色类型"
 
 #: src/modules/X11/devX11.c:3067
 msgid "unknown X11 color/colour model -- using monochrome"
-msgstr "没有这种X11颜色/颜色模型 --用黑白色的"
+msgstr "未知的X11颜色模型——将使用黑白颜色"
 
 #: src/modules/X11/devX11.c:3157
 msgid "no plot on device to save"
-msgstr "没有可以保存的设备"
+msgstr "图形设备中没有可以保存的图像"
 
 #: src/modules/X11/devX11.c:3159
 msgid "not an open X11cairo device"
@@ -7828,16 +7828,16 @@ msgstr "无法打开文件'%s'"
 
 #: src/modules/X11/devX11.c:3185
 msgid "savePlot() is not supported on this build"
-msgstr "本平台不支持savePlot()"
+msgstr "这一版本的R不支持savePlot()"
 
 #: src/modules/X11/devX11.c:3225
 msgid "unable to contact X11 display"
-msgstr "无法链结到X11显示"
+msgstr "无法连接到X11显示设备"
 
 #: src/modules/X11/devX11.c:3274
 #, c-format
 msgid "clipboard cannot be read (error code %d)"
-msgstr "读取裁剪板失败(错误码%d)"
+msgstr "无法读取剪贴板(错误代码%d)"
 
 #: src/modules/X11/devX11.c:3308
 msgid "cannot allocate memory for X11Routines structure"
@@ -7845,69 +7845,69 @@ msgstr "无法为X11Routines结构分配内存"
 
 #: src/nmath/bessel_i.c:67
 msgid "bessel_i allocation error"
-msgstr "bessel_i分配错误"
+msgstr "bessel_i内存分配错误"
 
 #: src/nmath/bessel_i.c:75 src/nmath/bessel_i.c:120
 #, c-format
 msgid "bessel_i(%g): ncalc (=%ld) != nb (=%ld); alpha=%g. Arg. out of range?\n"
-msgstr "bessel_i(%g): ncalc (=%ld)!= nb (=%ld); alpha=%g. 参数在范围外?\n"
+msgstr "bessel_i(%g): ncalc (=%ld) != nb (=%ld); alpha=%g. 参数是否超出了范围？\n"
 
 #: src/nmath/bessel_i.c:78 src/nmath/bessel_i.c:123
 #, c-format
 msgid "bessel_i(%g,nu=%g): precision lost in result\n"
-msgstr "bessel_i(%g,nu=%g): 结果的精确度有损害\n"
+msgstr "bessel_i(%g,nu=%g)：计算结果有精度损失\n"
 
 #: src/nmath/bessel_j.c:65
 msgid "bessel_j allocation error"
-msgstr "Bessel_j分配错误"
+msgstr "bessel_j内存分配错误"
 
 #: src/nmath/bessel_j.c:73 src/nmath/bessel_j.c:116
 #, c-format
 msgid "bessel_j(%g): ncalc (=%ld) != nb (=%ld); alpha=%g. Arg. out of range?\n"
-msgstr "bessel_j(%g): ncalc (=%ld)!= nb (=%ld); alpha=%g. 参数在范围外?\n"
+msgstr "bessel_j(%g): ncalc (=%ld) != nb (=%ld); alpha=%g. 参数是否超出了范围？\n"
 
 #: src/nmath/bessel_j.c:76 src/nmath/bessel_j.c:119
 #, c-format
 msgid "bessel_j(%g,nu=%g): precision lost in result\n"
-msgstr "bessel_j(%g,nu=%g): 结果的精确度有损害\n"
+msgstr "bessel_j(%g,nu=%g)：计算结果有精度损失\n"
 
 #: src/nmath/bessel_k.c:60
 msgid "bessel_k allocation error"
-msgstr "bessel_k分配错误"
+msgstr "bessel_k内存分配错误"
 
 #: src/nmath/bessel_k.c:68 src/nmath/bessel_k.c:105
 #, c-format
 msgid "bessel_k(%g): ncalc (=%ld) != nb (=%ld); alpha=%g. Arg. out of range?\n"
-msgstr "bessel_k(%g): ncalc (=%ld)!= nb (=%ld); alpha=%g. 参数在范围外?\n"
+msgstr "bessel_k(%g): ncalc (=%ld) != nb (=%ld); alpha=%g. 参数是否超出了范围？\n"
 
 #: src/nmath/bessel_k.c:71 src/nmath/bessel_k.c:108
 #, c-format
 msgid "bessel_k(%g,nu=%g): precision lost in result\n"
-msgstr "bessel_k(%g,nu=%g): 结果的精确度有损害\n"
+msgstr "bessel_k(%g,nu=%g)：计算结果有精度损失\n"
 
 #: src/nmath/bessel_y.c:64
 msgid "bessel_y allocation error"
-msgstr "bessel_y分配错误"
+msgstr "bessel_y内存分配错误"
 
 #: src/nmath/bessel_y.c:74 src/nmath/bessel_y.c:119
 #, c-format
 msgid "bessel_y(%g): ncalc (=%ld) != nb (=%ld); alpha=%g. Arg. out of range?\n"
-msgstr "bessel_y(%g): ncalc (=%ld)!= nb (=%ld); alpha=%g. 参数在范围外?\n"
+msgstr "bessel_y(%g): ncalc (=%ld) != nb (=%ld); alpha=%g. 参数是否超出了范围？\n"
 
 #: src/nmath/bessel_y.c:77 src/nmath/bessel_y.c:122
 #, c-format
 msgid "bessel_y(%g,nu=%g): precision lost in result\n"
-msgstr "bessel_y(%g,nu=%g): 结果的精确度有损害\n"
+msgstr "bessel_y(%g,nu=%g)：计算结果有精度损失\n"
 
 #: src/nmath/nmath.h:126
 #, c-format
 msgid "argument out of domain in '%s'\n"
-msgstr "'%s'里的参数值在范围外\n"
+msgstr "'%s'中参数取值超出了定义域\n"
 
 #: src/nmath/nmath.h:129
 #, c-format
 msgid "value out of range in '%s'\n"
-msgstr "'%s'里的值在范围外\n"
+msgstr "'%s'取值超出范围\n"
 
 #: src/nmath/nmath.h:132
 #, c-format
@@ -7917,17 +7917,17 @@ msgstr "'%s'收敛失败\n"
 #: src/nmath/nmath.h:135
 #, c-format
 msgid "full precision may not have been achieved in '%s'\n"
-msgstr "'%s'可能达不到全精度\n"
+msgstr "'%s'可能达不到完全精度\n"
 
 #: src/nmath/nmath.h:138
 #, c-format
 msgid "underflow occurred in '%s'\n"
-msgstr "'%s'下溢\n"
+msgstr "'%s'产生下溢\n"
 
 #: src/nmath/pnchisq.c:233
 #, c-format
 msgid "pnchisq(x=%g, ..): not converged in %d iter."
-msgstr "pnchisq(x=%g, ..):%d次循环后还没有聚合."
+msgstr "pnchisq(x=%g, ..)：%d次迭代后依然没有收敛"
 
 #: src/nmath/polygamma.c:499
 #, c-format
@@ -7937,11 +7937,11 @@ msgstr "deriv = %d > %d (= n_max)\n"
 #: src/nmath/rmultinom.c:78
 #, c-format
 msgid "rbinom: probability sum should be 1, but is %g"
-msgstr "rbinom: 机率和应该为一, 而不是%g"
+msgstr "rbinom：概率之和应为1，而不是%g"
 
 #: src/nmath/signrank.c:77
 msgid "signrank allocation error"
-msgstr "signrank分配错误"
+msgstr "signrank函数内存分配失败"
 
 #: src/nmath/snorm.c:326
 #, c-format

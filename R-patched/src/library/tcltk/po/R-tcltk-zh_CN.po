@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 2.14.1\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
 "POT-Creation-Date: 2012-01-23 08:19\n"
-"PO-Revision-Date: 2012-02-16 13:10+0200\n"
+"PO-Revision-Date: 2012-02-16 13:12+0200\n"
 "Last-Translator: road2stat <road2stat@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -49,7 +49,7 @@ msgid "Save workspace"
 msgstr "保存工作空间"
 
 msgid "Don't save workspace"
-msgstr ""
+msgstr "不要保存工作空间"
 
 msgid "t test"
 msgstr ""
@@ -82,10 +82,10 @@ msgid "Manuals in PDF format"
 msgstr ""
 
 msgid "OK"
-msgstr ""
+msgstr "确定"
 
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 msgid "'pb' is not from class \"tkProgressBar\""
 msgstr ""
@@ -94,10 +94,10 @@ msgid "'filters' must be a 2-column character matrix"
 msgstr ""
 
 msgid "Loading Tcl/Tk interface ..."
-msgstr ""
+msgstr "读取Tcl/Tk界面 ..."
 
 msgid "done"
-msgstr ""
+msgstr "完成"
 
 msgid "Tcl/Tk support is not available on this system"
 msgstr ""

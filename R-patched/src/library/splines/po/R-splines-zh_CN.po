@@ -3,18 +3,20 @@ msgstr ""
 "Project-Id-Version: R 2.14.1\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
 "POT-Creation-Date: 2012-01-23 08:19\n"
-"PO-Revision-Date: 2012-02-14 14:06+0800\n"
-"Last-Translator: G_will <g_will@ieqi.com>\n"
+"PO-Revision-Date: 2012-02-17 09:29+0200\n"
+"Last-Translator: road2stat <road2stat@gmail.com>\n"
 "Language-Team: \n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 2.1.6\n"
 
 msgid "must have at least 'ord' knots"
 msgstr ""
 
 msgid "length of 'derivs' must match length of 'x'"
-msgstr ""
+msgstr "'derivs'的长度必须与'x'的长度匹配"
 
 msgid "'ord' must be positive integer, at most the number of knots"
 msgstr ""
@@ -29,16 +31,16 @@ msgid "values of 'x' must be distinct"
 msgstr ""
 
 msgid "'formula' must be of the form \"y ~ x\""
-msgstr ""
+msgstr "'formula'必须是\"y ~ x\"的形式"
 
 msgid "lengths of 'x' and 'y' must match"
-msgstr ""
+msgstr "'x'和'y'的长度必须匹配"
 
 msgid "values of 'x' must be strictly increasing"
-msgstr ""
+msgstr "'x'的值必须严格递增"
 
 msgid "'ord' must be >= 2"
-msgstr ""
+msgstr "'ord' 必须 >= 2"
 
 msgid "the range of 'x' values exceeds one period"
 msgstr ""
@@ -47,10 +49,10 @@ msgid "knot positions must be non-decreasing"
 msgstr ""
 
 msgid "lengths of 'x' and 'y' must be the same"
-msgstr ""
+msgstr "'x'和'y'的长度必须相同"
 
 msgid "'deriv' must be between 0 and %d"
-msgstr ""
+msgstr "'deriv'必须在0和%d之间"
 
 msgid "knot positions must be strictly increasing"
 msgstr ""
@@ -59,11 +61,10 @@ msgid "spline must be monotone"
 msgstr ""
 
 msgid "'degree' must be integer >= 1"
-msgstr ""
+msgstr "'degree' 必须为 >= 1 的整数"
 
 msgid "'df' was too small; have used"
 msgstr ""
 
 msgid "some 'x' values beyond boundary knots may cause ill-conditioned bases"
 msgstr ""
-

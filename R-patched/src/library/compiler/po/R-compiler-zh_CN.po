@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 2.14.1\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
 "POT-Creation-Date: 2012-01-23 08:18\n"
-"PO-Revision-Date: 2012-02-16 12:39+0200\n"
-"Last-Translator: road2stat <road2stat@gmail.com>\n"
+"PO-Revision-Date: 2012-02-17 10:10+0200\n"
+"Last-Translator: G_will <g_will@ieqi.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -13,19 +13,20 @@ msgstr ""
 "X-Generator: Pootle 2.1.6\n"
 
 msgid "expected a single logical value for the S4 state flag"
-msgstr ""
+msgstr "预计得到一个单独的逻辑值对于S4的状态标记"
 
 msgid "not a proper evaluation environment"
-msgstr ""
+msgstr "不是一个合适的评估环境"
 
 msgid "'ns' must be a namespace or a namespace imports environment"
-msgstr ""
+msgstr "'ns' 必须是一个命名空间或者是命名空间导入的环境"
 
 msgid "bad assignment: %s"
-msgstr ""
+msgstr "错误的参数： %s"
 
+#, fuzzy
 msgid "cannot constant fold literal promises"
-msgstr ""
+msgstr "不能保持折叠字面的约定"
 
 msgid "cannot constant fold literal bytecode objects"
 msgstr ""
