@@ -2438,11 +2438,11 @@ msgstr "'x'为NULL"
 
 #: src/main/cov.c:643 src/main/cov.c:649
 msgid "incompatible dimensions"
-msgstr "不兼容的量度"
+msgstr "纬度不兼容"
 
 #: src/main/cov.c:670 src/main/cov.c:711 src/main/cov.c:744
 msgid "no complete element pairs"
-msgstr "不存在完的一对"
+msgstr "没有完整的元素配对"
 
 #: src/main/cov.c:683
 msgid "invalid 'use' (computational method)"
@@ -2763,7 +2763,7 @@ msgstr "对不起，参数太多"
 
 #: src/main/dotcode.c:1520 src/main/dotcode.c:1537
 msgid "Invalid graphics state"
-msgstr "图形狀態出错"
+msgstr "无效图形状态"
 
 #: src/main/dotcode.c:1610
 msgid "NULL value for DLLInfoReference when looking for DLL"
@@ -2824,7 +2824,7 @@ msgstr "'exdir'不存在"
 
 #: src/main/dounzip.c:361
 msgid "requested file not found in the zip file"
-msgstr "你所要求的文件在zip文件中没有"
+msgstr "zip文件中找不到所请求的文件"
 
 #: src/main/dounzip.c:364
 msgid "zip file is corrupt"
