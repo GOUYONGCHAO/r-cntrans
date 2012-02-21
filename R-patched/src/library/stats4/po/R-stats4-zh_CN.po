@@ -3,28 +3,29 @@ msgstr ""
 "Project-Id-Version: R 2.14.1\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
 "POT-Creation-Date: 2012-01-23 08:19\n"
-"PO-Revision-Date: 2012-02-14 14:08+0800\n"
+"PO-Revision-Date: 2012-02-20 17:05+0200\n"
 "Last-Translator: G_will <g_will@ieqi.com>\n"
 "Language-Team: \n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 2.1.6\n"
 
 msgid "some named arguments in 'fixed' are not arguments to the supplied log-likelihood"
-msgstr ""
+msgstr "一些固定的已命名参数并不是所应用的对数似然估计中的参数"
 
 msgid "'start' must be a named list"
-msgstr ""
+msgstr "\"开始\"必须是个已命名的列表。"
 
 msgid "some named arguments in 'start' are not arguments to the supplied log-likelihood"
-msgstr ""
+msgstr "“开始”中一些已命名的参数并不是所应用的对数似然估计中的参数。"
 
 msgid "profiling has found a better solution, so original fit had not converged"
-msgstr ""
+msgstr "分析已经找到了更好的解决方案，所以原来的拟合没有收敛"
 
 msgid "levels truncated to positive values only"
 msgstr ""
 
 msgid "extra arguments discarded"
 msgstr ""
-
