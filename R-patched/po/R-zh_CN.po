@@ -5783,11 +5783,11 @@ msgstr "BLAS/LAPACK 例行程序'%6s'产生了错误%d信息"
 
 #: src/main/printarray.c:483
 msgid "too few row labels"
-msgstr "行標記不够"
+msgstr "行标记不够"
 
 #: src/main/printarray.c:485
 msgid "too few column labels"
-msgstr "列標記不够"
+msgstr "列标记不够"
 
 #: src/main/printarray.c:519
 #, c-format
@@ -5822,15 +5822,15 @@ msgstr "do_random3产生了内部错误"
 
 #: src/main/random.c:440
 msgid "NA in probability vector"
-msgstr "机率向量中有NA"
+msgstr "概率向量中有NA"
 
 #: src/main/random.c:442
 msgid "non-positive probability"
-msgstr "不能有非负机率"
+msgstr "不能有非负概率"
 
 #: src/main/random.c:449
 msgid "too few positive probabilities"
-msgstr "正值机率太少"
+msgstr "正值概率太少"
 
 #: src/main/random.c:478
 msgid "cannot take a sample larger than the population when 'replace = FALSE'"
@@ -5840,7 +5840,7 @@ msgstr ""
 
 #: src/main/random.c:487
 msgid "incorrect number of probabilities"
-msgstr "机率数目不对"
+msgstr "概率数目不对"
 
 #: src/main/random.c:522
 msgid "invalid first argument 'n'"
@@ -6210,7 +6210,7 @@ msgstr "第二参数种类不对"
 
 #: src/main/seq.c:259
 msgid "attempt to replicate non-vector"
-msgstr "非向量不能被复制"
+msgstr "不能复制非向量"
 
 #: src/main/seq.c:383 src/main/seq.c:390 src/main/seq.c:519 src/main/seq.c:696
 #, c-format
@@ -6235,11 +6235,11 @@ msgstr "'seq'内的'(to - from)/by'值设得无效"
 
 #: src/main/seq.c:556
 msgid "'by' argument is much too small"
-msgstr "'by'参数太小了"
+msgstr "'by'参数过小"
 
 #: src/main/seq.c:558
 msgid "wrong sign in 'by' argument"
-msgstr "'by'正负号不对"
+msgstr "'by'正负号错误"
 
 #: src/main/seq.c:612 src/main/seq.c:630
 msgid "'by' must be finite"
@@ -6255,7 +6255,7 @@ msgstr "输出格式不对"
 
 #: src/main/serialize.c:495
 msgid "binary format is deprecated; using xdr instead"
-msgstr "二进列格式不再使用，替之用xdr格式"
+msgstr "二进列格式将不再使用，替之用xdr格式"
 
 #: src/main/serialize.c:503
 msgid "must specify ascii, binary, or xdr format"
@@ -7934,7 +7934,7 @@ msgstr "deriv = %d > %d (= n_max)\n"
 #: src/nmath/rmultinom.c:78
 #, c-format
 msgid "rbinom: probability sum should be 1, but is %g"
-msgstr "rbinom: 机率和应该为一, 而不是%g"
+msgstr "rbinom: 所有概率之和应该为一, 而不是%g"
 
 #: src/nmath/signrank.c:77
 msgid "signrank allocation error"
