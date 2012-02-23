@@ -3,114 +3,117 @@ msgstr ""
 "Project-Id-Version: R 2.14.1\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
 "POT-Creation-Date: 2012-01-23 08:18\n"
-"PO-Revision-Date: 2012-02-13 13:11+0800\n"
+"PO-Revision-Date: 2012-02-17 10:04+0200\n"
 "Last-Translator: G_will <g_will@ieqi.com>\n"
 "Language-Team: \n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 2.1.6\n"
 
 msgid "'%s' is defunct."
-msgstr ""
+msgstr "'%s' 已废弃。"
 
 msgid "Use '%s' instead."
-msgstr ""
+msgstr "请使用 '%s' 。"
 
 msgid "See help(\"Defunct\") and help(\"%s-defunct\")."
-msgstr ""
+msgstr "参见help(\"Defunct\") 和 help(\"%s-defunct\")。"
 
 msgid "See help(\"Defunct\")"
-msgstr ""
+msgstr "参见 help(\"Defunct\")"
 
 msgid "'symbol.C' is not needed: please remove it"
-msgstr ""
+msgstr "不需要 'symbol.C'，请移除它"
 
 msgid "'symbol.For' is not needed: please remove it"
-msgstr ""
+msgstr "'symbol.For' 是不需要的，请删掉它。"
 
 msgid "'%s' is deprecated."
-msgstr ""
+msgstr "'%s' 已弃用。"
 
 msgid "See help(\"Deprecated\") and help(\"%s-deprecated\")."
-msgstr ""
+msgstr "参见 help(\"Deprecated\") 和 help(\"%s-deprecated\")."
 
 msgid "See help(\"Deprecated\")"
-msgstr ""
+msgstr "参见 help(\"Deprecated\")"
 
 msgid "argument to 'La.svd' must be numeric or complex"
-msgstr ""
+msgstr "'La.svd' 的参数必须是数值型或者复合类型"
 
 msgid "infinite or missing values in 'x'"
-msgstr ""
+msgstr "'x' 中含有无限值或者缺失值"
 
 msgid "0 extent dimensions"
-msgstr ""
+msgstr "零长度的维度"
 
 msgid "'nu' must be 0, nrow(x) or ncol(x)"
-msgstr ""
+msgstr "'nu' 必须是0、nrow(x)或者ncol(x)"
 
 msgid "'nv' must be 0, nrow(x) or ncol(x)"
-msgstr ""
+msgstr "'nv' 必须是0、nrow(x)或者ncol(x)"
 
 msgid "second argument must be a list"
-msgstr ""
+msgstr "第二个参数必须是列表"
 
 msgid "'iconvlist' is not available on this system"
-msgstr ""
+msgstr "在这个系统中，'iconvlist'是不可用的"
 
 msgid "'kind' must be a character string of length 1 (RNG to be used)."
-msgstr ""
+msgstr "'kind' 必须是长度为1的字符串 (RNG 会被使用)."
 
 msgid "'%s' is not a valid abbreviation of an RNG"
-msgstr ""
+msgstr "'%s' 不是 RNG 有效的缩写"
 
 msgid "'normal.kind' must be a character string of length 1"
-msgstr ""
+msgstr "'normal.kind' 必须是长度为1的字符串"
 
 msgid "'%s' is not a valid choice"
-msgstr ""
+msgstr "'%s' 不是有效的选择"
 
 msgid "Buggy version of Kinderman-Ramage generator used"
-msgstr ""
+msgstr "使用了漏洞版本的 Kinderman-Ramage 发生器"
 
 msgid "Buggy version of Kinderman-Ramage generator is not allowed"
-msgstr ""
+msgstr "漏洞版本的 Kinderman-Ramage 发生器不允许使用"
 
 msgid "malformed version string"
-msgstr ""
+msgstr "异常版本的字符串"
 
 msgid "target is %s, current is %s"
-msgstr ""
+msgstr "目标为 %s, 当前为 %s"
 
 msgid "dim(X) must have a positive length"
-msgstr ""
+msgstr "dim(X) 的长度必须为正"
 
+#, fuzzy
 msgid "'X' must have named dimnames"
-msgstr ""
+msgstr "'X' 必须以维度名命名"
 
 msgid "not all elements of 'MARGIN' are names of dimensions"
-msgstr ""
+msgstr "不是所有的 'MARGIN 元素都以维度命名"
 
 msgid "'dim' specifies too large an array"
-msgstr ""
+msgstr "'dim' 指定了一个过大的数组"
 
 msgid "incorrect value for 'MARGIN'"
-msgstr ""
+msgstr "对于'MARGIN'是错误的值"
 
 msgid "you cannot be serious"
 msgstr ""
 
 msgid "*** 'pos=1' is not possible; setting 'pos=2' for now."
-msgstr ""
+msgstr "*** 'pos=1' 是不可能的；现在设置 'pos=2'。"
 
 msgid "*** Note that 'pos=1' will give an error in the future"
-msgstr ""
+msgstr "*** 显示 'pos=1' 将会在未来产生一个错误"
 
 msgid "file '%s' not found"
-msgstr ""
+msgstr "没有找到 '%s' 文件 "
 
 msgid "invalid 'name' argument"
-msgstr ""
+msgstr "无效的 'name' 参数"
 
 msgid "package %s is required by %s, which may no longer work correctly"
 msgstr ""
@@ -118,92 +121,96 @@ msgstr ""
 msgid "package %s is required by %s so will not be detached"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "%s failed in %s() for '%s', details:\n"
 "  call: %s\n"
 "  error: %s"
 msgstr ""
+"%s 失败，在 %s() 中，对于 '%s' ， 细节：\n"
+"提示: %s\n"
+"错误: %s"
 
 msgid "namespace cannot be unloaded:"
-msgstr ""
+msgstr "命名空间不能被载入："
 
 msgid "converted to character string"
-msgstr ""
+msgstr "转换为字符串"
 
 msgid "replaced regular expression pattern '[' by  '\\\\['"
-msgstr ""
+msgstr "使用 '\\\\[' 替换正则表达式中的 '['"
 
 msgid "replaced '[<-' by '\\\\[<-' in regular expression pattern"
-msgstr ""
+msgstr "替换 '[<-' 为 '\\\\[<-' 在正则表达式中"
 
 msgid "RHS must be list"
-msgstr ""
+msgstr "RHS必须为列表"
 
 msgid "an object with that name already exists"
-msgstr ""
+msgstr "已经存在相同名字的对象"
 
 msgid "autoloader did not find '%s' in '%s'"
-msgstr ""
+msgstr "自动载入器不能找到 '%s' 在 '%s' 中"
 
 msgid "invalid argument values in 'backsolve'"
-msgstr ""
+msgstr "不可用的参数值在 'backsolve' 中"
 
 msgid "singular matrix in 'backsolve'. First zero in diagonal [%d]"
-msgstr ""
+msgstr "奇异矩阵在 'backsolve' 中。第一个零在对角线 [%d]"
 
 msgid "complex matrices not permitted at present"
-msgstr ""
+msgstr "目前还不允许复矩阵"
 
 msgid "non-numeric argument to 'chol'"
-msgstr ""
+msgstr "非数值的参数对于 'chol'"
 
 msgid "non-square matrix in 'chol'"
-msgstr ""
+msgstr "非方矩阵在 'chol'"
 
 msgid "non-matrix argument to 'chol'"
-msgstr ""
+msgstr "非矩阵参数对于 'chol'"
 
 msgid "matrix not positive definite"
-msgstr ""
+msgstr "矩阵非正定"
 
 msgid "non-positive definite matrix in 'chol'"
-msgstr ""
+msgstr "非正定矩阵在 'chol' 中"
 
 msgid "non-numeric argument to 'chol2inv'"
 msgstr ""
 
 msgid "invalid 'size' argument in 'chol2inv'"
-msgstr ""
+msgstr "不可用的 'size' 参数，在 'chol2in' 中"
 
 msgid "singular matrix in 'chol2inv'"
-msgstr ""
+msgstr "奇异矩阵在 'chol2inv' 中"
 
 msgid "'x' must be an array of at least two dimensions"
-msgstr ""
+msgstr "'x' 必须是一个至少二维的数组"
 
 msgid "invalid 'dims'"
-msgstr ""
+msgstr "无效的 'dims'"
 
 msgid "bad handler specification"
-msgstr ""
+msgstr "不好的处理程序规范"
 
 msgid "no 'restart' '%s' found"
-msgstr ""
+msgstr "没找到 'restart' '%s'"
 
 msgid "not an interactive session"
-msgstr ""
+msgstr "不是一个交互式情景"
 
 msgid "not a valid restart specification"
-msgstr ""
+msgstr "不是一个有效的重启动规范"
 
 msgid "argument 'where' of length 0"
-msgstr ""
+msgstr "长度为0的参数 'where'"
 
 msgid "argument 'object' must deparse to a single character string"
-msgstr ""
+msgstr "参数 'object' 必须被解析为一个单独的字符串"
 
 msgid "'origin' must be one of 'start', 'current' or 'end'"
-msgstr ""
+msgstr "'origin' 必须是 'start' 、 'current' 或  'end'"
 
 msgid "can only truncate an open connection"
 msgstr ""
@@ -221,7 +228,7 @@ msgid "'from' must be raw or character"
 msgstr ""
 
 msgid "'x' must be numeric"
-msgstr ""
+msgstr "'x'必须为数值型"
 
 msgid "invalid number of intervals"
 msgstr ""
@@ -230,16 +237,16 @@ msgid "'breaks' are not unique"
 msgstr ""
 
 msgid "labels/breaks length conflict"
-msgstr ""
+msgstr "labels和breaks的长度冲突"
 
 msgid "invalid 'row.names' length"
-msgstr ""
+msgstr "'row.names'的长度无效"
 
 msgid "duplicate 'row.names' are not allowed"
-msgstr ""
+msgstr "不允许指定重复的'row.names'"
 
 msgid "missing values in 'row.names' are not allowed"
-msgstr ""
+msgstr "'row.names'中不允许存在缺失值"
 
 msgid "invalid 'dimnames' given for data frame"
 msgstr ""
@@ -419,22 +426,22 @@ msgid "not defined for Date objects"
 msgstr ""
 
 msgid "'from' must be specified"
-msgstr ""
+msgstr "'from'必须被指定"
 
 msgid "'from' must be a Date object"
 msgstr ""
 
 msgid "'from' must be of length 1"
-msgstr ""
+msgstr "'from'的长度必须为1"
 
 msgid "'to' must be a Date object"
 msgstr ""
 
 msgid "'to' must be of length 1"
-msgstr ""
+msgstr "'to'的长度必须为1"
 
 msgid "'length.out' must be of length 1"
-msgstr ""
+msgstr "'length.out'的长度必须为1"
 
 msgid "exactly two of 'to', 'by' and 'length.out' / 'along.with' must be specified"
 msgstr ""
@@ -1496,37 +1503,37 @@ msgid "<0 elements>"
 msgstr ""
 
 msgid "invalid 'digits'"
-msgstr ""
+msgstr "无效的'digits'"
 
 msgid "arguments 'show.output.on.console', 'minimized' and 'invisible' are for Windows only"
 msgstr ""
 
 msgid "'intern' must be TRUE or FALSE"
-msgstr ""
+msgstr "'intern'必须为TRUE或FALSE"
 
 msgid "'ignore.stdout' must be TRUE or FALSE"
-msgstr ""
+msgstr "'ignore.stdout'必须为TRUE或FALSE"
 
 msgid "'ignore.stderr' must be TRUE or FALSE"
-msgstr ""
+msgstr "'ignore.stderr'必须为TRUE或FALSE"
 
 msgid "'wait' must be TRUE or FALSE"
-msgstr ""
+msgstr "'wait'必须为TRUE或FALSE"
 
 msgid "'input' must be a character vector or 'NULL'"
-msgstr ""
+msgstr "'input'必须为字符型向量或'NULL'"
 
 msgid "arguments 'minimized' and 'invisible' are for Windows only"
-msgstr ""
+msgstr "参数'minimized'和'invisible'仅支持在Windows下使用"
 
 msgid "setting stdout = TRUE"
 msgstr ""
 
 msgid "'stdout' must be of length 1"
-msgstr ""
+msgstr "'stdout'的长度必须为1"
 
 msgid "'stderr' must be of length 1"
-msgstr ""
+msgstr "'stderr'的长度必须为1"
 
 msgid "'which' was not found on this platform"
 msgstr ""
@@ -1535,10 +1542,10 @@ msgid "'show.output.on.console' must be TRUE or FALSE"
 msgstr ""
 
 msgid "'minimized' must be TRUE or FALSE"
-msgstr ""
+msgstr "'minimized'必须为TRUE或FALSE"
 
 msgid "'invisible' must be TRUE or FALSE"
-msgstr ""
+msgstr "'invisible'必须为TRUE或FALSE"
 
 msgid "'%s' could not be run"
 msgstr ""
@@ -1571,7 +1578,7 @@ msgid "items"
 msgstr ""
 
 msgid "have been removed from the search path"
-msgstr ""
+msgstr "已从搜索路径中移除"
 
 msgid "cannot find namespace environment"
 msgstr ""
@@ -1579,50 +1586,39 @@ msgstr ""
 msgid "deparse option %s is not recognized"
 msgid_plural "deparse options %s are not recognized"
 msgstr[0] ""
-msgstr[1] ""
 
 msgid "library %s contains no packages"
 msgid_plural "libraries %s contain no packages"
 msgstr[0] ""
-msgstr[1] ""
 
 msgid "package %s is not loaded"
 msgid_plural "packages %s are not loaded"
 msgstr[0] ""
-msgstr[1] ""
 
 msgid "there is no package called"
 msgid_plural "there are no packages called"
 msgstr[0] ""
-msgstr[1] ""
 
 msgid "object %s not found"
 msgid_plural "objects %s not found"
 msgstr[0] ""
-msgstr[1] ""
 
 msgid "class %s is not exported by 'namespace:%s'"
 msgid_plural "classes %s are not exported by 'namespace:%s'"
 msgstr[0] ""
-msgstr[1] ""
 
 msgid "object %s is not exported by 'namespace:%s'"
 msgid_plural "objects %s are not exported by 'namespace:%s'"
 msgstr[0] ""
-msgstr[1] ""
 
 msgid "previous export '%s' is being replaced"
 msgid_plural "previous exports '%s' are being replaced"
 msgstr[0] ""
-msgstr[1] ""
 
 msgid "S3 method %s was declared in NAMESPACE but not found"
 msgid_plural "S3 methods %s were declared in NAMESPACE but not found"
 msgstr[0] ""
-msgstr[1] ""
 
 msgid "Warning message:\n"
 msgid_plural "Warning messages:\n"
 msgstr[0] ""
-msgstr[1] ""
-

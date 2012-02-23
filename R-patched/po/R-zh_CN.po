@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs@R-project.org\n"
 "POT-Creation-Date: 2012-01-23 08:18+0000\n"
-"PO-Revision-Date: 2005-05-20 18:26+0800\n"
-"Last-Translator: ronggui\n"
+"PO-Revision-Date: 2012-02-17 05:38+0200\n"
+"Last-Translator: yixuan <yixuan.qiu@cos.name>\n"
 "Language-Team: Chinese\n"
-"Language: \n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.1.6\n"
 
 #: src/appl/binning.c:73
 msgid "NA's in .C(\"bincode\",... NAOK=FALSE)"
@@ -8187,3 +8188,57 @@ msgstr "没有X11平台这一功能"
 
 #~ msgid "cairo-based devices are not supported on this build"
 #~ msgstr "本平台不支持以cairo为基础的设备"
+
+#~ msgid "no locator capability in device driver"
+#~ msgstr "设备驱动程序没有定位器功能"
+
+#~ msgid ""
+#~ "invalid body argument for \"function\"\n"
+#~ "Should NEVER happen; please bug.report() [mkCLOSXP]"
+#~ msgstr "\"function\"主体参数有错。这不应该发生，请用bug.report() [mkCLOSXP]"
+
+#~ msgid "vector: zero-length 'type' argument"
+#~ msgstr "矢量: 'type'参数的长度为零"
+
+#~ msgid "function is too long to keep source (at line %d)"
+#~ msgstr "函数太长，无法保留其代码(%d行)"
+
+#~ msgid "functions nested too deeply in source code at line %d"
+#~ msgstr "%d行代码源里的函数功能嵌套太深"
+
+#~ msgid "not a vector object"
+#~ msgstr "非矢量对象"
+
+#~ msgid "can only handle simple real vectors"
+#~ msgstr "只能用简单的实数矢量"
+
+#~ msgid "not a simple vector"
+#~ msgstr "非简单矢量"
+
+#~ msgid "not a simple matrix"
+#~ msgstr "非简单矩阵"
+
+#~ msgid "proc.time() is not implemented on this system"
+#~ msgstr "本系统没有实现proc.time()这一功能"
+
+#~ msgid "setTimelimit() is not implemented on this system"
+#~ msgstr "本系统没有实现setTimelimit()"
+
+#~ msgid "setSessionTimelimit() is not implemented on this system"
+#~ msgstr "本系统没有实现setSessionTimelimit()"
+
+#~ msgid "type=\"cairo\" is not supported on this build -- using \"Xlib\""
+#~ msgstr "本平台不支持type=\"cairo\" --用\"Xlib\""
+
+#~ msgid "invalid string argument"
+#~ msgstr "字符串参数不对"
+
+#~ msgid "unimplemented cairo-based device"
+#~ msgstr "没有实现以cairo为基础的设备"
+
+#~ msgid "unable to start device '%s'"
+#~ msgstr "无法启动'%s'设备"
+
+#~ msgid "cairo-based devices are not supported on this build"
+#~ msgstr "本平台不支持以cairo为基础的设备"
+>>>>>>> c256472d502491f9dc5adabf5782904468da6a9b
