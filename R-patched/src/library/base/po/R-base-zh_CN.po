@@ -891,31 +891,31 @@ msgid "doc"
 msgstr ""
 
 msgid "Description:"
-msgstr ""
+msgstr "简述:"
 
 msgid "Index:"
-msgstr ""
+msgstr "索引:"
 
 msgid "Information on package %s"
-msgstr ""
+msgstr "%s包的信息"
 
 msgid "Documentation for package %s"
-msgstr ""
+msgstr "%s包的文档"
 
 msgid "package %s required by %s could not be found"
 msgstr ""
 
 msgid "package %s %s was found, but %s %s is required by %s"
-msgstr ""
+msgstr "找到包%s %s,但是它需要前置载入 %s "
 
 msgid "package %s could not be loaded"
-msgstr ""
+msgstr "无法载入包 %s "
 
 msgid "package %s %s is loaded, but %s %s is required by %s"
 msgstr ""
 
 msgid "empty (zero-byte) input file"
-msgstr ""
+msgstr "输入文件为空(零字节)"
 
 msgid "input has been corrupted, with LF replaced by CR"
 msgstr ""
@@ -944,7 +944,7 @@ msgid "'compress = \"%s\"' is invalid"
 msgstr ""
 
 msgid "bad file argument"
-msgstr ""
+msgstr "错误的文件参数"
 
 msgid "can only save to a binary connection"
 msgstr ""
@@ -953,7 +953,7 @@ msgid "image could not be renamed and is left in"
 msgstr ""
 
 msgid "[Previously saved workspace restored]"
-msgstr ""
+msgstr "[恢复了先前保存的工作空间]"
 
 msgid "Attempting to load the environment %s"
 msgstr ""
@@ -968,10 +968,10 @@ msgid "must specify formal argument names to vectorize"
 msgstr ""
 
 msgid "'arg' must be NULL or a character vector"
-msgstr ""
+msgstr "'arg' 必须是NULL 或者字符向量"
 
 msgid "'arg' must be of length 1"
-msgstr ""
+msgstr "'arg'长度必须是1"
 
 msgid "'arg' must be of length >= 1"
 msgstr ""
@@ -980,10 +980,10 @@ msgid "'arg' should be one of %s"
 msgstr ""
 
 msgid "there is more than one match in 'match.arg'"
-msgstr ""
+msgstr "在'match.arg'中有一个以上匹配"
 
 msgid "no match"
-msgstr ""
+msgstr "找不到"
 
 msgid "'input' must have length 1"
 msgstr ""
@@ -992,19 +992,19 @@ msgid "'input' and 'target' must be character vectors"
 msgstr ""
 
 msgid "'%s' is not a function, character or symbol"
-msgstr ""
+msgstr "'%s' 不是一个函数，字符或者符号"
 
 msgid "found non-function '%s'"
 msgstr ""
 
 msgid "attempt to set rownames on object with no dimensions"
-msgstr ""
+msgstr "试图设置没有维度对象的行名"
 
 msgid "attempt to set colnames on object with less than two dimensions"
-msgstr ""
+msgstr "试图设置少于两维对象的列名"
 
 msgid "argument is not numeric or logical: returning NA"
-msgstr ""
+msgstr "参数不是数值或者逻辑值;将返回NA"
 
 msgid "'trim' must be numeric of length one"
 msgstr ""
@@ -1013,16 +1013,16 @@ msgid "trimmed means are not defined for complex data"
 msgstr ""
 
 msgid "'by' must match numbers of columns"
-msgstr ""
+msgstr "'by' 必须吻合列的数字编号(numbers of columns)"
 
 msgid "'by' must match number of columns"
-msgstr ""
+msgstr "'by' 必须吻合列的数量(number of columns)"
 
 msgid "'by' must specify column(s) as numbers, names or logical"
-msgstr ""
+msgstr "'by' 必须指定列的编号,名字,或者逻辑查询"
 
 msgid "'by' must specify valid column(s)"
-msgstr ""
+msgstr "'by' 必须指定有效的列"
 
 msgid "'by.x' and 'by.y' specify different numbers of columns"
 msgstr ""
@@ -1055,7 +1055,7 @@ msgid "namespace is already attached"
 msgstr ""
 
 msgid "%s not found"
-msgstr ""
+msgstr "没有找到 %s "
 
 msgid "namespace %s is already sealed in loadNamespace"
 msgstr ""
