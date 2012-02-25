@@ -73,10 +73,10 @@ msgid "'%s' is not a valid choice"
 msgstr "'%s' 不是有效的选择"
 
 msgid "Buggy version of Kinderman-Ramage generator used"
-msgstr "使用了漏洞版本的 Kinderman-Ramage 发生器"
+msgstr "使用了不稳定版本的 Kinderman-Ramage 发生器"
 
 msgid "Buggy version of Kinderman-Ramage generator is not allowed"
-msgstr "漏洞版本的 Kinderman-Ramage 发生器不允许使用"
+msgstr "不稳定版本的 Kinderman-Ramage 发生器不允许使用"
 
 msgid "malformed version string"
 msgstr "异常版本的字符串"
@@ -101,7 +101,7 @@ msgid "incorrect value for 'MARGIN'"
 msgstr "对于'MARGIN'是错误的值"
 
 msgid "you cannot be serious"
-msgstr ""
+msgstr "你在开玩笑吗?"
 
 msgid "*** 'pos=1' is not possible; setting 'pos=2' for now."
 msgstr "*** 'pos=1' 是不可能的；现在设置 'pos=2'。"
@@ -116,10 +116,10 @@ msgid "invalid 'name' argument"
 msgstr "无效的 'name' 参数"
 
 msgid "package %s is required by %s, which may no longer work correctly"
-msgstr ""
+msgstr "'%s'包需被引入到了 '%s', 所以该包不能正常工作 "
 
 msgid "package %s is required by %s so will not be detached"
-msgstr ""
+msgstr "'%s'包需被引入到了 '%s', 所以该包不能从当前环境中去除(detached)"
 
 #, fuzzy
 msgid ""
@@ -216,13 +216,13 @@ msgid "can only truncate an open connection"
 msgstr ""
 
 msgid "can only write vector objects"
-msgstr ""
+msgstr "只能写入向量对象"
 
 msgid "can only write character objects"
-msgstr ""
+msgstr "只能写入字符对象"
 
 msgid "supplied timeout must be NULL or a non-negative number"
-msgstr ""
+msgstr "所提供的超时参数必须是NULL或者非负数"
 
 msgid "'from' must be raw or character"
 msgstr ""
@@ -231,10 +231,10 @@ msgid "'x' must be numeric"
 msgstr "'x'必须为数值型"
 
 msgid "invalid number of intervals"
-msgstr ""
+msgstr "间隔(interval)数字无效"
 
 msgid "'breaks' are not unique"
-msgstr ""
+msgstr "'breaks' 并不唯一 "
 
 msgid "labels/breaks length conflict"
 msgstr "labels和breaks的长度冲突"
@@ -249,13 +249,13 @@ msgid "missing values in 'row.names' are not allowed"
 msgstr "'row.names'中不允许存在缺失值"
 
 msgid "invalid 'dimnames' given for data frame"
-msgstr ""
+msgstr "当前数据框的'dimnames'无效"
 
 msgid "cannot coerce class '%s' into a data.frame"
-msgstr ""
+msgstr "无法将类'%s'转换成数据框"
 
 msgid "invalid 'row.names', length %d for a data frame with %d rows"
-msgstr ""
+msgstr "无效'row.names',  数据框长度为%d却有 %d 行数据"
 
 msgid "supplied %d row names for %d rows"
 msgstr ""
@@ -267,7 +267,7 @@ msgid "mismatch of row names in arguments of 'data.frame', item %d"
 msgstr ""
 
 msgid "some row.names duplicated:"
-msgstr ""
+msgstr "一部分 row.names 重复"
 
 msgid ","
 msgstr ""
@@ -276,10 +276,10 @@ msgid "--> row.names NOT used"
 msgstr ""
 
 msgid "row names contain missing values"
-msgstr ""
+msgstr "行名称中包含空值(missing values)"
 
 msgid "duplicate row.names:"
-msgstr ""
+msgstr "行名称重复"
 
 msgid "arguments imply differing number of rows:"
 msgstr ""
@@ -300,7 +300,7 @@ msgid "drop argument will be ignored"
 msgstr ""
 
 msgid "undefined columns selected"
-msgstr ""
+msgstr "选择了未定义的列"
 
 msgid "named arguments other than 'exact' are discouraged"
 msgstr ""
@@ -315,7 +315,7 @@ msgid "only logical matrix subscripts are allowed in replacement"
 msgstr ""
 
 msgid "need 0, 1, or 2 subscripts"
-msgstr ""
+msgstr "需要0,1或者2个下标"
 
 msgid "missing values are not allowed in subscripted assignments of data frames"
 msgstr ""
