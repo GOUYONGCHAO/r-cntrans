@@ -198,7 +198,7 @@ msgid "no 'restart' '%s' found"
 msgstr "没找到 'restart' '%s'"
 
 msgid "not an interactive session"
-msgstr "不是一个交互式情景"
+msgstr "不是一个交互式对话"
 
 msgid "not a valid restart specification"
 msgstr "不是一个有效的重启动规范"
@@ -225,7 +225,7 @@ msgid "supplied timeout must be NULL or a non-negative number"
 msgstr "所提供的超时参数必须是NULL或者非负数"
 
 msgid "'from' must be raw or character"
-msgstr ""
+msgstr "'from'必须是字符"
 
 msgid "'x' must be numeric"
 msgstr "'x'必须为数值型"
@@ -258,10 +258,10 @@ msgid "invalid 'row.names', length %d for a data frame with %d rows"
 msgstr "无效'row.names',  数据框长度为%d却有 %d 行数据"
 
 msgid "supplied %d row names for %d rows"
-msgstr ""
+msgstr "传入 %d行名字 对应 %d行 "
 
 msgid "options('stringsAsFactors') not set to TRUE or FALSE"
-msgstr ""
+msgstr "选项('stringsAsFactors') 没有设置为TRUE或者FALSE"
 
 msgid "mismatch of row names in arguments of 'data.frame', item %d"
 msgstr ""
