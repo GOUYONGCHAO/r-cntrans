@@ -264,16 +264,16 @@ msgid "options('stringsAsFactors') not set to TRUE or FALSE"
 msgstr "选项('stringsAsFactors') 没有设置为TRUE或者FALSE"
 
 msgid "mismatch of row names in arguments of 'data.frame', item %d"
-msgstr ""
+msgstr "在'data.frame'中的行名字参数不匹配,元素 %d "
 
 msgid "some row.names duplicated:"
 msgstr "一部分 row.names 重复"
 
 msgid ","
-msgstr ""
+msgstr ","
 
 msgid "--> row.names NOT used"
-msgstr ""
+msgstr "--> 没有使用 row.names "
 
 msgid "row names contain missing values"
 msgstr "行名称中包含空值(missing values)"
@@ -282,13 +282,13 @@ msgid "duplicate row.names:"
 msgstr "行名称重复"
 
 msgid "arguments imply differing number of rows:"
-msgstr ""
+msgstr "参数表示行数不同"
 
 msgid "row.names should specify one of the variables"
-msgstr ""
+msgstr "row.names 应该指明其中一个变量"
 
 msgid "row names supplied are of the wrong length"
-msgstr ""
+msgstr "为行名字传入了错误长度"
 
 msgid "row names were found from a short variable and have been discarded"
 msgstr ""
@@ -318,7 +318,7 @@ msgid "need 0, 1, or 2 subscripts"
 msgstr "需要0,1或者2个下标"
 
 msgid "missing values are not allowed in subscripted assignments of data frames"
-msgstr ""
+msgstr "在数据框下标复制中，不允许空值(missing values)"
 
 msgid "non-existent rows not allowed"
 msgstr ""
@@ -1380,7 +1380,7 @@ msgid "'%s' is not an existing file"
 msgstr ""
 
 msgid "Timestamp of '"
-msgstr ""
+msgstr "的时间戳"
 
 msgid "' has changed"
 msgstr ""
@@ -1389,19 +1389,19 @@ msgid "additional arguments ignored in stop()"
 msgstr ""
 
 msgid "is not"
-msgstr ""
+msgstr "不是"
 
 msgid "all"
-msgstr ""
+msgstr "所有的"
 
 msgid "TRUE"
-msgstr ""
+msgstr "TRUE"
 
 msgid "additional arguments ignored in warning()"
 msgstr ""
 
 msgid "incorrect value for 'x'"
-msgstr ""
+msgstr "'x'是错误值"
 
 msgid "'x' and 'y' must have the same length"
 msgstr ""
@@ -1428,10 +1428,10 @@ msgid "length(STATS) or dim(STATS) do not match dim(x)[MARGIN]"
 msgstr ""
 
 msgid "nothing to tabulate"
-msgstr ""
+msgstr "没有可以表格化的内容"
 
 msgid "all arguments must have the same length"
-msgstr ""
+msgstr "所有的参数必须长度一致"
 
 msgid "attempt to make a table with >= 2^31 elements"
 msgstr ""
@@ -1443,52 +1443,52 @@ msgid "'x' must inherit from class \"summary.table\""
 msgstr ""
 
 msgid "cannot coerce into a table"
-msgstr ""
+msgstr "无法强制转换成一个表格"
 
 msgid "'x' is not an array"
 msgstr ""
 
 msgid "'bin' must be numeric or a factor"
-msgstr ""
+msgstr "'bin' 必须是个数值型或者因子型"
 
 msgid "arguments must have same length"
-msgstr ""
+msgstr "参数长度必须一致"
 
 msgid "handler must be a function"
 msgstr ""
 
 msgid "no such element '%s'"
-msgstr ""
+msgstr "没有'%s'元素"
 
 msgid "Removing"
-msgstr ""
+msgstr "正在移除"
 
 msgid "Registering evaluate as low-level callback"
 msgstr ""
 
 msgid "user"
-msgstr ""
+msgstr "用户"
 
 msgid "system"
-msgstr ""
+msgstr "系统"
 
 msgid "elapsed"
 msgstr ""
 
 msgid "'width' must be positive"
-msgstr ""
+msgstr "'width' 必须为正 "
 
 msgid "No traceback available"
-msgstr ""
+msgstr "没有可用的taceback"
 
 msgid "invalid version specification"
-msgstr ""
+msgstr "版本说明无效"
 
 msgid "wrong argument"
-msgstr ""
+msgstr "参数错误"
 
 msgid "invalid value"
-msgstr ""
+msgstr "无效值"
 
 msgid "unary '%s' not defined for \"numeric_version\" objects"
 msgstr ""
@@ -1497,16 +1497,16 @@ msgid "'%s' not defined for \"numeric_version\" objects"
 msgstr ""
 
 msgid "not defined for numeric_version objects"
-msgstr ""
+msgstr "numeric_version 对象未定义 "
 
 msgid "<0 elements>"
-msgstr ""
+msgstr "<0 elements>"
 
 msgid "invalid 'digits'"
 msgstr "无效的'digits'"
 
 msgid "arguments 'show.output.on.console', 'minimized' and 'invisible' are for Windows only"
-msgstr ""
+msgstr "参数 'show.output.on.console', 'minimized' 和 'invisible'  只是适用于Windows"
 
 msgid "'intern' must be TRUE or FALSE"
 msgstr "'intern'必须为TRUE或FALSE"
@@ -1527,7 +1527,7 @@ msgid "arguments 'minimized' and 'invisible' are for Windows only"
 msgstr "参数'minimized'和'invisible'仅支持在Windows下使用"
 
 msgid "setting stdout = TRUE"
-msgstr ""
+msgstr "将设置 stdout = TRUE"
 
 msgid "'stdout' must be of length 1"
 msgstr "'stdout'的长度必须为1"
@@ -1536,10 +1536,10 @@ msgid "'stderr' must be of length 1"
 msgstr "'stderr'的长度必须为1"
 
 msgid "'which' was not found on this platform"
-msgstr ""
+msgstr "在本平台中没有找到 'which' "
 
 msgid "'show.output.on.console' must be TRUE or FALSE"
-msgstr ""
+msgstr "'show.output.on.console' 必须是TRUE 或者 FALSE "
 
 msgid "'minimized' must be TRUE or FALSE"
 msgstr "'minimized'必须为TRUE或FALSE"
@@ -1548,34 +1548,34 @@ msgid "'invisible' must be TRUE or FALSE"
 msgstr "'invisible'必须为TRUE或FALSE"
 
 msgid "'%s' could not be run"
-msgstr ""
+msgstr "'%s' 无法运行"
 
 msgid "'%s' execution failed with error code %d"
-msgstr ""
+msgstr "'%s' 执行失败, 错误代码 %d "
 
 msgid "-l option without value"
-msgstr ""
+msgstr "选项 -l 并没有传入值"
 
 msgid "ERROR: no packages specified"
-msgstr ""
+msgstr "错误：没有指定包"
 
 msgid "Removing from library"
-msgstr ""
+msgstr "正在从库中删除"
 
 msgid "ERROR: cannot cd to directory"
-msgstr ""
+msgstr "错误：无法进入目录"
 
 msgid "ERROR: no permission to remove from directory"
-msgstr ""
+msgstr "错误：没有权限从该文件夹中删除"
 
 msgid "T used instead of TRUE"
-msgstr ""
+msgstr "使用了T，而不是TRUE"
 
 msgid "F used instead of FALSE"
-msgstr ""
+msgstr "使用了F，而不是FALSE"
 
 msgid "items"
-msgstr ""
+msgstr "项目："
 
 msgid "have been removed from the search path"
 msgstr "已从搜索路径中移除"
