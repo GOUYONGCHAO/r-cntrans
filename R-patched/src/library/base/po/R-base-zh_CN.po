@@ -288,13 +288,13 @@ msgid "row.names should specify one of the variables"
 msgstr "row.names 应该指明其中一个变量"
 
 msgid "row names supplied are of the wrong length"
-msgstr "为行名字传入了错误长度"
+msgstr "传入行名字的长度错误"
 
 msgid "row names were found from a short variable and have been discarded"
 msgstr ""
 
 msgid "named arguments other than 'drop' are discouraged"
-msgstr ""
+msgstr "不建议使用非'drop'以外的其他命名参数"
 
 msgid "drop argument will be ignored"
 msgstr ""
@@ -303,10 +303,10 @@ msgid "undefined columns selected"
 msgstr "选择了未定义的列"
 
 msgid "named arguments other than 'exact' are discouraged"
-msgstr ""
+msgstr "不建议使用非'exact'以外的其他命名参数"
 
 msgid "named arguments are discouraged"
-msgstr ""
+msgstr "不建议使用命名参数"
 
 msgid "rhs is the wrong length for indexing by a logical matrix"
 msgstr ""
@@ -363,25 +363,25 @@ msgid "replacing element in non-existent column:"
 msgstr ""
 
 msgid "only a single element should be replaced"
-msgstr ""
+msgstr "应该只替换单个元素"
 
 msgid "names do not match previous names"
-msgstr ""
+msgstr "名称向量应该和先前名称向量一致"
 
 msgid "numbers of columns of arguments do not match"
 msgstr ""
 
 msgid "invalid list argument: all variables should have the same length"
-msgstr ""
+msgstr "无效列表参数：所有的变量长度应该一致"
 
 msgid "data frame with 0 columns and %d rows"
-msgstr ""
+msgstr "数据框有0个列和 %d 行"
 
 msgid "<0 rows> (or 0-length row.names)"
 msgstr ""
 
 msgid "non-numeric variable in data frame:"
-msgstr ""
+msgstr "数据框中有非数值型变量"
 
 msgid "only defined for equally-sized data frames"
 msgstr ""
