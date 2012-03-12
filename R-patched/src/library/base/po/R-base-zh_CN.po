@@ -447,16 +447,16 @@ msgid "exactly two of 'to', 'by' and 'length.out' / 'along.with' must be specifi
 msgstr ""
 
 msgid "'by' must be of length 1"
-msgstr ""
+msgstr "'by'长度必须为1"
 
 msgid "invalid 'by' string"
-msgstr ""
+msgstr "无效的字符串'by'"
 
 msgid "invalid string for 'by'"
-msgstr ""
+msgstr "'by'中有无效的字符串(string)"
 
 msgid "invalid mode for 'by'"
-msgstr ""
+msgstr "'by'中有无效的模式(mode)"
 
 msgid "'by' is NA"
 msgstr "函数'by' 是 NA"
@@ -486,31 +486,31 @@ msgid "binary '+' is not defined for \"POSIXt\" objects"
 msgstr "两元操作符'+' 没有定义成'POSIXt'对象"
 
 msgid "Can only subtract from POSIXt objects"
-msgstr ""
+msgstr "只能从POSIXt对象中减去"
 
 msgid "unary '-' is not defined for \"POSIXt\" objects"
-msgstr ""
+msgstr "在\"POSIXt\" 对象中没有定义单元操作符'-'"
 
 msgid "can only subtract numbers from POSIXt objects"
-msgstr ""
+msgstr "只能从POSIXt对象中减去数值"
 
 msgid "unary '%s' not defined for \"POSIXt\" objects"
-msgstr ""
+msgstr "在\"POSIXt\" 对象中没有定义单元操作符'%s'"
 
 msgid "'%s' not defined for \"POSIXt\" objects"
-msgstr ""
+msgstr "在\"POSIXt\" 对象中没有定义'%s'"
 
 msgid "'tzone' attributes are inconsistent"
-msgstr ""
+msgstr "'tzone'的属性不一致"
 
 msgid "'tim' is not character or numeric"
-msgstr ""
+msgstr "'tim' 不是数值或字符"
 
 msgid "need explicit units for numeric conversion"
-msgstr ""
+msgstr "数值转换需要显性单元"
 
 msgid "invalid units specified"
-msgstr ""
+msgstr "指定了无效的单元"
 
 msgid "unary '%s' not defined for \"difftime\" objects"
 msgstr ""
@@ -525,13 +525,13 @@ msgid "second argument of / cannot be a \"difftime\" object"
 msgstr ""
 
 msgid "'from' must be a POSIXt object"
-msgstr ""
+msgstr "'from'参数必须是POSIXt对象"
 
 msgid "'to' must be a POSIXt object"
-msgstr ""
+msgstr "'to'参数必须是POSIXt对象"
 
 msgid "'file' must be a character string or connection"
-msgstr ""
+msgstr "'file'参数必须是个字符或者连接(connection)"
 
 msgid ""
 "Invalid DCF format.\n"
@@ -548,7 +548,7 @@ msgid ""
 msgstr ""
 
 msgid "'x' must be a square matrix"
-msgstr ""
+msgstr "'x'必须是个正矩阵"
 
 msgid "determinant not currently defined for complex matrices"
 msgstr ""
@@ -557,40 +557,40 @@ msgid "'nrow' or 'ncol' cannot be specified when 'x' is a matrix"
 msgstr ""
 
 msgid "'x' is an array, but not 1D."
-msgstr ""
+msgstr "'x'是数组，但不是一维的"
 
 msgid "only matrix diagonals can be replaced"
-msgstr ""
+msgstr "只能替换矩阵的对角"
 
 msgid "replacement diagonal has wrong length"
-msgstr ""
+msgstr "替换对角的长度错误"
 
 msgid "MARGIN ="
-msgstr ""
+msgstr "MARGIN ="
 
 msgid "is invalid for dim ="
-msgstr ""
+msgstr "无效的维度参数 dim ="
 
 msgid "must pass a package name, DLLInfo or DllInfoReference object"
-msgstr ""
+msgstr "必须传入包名字, DLLInfo 或者 DllInfoReference 对象"
 
 msgid "No DLL currently loaded with name or path"
-msgstr ""
+msgstr "当前没有载入任何DLL的名字或者路径"
 
 msgid "multiple DLLs match '%s'. Using '%s'"
-msgstr ""
+msgstr "多个DLL匹配'%s'，将适用'%s'"
 
 msgid "must specify DLL via a DLLInfo object. See getLoadedDLLs()"
-msgstr ""
+msgstr "必须通过DLLInfo对象指定DLL,请参加getLoadedDLLs()"
 
 msgid "function is not in a namespace, so cannot locate associated DLL"
-msgstr ""
+msgstr "函数不在命名空间中，所以无法定位相关联的DLL"
 
 msgid "looking for DLL for native routine call, but no DLLs in namespace of call"
 msgstr ""
 
 msgid "0 x 0 matrix"
-msgstr ""
+msgstr "0 x'0 矩阵"
 
 msgid "non-square matrix in 'eigen'"
 msgstr ""
