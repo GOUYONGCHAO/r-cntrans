@@ -743,34 +743,34 @@ msgid "value does not provide any replacement values"
 msgstr ""
 
 msgid "must have replacements for non-matches"
-msgstr ""
+msgstr "非匹配项必须有对应替换项"
 
 msgid "must have replacements for matches"
-msgstr ""
+msgstr "匹配项必须有对应替换项"
 
 msgid "norm '%s' currently always uses exact = FALSE"
 msgstr ""
 
 msgid "triangular matrix should be square"
-msgstr ""
+msgstr "矩阵必须是正矩阵(Square)"
 
 msgid "'object' must be a list"
-msgstr ""
+msgstr "'object' 必须是列表"
 
 msgid "'keep.source' is deprecated and will be ignored"
-msgstr ""
+msgstr "不建议适用'keep.source',该参数将会被忽略"
 
 msgid "package %s has not been installed properly"
-msgstr ""
+msgstr "系统没有完整地安装包 %s "
 
 msgid "package %s was built before R 2.10.0: please re-install it"
-msgstr ""
+msgstr "包 %s 是R 2.10.0 之前编译,请重新安装该包"
 
 msgid "This is R %s, package %s needs %s %s"
 msgstr ""
 
 msgid "package %s was built under R version %s"
-msgstr ""
+msgstr "包 %s 是在R版本 %s 下编译"
 
 msgid "package %s was built for %s"
 msgstr ""
