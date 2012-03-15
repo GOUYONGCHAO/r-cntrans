@@ -41,22 +41,22 @@ msgid "cannot compile promise literals in code"
 msgstr ""
 
 msgid "possible error in '%s': %s"
-msgstr ""
+msgstr "'%s'中可能的错误: %s "
 
 msgid "bad namespace import frame"
 msgstr ""
 
 msgid "bad assignment 1"
-msgstr ""
+msgstr "不合理的参数1"
 
 msgid "bad assignment 2"
-msgstr ""
+msgstr "不合理的参数2"
 
 msgid "invalid function in complex assignment"
 msgstr ""
 
 msgid "missing arguments are not allowed"
-msgstr ""
+msgstr "不允许遗漏参数"
 
 msgid "empty alternative in numeric switch"
 msgstr ""
@@ -71,13 +71,13 @@ msgid "no visible binding for '<<-' assignment to '%s'"
 msgstr ""
 
 msgid "wrong number of arguments to '%s'"
-msgstr ""
+msgstr "'%s'错误的参数数量"
 
 msgid "more than one default provided in switch call"
-msgstr ""
+msgstr "在Switch Call 中有多个默认参数"
 
 msgid "cannot compile a non-function"
-msgstr ""
+msgstr "无法编译非函数"
 
 msgid "compiling '%s'"
 msgstr "正在编译'%s'"
@@ -89,22 +89,22 @@ msgid "done"
 msgstr "完成"
 
 msgid "'env' must be a top level environment"
-msgstr ""
+msgstr "'env' 必须是最高级环境"
 
 msgid "input and output file names are the same"
-msgstr ""
+msgstr "输入和输出文件名称重名"
 
 msgid "empty input file; no output written"
-msgstr ""
+msgstr "空输入文件;未产生输出"
 
 msgid "file '%s' does not exist"
 msgstr "文件'%s'不存在"
 
 msgid "'%s' is not a valid compiler option"
-msgstr ""
+msgstr "'%s' 不是有效的编译参数"
 
 msgid "function is not compiled"
-msgstr ""
+msgstr "函数未编译"
 
 msgid "local assignment to syntactic function: "
 msgid_plural "local assignments to syntactic functions: "
