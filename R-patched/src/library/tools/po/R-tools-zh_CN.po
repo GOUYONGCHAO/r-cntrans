@@ -13,13 +13,13 @@ msgstr ""
 "X-Generator: Pootle 2.1.6\n"
 
 msgid "argument 'package' must be of length 1"
-msgstr ""
+msgstr "参数'package'长度必须是1"
 
 msgid "you must specify 'package' or 'dir'"
-msgstr ""
+msgstr "必须指定'package'或者'dir'"
 
 msgid "directory '%s' does not exist"
-msgstr ""
+msgstr "目录'%s' 不存在"
 
 msgid "neither code nor data objects found"
 msgstr ""
