@@ -713,7 +713,7 @@ msgid "' not found"
 msgstr ""
 
 msgid "all arguments must be named"
-msgstr ""
+msgstr "所有参数必须是命名参数"
 
 msgid "match distance components must be non-negative"
 msgstr ""
