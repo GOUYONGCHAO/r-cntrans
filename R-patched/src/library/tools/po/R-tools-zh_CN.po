@@ -22,31 +22,31 @@ msgid "directory '%s' does not exist"
 msgstr "目录'%s' 不存在"
 
 msgid "neither code nor data objects found"
-msgstr ""
+msgstr "找不到代码或者数据对象"
 
 msgid "Undocumented code objects:"
-msgstr ""
+msgstr "未记录的代码对象"
 
 msgid "Undocumented data sets:"
-msgstr ""
+msgstr "未记录的数据集"
 
 msgid "Undocumented S4 classes:"
-msgstr ""
+msgstr "未记录的S4类"
 
 msgid "Undocumented S4 methods:"
-msgstr ""
+msgstr "未记录的S4方法"
 
 msgid "Prototyped non-primitives:"
 msgstr ""
 
 msgid "Undocumented %s:"
-msgstr ""
+msgstr "未记录的 %s "
 
 msgid "directory '%s' does not contain R code"
-msgstr ""
+msgstr "目录'%s'下不存在R代码"
 
 msgid "directory '%s' does not contain Rd objects"
-msgstr ""
+msgstr "目录'%s'不存在R对象"
 
 msgid "Functions/methods with usage in documentation object '%s' but not in code:"
 msgstr ""
@@ -55,7 +55,7 @@ msgid "Data sets with usage in documentation object '%s' but not in code:"
 msgstr ""
 
 msgid "Argument names in code not in docs:"
-msgstr ""
+msgstr "参数名称在代码中，但不在文档中"
 
 msgid "Argument names in docs not in code:"
 msgstr ""
