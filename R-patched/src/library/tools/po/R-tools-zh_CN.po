@@ -76,10 +76,10 @@ msgid "Codoc mismatches from documentation object '%s':"
 msgstr ""
 
 msgid "Code: %s"
-msgstr ""
+msgstr "代码: %s"
 
 msgid "Docs: %s"
-msgstr ""
+msgstr "文档: %s"
 
 msgid "S4 class codoc mismatches from documentation object '%s':"
 msgstr ""
@@ -88,19 +88,19 @@ msgid "Slots for class '%s'"
 msgstr ""
 
 msgid "name"
-msgstr ""
+msgstr "名称"
 
 msgid "Data codoc mismatches from documentation object '%s':"
 msgstr ""
 
 msgid "Variables in data frame '%s'"
-msgstr ""
+msgstr "在数据框中的变量：'%s'"
 
 msgid "code"
-msgstr ""
+msgstr "代码"
 
 msgid "docs"
-msgstr ""
+msgstr "文档"
 
 msgid "Undocumented arguments in documentation object '%s'"
 msgstr ""
@@ -124,16 +124,16 @@ msgid "S3 methods shown with full name in documentation object '%s':"
 msgstr ""
 
 msgid "unable to create"
-msgstr ""
+msgstr "无法创建"
 
 msgid "unable to write code files"
-msgstr ""
+msgstr "无法写入代码文件"
 
 msgid "you must specify 'package', 'dir' or 'file'"
-msgstr ""
+msgstr "必须指定'package'，'dir'或者'file'"
 
 msgid "file '%s' does not exist"
-msgstr ""
+msgstr "文件'%s' 不存在"
 
 msgid ""
 "parse error in file '%s':\n"
@@ -141,28 +141,28 @@ msgid ""
 msgstr ""
 
 msgid "Foreign function calls without 'PACKAGE' argument:"
-msgstr ""
+msgstr "调用外部函数时未指定'PACKAGE'参数"
 
 msgid "declared S3 method '%s' not found"
-msgstr ""
+msgstr "未找到声明的S3方法'%s'"
 
 msgid "cannot check R code installed as image"
 msgstr ""
 
 msgid "parse error in file '%s':"
-msgstr ""
+msgstr "文件'%s'中解析错误"
 
 msgid "parse error in examples from file '%s':"
-msgstr ""
+msgstr "在文件'%s'中解析样本错误"
 
 msgid "File '%s':"
-msgstr ""
+msgstr "文件 '%s':"
 
 msgid "found T/F in %s"
 msgstr ""
 
 msgid "package name '%s' seems invalid; using directory name '%s' instead"
-msgstr ""
+msgstr "包名称'%s'似乎无效;适用目录名'%s'"
 
 msgid "Packages required but not available:"
 msgstr ""
