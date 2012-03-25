@@ -611,19 +611,19 @@ msgid "invalid labels; length %d should be 1 or %d"
 msgstr ""
 
 msgid "number of levels differs"
-msgstr ""
+msgstr "levels数量不同"
 
 msgid "not meaningful for factors"
-msgstr ""
+msgstr "无意义的因素变量"
 
 msgid "level sets of factors are different"
 msgstr ""
 
 msgid "invalid factor level, NAs generated"
-msgstr ""
+msgstr "无效的因素等级, 生成NAs"
 
 msgid "invalid factor level, NA generated"
-msgstr ""
+msgstr "无效的因素等级, 生成NA"
 
 msgid "'%s' is not meaningful for ordered factors"
 msgstr ""
@@ -737,7 +737,7 @@ msgid "missing replacement values are not allowed"
 msgstr ""
 
 msgid "must have replacement values for matches"
-msgstr ""
+msgstr "必须有匹配对象的替换值"
 
 msgid "value does not provide any replacement values"
 msgstr ""
@@ -802,16 +802,16 @@ msgid "'verbose' and 'quietly' are both true; being verbose then .."
 msgstr ""
 
 msgid "invalid package name"
-msgstr ""
+msgstr "无效的包名称"
 
 msgid "there is no package called %s"
-msgstr ""
+msgstr "没有包称之为 %s "
 
 msgid "no library trees found in 'lib.loc'"
 msgstr ""
 
 msgid "%s is not a valid installed package"
-msgstr ""
+msgstr "%s 不是有效的安装包"
 
 msgid "%s not found on search path, using pos = 2"
 msgstr ""
@@ -823,7 +823,7 @@ msgid "package %s does not have a NAMESPACE and should be re-installed"
 msgstr ""
 
 msgid "package %s already present in search()"
-msgstr ""
+msgstr "在search()已经有包 %s "
 
 msgid "'DESCRIPTION' has an 'Encoding' field and re-encoding is not possible"
 msgstr ""
@@ -832,7 +832,7 @@ msgid "%sPackages in library %s:"
 msgstr ""
 
 msgid "no packages found"
-msgstr ""
+msgstr "找不到包"
 
 msgid "R packages available"
 msgstr ""
