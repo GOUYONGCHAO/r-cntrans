@@ -321,7 +321,7 @@ msgid "missing values are not allowed in subscripted assignments of data frames"
 msgstr "在数据框下标复制中，不允许空值(missing values)"
 
 msgid "non-existent rows not allowed"
-msgstr ""
+msgstr "不允许操作不存在的行"
 
 msgid "column name \"\" cannot match any column"
 msgstr ""
@@ -333,19 +333,19 @@ msgid "duplicate subscripts for columns"
 msgstr "列下标存在重复"
 
 msgid "replacement has %d rows, data has %d"
-msgstr ""
+msgstr "替代物有 %d 行, 数据有 %d 行"
 
 msgid "replacement has %d items, need %d"
-msgstr ""
+msgstr "替代物有 %d 个对象, 但是需要 %d 个"
 
 msgid "replacement element %d is a matrix/data frame of %d rows, need %d"
-msgstr ""
+msgstr "替代吴元素 %d 是含有 %d 行的矩阵/数据框, 但是需要 %d 行"
 
 msgid "replacement element %d has %d rows, need %d"
-msgstr ""
+msgstr "替代物元素 %d 有 %d 行, 但需要 %d 行"
 
 msgid "replacement element %d has %d rows to replace %d rows"
-msgstr ""
+msgstr "替代物元素 %d 有 %d 行将会被替换 %d 行"
 
 msgid "%d rows in value to replace %d rows"
 msgstr ""
@@ -369,7 +369,7 @@ msgid "names do not match previous names"
 msgstr "名称向量应该和先前名称向量一致"
 
 msgid "numbers of columns of arguments do not match"
-msgstr ""
+msgstr "参数中的列数量不一致"
 
 msgid "invalid list argument: all variables should have the same length"
 msgstr "无效列表参数：所有的变量长度应该一致"
@@ -396,7 +396,7 @@ msgid "character string is not in a standard unambiguous format"
 msgstr ""
 
 msgid "'origin' must be supplied"
-msgstr ""
+msgstr "必须提供'origin'参数"
 
 msgid "do not know how to convert '%s' to class \"Date\""
 msgstr ""
@@ -408,19 +408,19 @@ msgid "'%s' is not a \"dates\" object"
 msgstr ""
 
 msgid "binary + is not defined for Date objects"
-msgstr ""
+msgstr "日期对象没有定义两元操作符 + "
 
 msgid "Can only subtract from Date objects"
 msgstr ""
 
 msgid "unary - is not defined for Date objects"
-msgstr ""
+msgstr "日期对象没有定义单元操作符 - "
 
 msgid "can only subtract numbers from Date objects"
 msgstr ""
 
 msgid "unary"
-msgstr ""
+msgstr "单元操作符"
 
 msgid "not defined for Date objects"
 msgstr ""
@@ -429,13 +429,13 @@ msgid "'from' must be specified"
 msgstr "'from'必须被指定"
 
 msgid "'from' must be a Date object"
-msgstr ""
+msgstr "'from'参数必须是日期对象"
 
 msgid "'from' must be of length 1"
 msgstr "'from'的长度必须为1"
 
 msgid "'to' must be a Date object"
-msgstr ""
+msgstr "'to'参数必须是日期对象"
 
 msgid "'to' must be of length 1"
 msgstr "'to'的长度必须为1"
